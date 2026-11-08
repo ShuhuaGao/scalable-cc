@@ -1,0 +1,207 @@
+{
+  "hardware": {
+    "cpu": {
+      "Name": "Intel(R) Core(TM) i9-14900KF",
+      "NumberOfCores": 24,
+      "NumberOfLogicalProcessors": 32
+    },
+    "system": {
+      "TotalPhysicalMemory": 68541505536
+    }
+  },
+  "python_executable": ".venv\\Scripts\\python.exe",
+  "protocol": "Paired serial fresh processes; alternating method order by case; 10 fixed zero-state forward warmups; all 56 slots retained.",
+  "timing_csv_sha256": "6819d317c0060d729ed92a1dc1d9d1eef319590b0cb5e06b16b157984bc841e4",
+  "sources_sha256": {
+    "scripts/benchmark_pressure21_resources.py": "a34f6ec946eaf9977cc1bdb857a07e775380621d697eafb52b3aa02a9791a94a",
+    "src/evcharging/__init__.py": "f6324eed5e4669c750f6de90d17528ccc16082b258912646b8bc63ff4d220f80",
+    "src/evcharging/core.py": "ffd977060d08def3770748c7a93bc60160c659f20aaf74c7a3e15b915585ea63",
+    "src/evcharging/li2023.py": "6c9564dc223a173ef04bcd9898f9213ac401b263db7e70954a0e9edb88e4f40d",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "src/evcharging/simulation.py": "26f2aae005f2fdccde9230646c3398392bf0b9636c835a2136c43993f1ef0a4a",
+    "src/evcharging/simulation_mpc10h_timing.py": "5d3bb8bad50030c6f31cd02e6ba53631ace1dde88b8676fedd95f3f885dbf518",
+    "src/evcharging/simulation_schema.py": "1508cfba1226e1ecf2eec07b541227d53e156dfe9225beadf6e9f0076ce944a9",
+    "src/evcharging/simulation_unified_timing.py": "38ca8849c806d8abd57591eba43f0c2ea3d2c88b09eb2250aedc2807eac6944f",
+    "src/evcharging/state_ablation.py": "cb0054bb302360d9b65d59a84121efc5db36a0921c8a051c139ee40f181e3d2b",
+    "src/evcharging/state_schema.py": "2918ed0e84c665de411193d8d23b2ed6f3e75617d9efffc36ed82b6e05e89b8d",
+    "pyproject.toml": "6a7efd94ffaa3893c75db3564fedfba0091b8f034deb06c99c1e86aa4adb8fae",
+    "uv.lock": "d18c809c97dd143f7349e5f78d4195cad6590cd15756cb2f4e7fbf34a9f3a604",
+    "artifacts/runs/pressure21_v1/evaluation/timing/scenarios.csv": "1ce0b456ac1a13aae5af668334ac04e1667db8bb570424a384ee6e7f9e155fef"
+  },
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "python": "3.14.6 (main, Jun 23 2026, 15:20:04) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "torch": "2.14.1+cpu",
+  "threads": 1,
+  "execution_order": [
+    [
+      0,
+      "linear"
+    ],
+    [
+      0,
+      "reference"
+    ],
+    [
+      1,
+      "reference"
+    ],
+    [
+      1,
+      "linear"
+    ],
+    [
+      2,
+      "linear"
+    ],
+    [
+      2,
+      "reference"
+    ],
+    [
+      3,
+      "reference"
+    ],
+    [
+      3,
+      "linear"
+    ],
+    [
+      4,
+      "linear"
+    ],
+    [
+      4,
+      "reference"
+    ],
+    [
+      5,
+      "reference"
+    ],
+    [
+      5,
+      "linear"
+    ],
+    [
+      6,
+      "linear"
+    ],
+    [
+      6,
+      "reference"
+    ],
+    [
+      7,
+      "reference"
+    ],
+    [
+      7,
+      "linear"
+    ],
+    [
+      8,
+      "linear"
+    ],
+    [
+      8,
+      "reference"
+    ],
+    [
+      9,
+      "reference"
+    ],
+    [
+      9,
+      "linear"
+    ],
+    [
+      10,
+      "linear"
+    ],
+    [
+      10,
+      "reference"
+    ],
+    [
+      11,
+      "reference"
+    ],
+    [
+      11,
+      "linear"
+    ],
+    [
+      12,
+      "linear"
+    ],
+    [
+      12,
+      "reference"
+    ],
+    [
+      13,
+      "reference"
+    ],
+    [
+      13,
+      "linear"
+    ],
+    [
+      14,
+      "linear"
+    ],
+    [
+      14,
+      "reference"
+    ],
+    [
+      15,
+      "reference"
+    ],
+    [
+      15,
+      "linear"
+    ],
+    [
+      16,
+      "linear"
+    ],
+    [
+      16,
+      "reference"
+    ],
+    [
+      17,
+      "reference"
+    ],
+    [
+      17,
+      "linear"
+    ],
+    [
+      18,
+      "linear"
+    ],
+    [
+      18,
+      "reference"
+    ],
+    [
+      19,
+      "reference"
+    ],
+    [
+      19,
+      "linear"
+    ],
+    [
+      20,
+      "linear"
+    ],
+    [
+      20,
+      "reference"
+    ]
+  ]
+}

@@ -1,0 +1,5861 @@
+{
+  "state_schema": "pressure21_v1",
+  "common_validation": {
+    "seed_start": 80000,
+    "count": 20,
+    "rule": "fewest target failures; if nonzero, total energy gap; then objective"
+  },
+  "ppo_per_run": [
+    {
+      "failed": 0,
+      "gap_kwh": 1.475666253974637e-13,
+      "objective": 73.97267406409405,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.4806629780044,
+          "unfairness": 7.773287289623299
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.6295562905502,
+          "unfairness": 5.383462605794218
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.17919780715111e-14,
+          "cost": 104.72524424681293,
+          "unfairness": 4.062048327652312
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.68211347131275e-15,
+          "cost": 103.63637143841898,
+          "unfairness": 5.216940918237844
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.31311441735991,
+          "unfairness": 8.76437960501146
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 88.72427849937418,
+          "unfairness": 8.41612082176319
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 88.40458991534243,
+          "unfairness": 9.521489070692205
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.59507106946512,
+          "unfairness": 6.063877600702151
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.953844618933741e-15,
+          "cost": 101.64731175280758,
+          "unfairness": 5.810329240677425
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.89555849547443,
+          "unfairness": 8.162723774097568
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.57242402832111,
+          "unfairness": 6.015946718238989
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.8146144795992,
+          "unfairness": 5.562595816917733
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.509967309212626e-14,
+          "cost": 126.20224882172012,
+          "unfairness": 5.794589086206123
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.71051924181475,
+          "unfairness": 5.651456543563661
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.33490533256273,
+          "unfairness": 3.2132074405210043
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5335417150881322e-14,
+          "cost": 98.31969047822764,
+          "unfairness": 6.491496928416671
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.0582679651379948e-14,
+          "cost": 91.8718717441953,
+          "unfairness": 10.505720752401723
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 7.663221403261337e-15,
+          "cost": 117.4193860556376,
+          "unfairness": 4.2512114871639755
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.2073858431435262e-14,
+          "cost": 117.77354913568618,
+          "unfairness": 6.163682700548499
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.10279558173158,
+          "unfairness": 6.281588204125848
+        }
+      ],
+      "seed": 24003,
+      "episode": 140,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_140.pt",
+      "sha256": "2f36de9d059e09162323b262b934f73a4b31c9a14bf378cacfd1b8d75d4294cc",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.0501451431284177e-13,
+      "objective": 74.53658387780487,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.18994653733742,
+          "unfairness": 11.676875535246309
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.31102119161395,
+          "unfairness": 7.164284532272687
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.938362888486481e-15,
+          "cost": 105.16381289443308,
+          "unfairness": 4.915733816365213
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.341056735656375e-15,
+          "cost": 103.64036124450456,
+          "unfairness": 5.419975490491976
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.17901561712509,
+          "unfairness": 9.902588714302913
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 89.19279745180567,
+          "unfairness": 10.69993178818294
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.71596789537038e-14,
+          "cost": 89.03123017254724,
+          "unfairness": 11.527581693478378
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.33045106869324,
+          "unfairness": 8.138428673201785
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.29427285878491,
+          "unfairness": 5.381402576671249
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.81466660052057,
+          "unfairness": 11.46849373061387
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.3657648031226,
+          "unfairness": 8.97928186407166
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 101.01798671570606,
+          "unfairness": 7.802459108758366
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 9.659274765683422e-15,
+          "cost": 125.76150505190297,
+          "unfairness": 5.626843298328035
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 84.09273911386232,
+          "unfairness": 7.212447006500584
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.6015343989801,
+          "unfairness": 4.321720642659918
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.176539933304423e-14,
+          "cost": 98.22130760993957,
+          "unfairness": 7.345317892124575
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 6.470388205453784e-15,
+          "cost": 91.10521343193943,
+          "unfairness": 11.712252319052423
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.1125333967889535e-15,
+          "cost": 117.36585114004681,
+          "unfairness": 5.586109183922089
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.8250405601172166e-14,
+          "cost": 117.58543679863939,
+          "unfairness": 8.659193796578496
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.55346854522485,
+          "unfairness": 6.9884426151316
+        }
+      ],
+      "seed": 24004,
+      "episode": 200,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_200.pt",
+      "sha256": "beb2976ff7c9772f2fe92462c2d37005c5e464129d6ae0a56f95e7da703bb5cc",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.0709901993478115e-13,
+      "objective": 74.42380463208816,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.23444427222407,
+          "unfairness": 11.312420265245086
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.45161681947926,
+          "unfairness": 7.331586450828572
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.938362888486481e-15,
+          "cost": 105.0490671913131,
+          "unfairness": 4.317793030187018
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.68211347131275e-15,
+          "cost": 103.58059777122256,
+          "unfairness": 5.517810322254801
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.0433773188176,
+          "unfairness": 10.36498494677639
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 89.0185822328486,
+          "unfairness": 9.651589518751303
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.71596789537038e-14,
+          "cost": 88.88086014116948,
+          "unfairness": 11.407794985743834
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.13021020634886,
+          "unfairness": 8.201271281300759
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.953844618933741e-15,
+          "cost": 101.48843235576965,
+          "unfairness": 6.0353078256943675
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.71789117470124,
+          "unfairness": 10.551586424865265
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.24653681965938,
+          "unfairness": 8.192518465118486
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.78959227136454,
+          "unfairness": 7.167616149230814
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 9.659274765683422e-15,
+          "cost": 125.63008933404916,
+          "unfairness": 5.652939873055264
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.97227678188148,
+          "unfairness": 7.028842119980305
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.74974282634375,
+          "unfairness": 3.416181107347499
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.667708575440661e-15,
+          "cost": 98.1456753871721,
+          "unfairness": 7.18063070751608
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 6.470388205453784e-15,
+          "cost": 91.16005131043907,
+          "unfairness": 11.710821572632927
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.61510518141338,
+          "unfairness": 5.442942643746776
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.8250234022913958e-14,
+          "cost": 117.40882713274146,
+          "unfairness": 8.55517822676319
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.35325237193673,
+          "unfairness": 6.659292120082682
+        }
+      ],
+      "seed": 24005,
+      "episode": 140,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_140.pt",
+      "sha256": "4099b02f2c3e9c311124fdbd25694084f93602ea2ee0faadc524cb650934f1de",
+      "state_schema": "pressure21_v1"
+    }
+  ],
+  "ppo_main": {
+    "failed": 0,
+    "gap_kwh": 1.475666253974637e-13,
+    "objective": 73.97267406409405,
+    "scenarios": [
+      {
+        "seed": 80000,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 4.440892098500626e-15,
+        "cost": 96.4806629780044,
+        "unfairness": 7.773287289623299
+      },
+      {
+        "seed": 80001,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 0.0,
+        "cost": 120.6295562905502,
+        "unfairness": 5.383462605794218
+      },
+      {
+        "seed": 80002,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 1.17919780715111e-14,
+        "cost": 104.72524424681293,
+        "unfairness": 4.062048327652312
+      },
+      {
+        "seed": 80003,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 6.68211347131275e-15,
+        "cost": 103.63637143841898,
+        "unfairness": 5.216940918237844
+      },
+      {
+        "seed": 80004,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 4.141490998059088e-15,
+        "cost": 95.31311441735991,
+        "unfairness": 8.76437960501146
+      },
+      {
+        "seed": 80005,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 1.1064205206635028e-14,
+        "cost": 88.72427849937418,
+        "unfairness": 8.41612082176319
+      },
+      {
+        "seed": 80006,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 2.1066425073769443e-14,
+        "cost": 88.40458991534243,
+        "unfairness": 9.521489070692205
+      },
+      {
+        "seed": 80007,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 0.0,
+        "cost": 111.59507106946512,
+        "unfairness": 6.063877600702151
+      },
+      {
+        "seed": 80008,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 6.953844618933741e-15,
+        "cost": 101.64731175280758,
+        "unfairness": 5.810329240677425
+      },
+      {
+        "seed": 80009,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 0.0,
+        "cost": 103.89555849547443,
+        "unfairness": 8.162723774097568
+      },
+      {
+        "seed": 80010,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 3.63124935998003e-15,
+        "cost": 106.57242402832111,
+        "unfairness": 6.015946718238989
+      },
+      {
+        "seed": 80011,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 3.5240697616974927e-15,
+        "cost": 100.8146144795992,
+        "unfairness": 5.562595816917733
+      },
+      {
+        "seed": 80012,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 1.509967309212626e-14,
+        "cost": 126.20224882172012,
+        "unfairness": 5.794589086206123
+      },
+      {
+        "seed": 80013,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 0.0,
+        "cost": 83.71051924181475,
+        "unfairness": 5.651456543563661
+      },
+      {
+        "seed": 80014,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 0.0,
+        "cost": 100.33490533256273,
+        "unfairness": 3.2132074405210043
+      },
+      {
+        "seed": 80015,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 1.5335417150881322e-14,
+        "cost": 98.31969047822764,
+        "unfairness": 6.491496928416671
+      },
+      {
+        "seed": 80016,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 1.0582679651379948e-14,
+        "cost": 91.8718717441953,
+        "unfairness": 10.505720752401723
+      },
+      {
+        "seed": 80017,
+        "limit": 30,
+        "failed": 0,
+        "gap_kwh": 7.663221403261337e-15,
+        "cost": 117.4193860556376,
+        "unfairness": 4.2512114871639755
+      },
+      {
+        "seed": 80018,
+        "limit": 40,
+        "failed": 0,
+        "gap_kwh": 2.2073858431435262e-14,
+        "cost": 117.77354913568618,
+        "unfairness": 6.163682700548499
+      },
+      {
+        "seed": 80019,
+        "limit": 35.0,
+        "failed": 0,
+        "gap_kwh": 3.515507007980289e-15,
+        "cost": 100.10279558173158,
+        "unfairness": 6.281588204125848
+      }
+    ],
+    "seed": 24003,
+    "episode": 140,
+    "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_140.pt",
+    "sha256": "2f36de9d059e09162323b262b934f73a4b31c9a14bf378cacfd1b8d75d4294cc",
+    "state_schema": "pressure21_v1"
+  },
+  "ppo_candidates": [
+    {
+      "failed": 0,
+      "gap_kwh": 1.2095346484832188e-14,
+      "objective": 77.10919448550496,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.49620753643615,
+          "unfairness": 25.580687477911695
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.1268069196318,
+          "unfairness": 15.937689565628443
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.37378953374304,
+          "unfairness": 8.000525174367498
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.37861865651826,
+          "unfairness": 8.159712468126255
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.62630934324078,
+          "unfairness": 15.442856782220318
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.4059527401731,
+          "unfairness": 19.56570472918675
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.73925135052288,
+          "unfairness": 25.993517555540564
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.94690545019833,
+          "unfairness": 22.459185507795176
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.09561943747771,
+          "unfairness": 7.995203076540098
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.64428315687307,
+          "unfairness": 25.96530081131909
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.71417922806553,
+          "unfairness": 13.320156425251819
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.54613735881762,
+          "unfairness": 13.187679695535856
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 126.04643933814235,
+          "unfairness": 10.110248475690934
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.28133244448873,
+          "unfairness": 10.380449733670133
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.44737995092471,
+          "unfairness": 4.534061048210711
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.35040709651602,
+          "unfairness": 10.80496305081347
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.85497406787971,
+          "unfairness": 15.99864765794983
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.9833638251076,
+          "unfairness": 26.66630287642576
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.1574752662902,
+          "unfairness": 13.887620054370307
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.97566367182819,
+          "unfairness": 18.509895330399306
+        }
+      ],
+      "seed": 24003,
+      "episode": 20,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_20.pt",
+      "sha256": "0e3759bf0d17de3de5d353a77edb619851a4c7d362228d380269505c3dabab75",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.4815545648053608e-14,
+      "objective": 76.7259003651336,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.88567501920508,
+          "unfairness": 24.703456146137697
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.5458844913026,
+          "unfairness": 15.334816220560578
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.10743284706771,
+          "unfairness": 7.825064561457436
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.7578002628366,
+          "unfairness": 8.270232072363159
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.2297455297995,
+          "unfairness": 14.901607558782054
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.38727701592445,
+          "unfairness": 18.69814706697229
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.39007761025037,
+          "unfairness": 24.98414201043021
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.68442590820004,
+          "unfairness": 20.552834303546582
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.12815111317977,
+          "unfairness": 7.649708864202208
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.77086740956324,
+          "unfairness": 24.917492427436525
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.05514357220267,
+          "unfairness": 12.756911376928453
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.34156976298189,
+          "unfairness": 12.685375317209733
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.60204647242877,
+          "unfairness": 9.56512310449858
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.96757207190042,
+          "unfairness": 10.049640403001016
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.8443979879534,
+          "unfairness": 4.5243469186746115
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.20305113618265,
+          "unfairness": 10.66685483701307
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.75330872709688,
+          "unfairness": 15.501888680609138
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.82482679550495,
+          "unfairness": 23.693942325069727
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.16207580285713,
+          "unfairness": 13.201836512865672
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.00723564608444,
+          "unfairness": 17.06328487526205
+        }
+      ],
+      "seed": 24003,
+      "episode": 40,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_40.pt",
+      "sha256": "37235218c2fee569a97edac49fa04706c0da1e0e41b5fd1a875c13824d6ed346",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.864773281029212e-14,
+      "objective": 76.46050176608105,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.41635152375693,
+          "unfairness": 24.213283294790738
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.15480184909502,
+          "unfairness": 14.904104397629734
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.05362798783116,
+          "unfairness": 7.543412640997749
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.8487837859027,
+          "unfairness": 8.059403542630296
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.01277530212569,
+          "unfairness": 14.598786430810382
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.46390799738236,
+          "unfairness": 17.869006481040547
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.19105740350248,
+          "unfairness": 24.11528001409954
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.71871583920287,
+          "unfairness": 19.32383698976441
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.20691133525443,
+          "unfairness": 7.542152150641591
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.2651097298993,
+          "unfairness": 24.287574957600746
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.70265470452063,
+          "unfairness": 12.383390345759654
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.09880760304868,
+          "unfairness": 12.394118816941111
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.19267409718398,
+          "unfairness": 9.107409224262081
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.93208835885125,
+          "unfairness": 9.870742084391205
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.10482673929502,
+          "unfairness": 4.429552781105621
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.05876045561321,
+          "unfairness": 10.394088774358469
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.48357543915282,
+          "unfairness": 15.220624919750524
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.796049008024,
+          "unfairness": 21.536095022650084
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 117.18738820869429,
+          "unfairness": 12.68280242155709
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.96963745661397,
+          "unfairness": 15.887941189737482
+        }
+      ],
+      "seed": 24003,
+      "episode": 60,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_60.pt",
+      "sha256": "8adc561b696b36e61f4a2c761c4b168452410643da257ea7e19613229a297a31",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 3.089405165519898e-14,
+      "objective": 75.91232186852929,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 97.25098775493612,
+          "unfairness": 22.49644043365243
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.32722048659406,
+          "unfairness": 13.69444782959775
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.26139776250821,
+          "unfairness": 6.9488940790974345
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.07264112444433,
+          "unfairness": 8.067098347517003
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.8107337292579,
+          "unfairness": 13.717626055997194
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 87.95227716116895,
+          "unfairness": 15.852451474348737
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.81537150245661,
+          "unfairness": 21.04335295547294
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.14011669861294,
+          "unfairness": 15.879928229587996
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.73697751373312,
+          "unfairness": 7.094972013802504
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.57687215287038,
+          "unfairness": 22.00562248159131
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.28873320593307,
+          "unfairness": 11.621313884131299
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 99.50169330962353,
+          "unfairness": 11.44804479200789
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.0881840246216,
+          "unfairness": 7.901800822205496
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.8905589774651,
+          "unfairness": 9.363139054816225
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.64597500391795,
+          "unfairness": 4.195634284935176
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.33271206086778,
+          "unfairness": 10.281994401817352
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 90.6002221238442,
+          "unfairness": 14.279025975436996
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.87197270289505,
+          "unfairness": 16.87872509743412
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 116.83758184458472,
+          "unfairness": 11.135665546504471
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.89265990460913,
+          "unfairness": 12.827205703794206
+        }
+      ],
+      "seed": 24003,
+      "episode": 80,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_80.pt",
+      "sha256": "c260f88489d2e36f196baf2530b9f60d1abf834fb2237f03157da1406d21ebee",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 4.4920251382398965e-14,
+      "objective": 75.25255939812936,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.50850224607343,
+          "unfairness": 19.344108911937774
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.43773897931632,
+          "unfairness": 11.995981988551916
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.76725678666831,
+          "unfairness": 6.194787539639886
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.341056735656375e-15,
+          "cost": 103.94700334037718,
+          "unfairness": 7.795053554048092
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 94.81701324586032,
+          "unfairness": 13.159982136710292
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 88.9132490097054,
+          "unfairness": 13.786503461780265
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.69936180091676,
+          "unfairness": 17.18885614307779
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.37602742021295,
+          "unfairness": 12.36125581553143
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.87295694181739,
+          "unfairness": 7.13419810141985
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.44485545269976,
+          "unfairness": 18.25962121039374
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.88192403719188,
+          "unfairness": 10.599707865213272
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 98.42559412171035,
+          "unfairness": 10.179302925381608
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 123.97244506587376,
+          "unfairness": 6.750618576352207
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.45294798467715,
+          "unfairness": 8.900789618826463
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.90244458401683,
+          "unfairness": 3.714681155916978
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.56715774159909,
+          "unfairness": 9.123162939124388
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 89.45858939895773,
+          "unfairness": 12.933228318575225
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.64969305443333,
+          "unfairness": 11.730513939422224
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.647077238784403e-15,
+          "cost": 116.4790541956223,
+          "unfairness": 10.074212062914048
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.74100223773286,
+          "unfairness": 9.876152437726752
+        }
+      ],
+      "seed": 24003,
+      "episode": 100,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_100.pt",
+      "sha256": "efd0ff28972d892c43672904c547af323f9cb8a0b1b0f695ef8a08fba36ab58a",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 5.815961694446029e-14,
+      "objective": 74.87099117955269,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.38812825328158,
+          "unfairness": 15.526571510329264
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.20473684444653,
+          "unfairness": 9.911770212544376
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.938362888486481e-15,
+          "cost": 104.59268174714447,
+          "unfairness": 5.672175772174711
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.341056735656375e-15,
+          "cost": 103.92503798538067,
+          "unfairness": 7.272415655462597
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 94.3562147580842,
+          "unfairness": 12.573070973636316
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 7.752548652567826e-15,
+          "cost": 89.22944698898837,
+          "unfairness": 11.978736885883547
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.39659139903154,
+          "unfairness": 14.523770692190393
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.50114251550937,
+          "unfairness": 9.862381795630373
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.66148866535326,
+          "unfairness": 7.231399080540179
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.65101715946352,
+          "unfairness": 14.666576595724464
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.04357967938424,
+          "unfairness": 10.046001411930245
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 98.70878711661332,
+          "unfairness": 9.292747274421664
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 124.28807833200068,
+          "unfairness": 6.374823438689251
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.80930598036886,
+          "unfairness": 8.286381069980978
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 102.51136563690945,
+          "unfairness": 3.407488189891888
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.04682592165568,
+          "unfairness": 8.676829141442342
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.358096759527619e-15,
+          "cost": 89.9161128632442,
+          "unfairness": 12.451275760741451
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.95198572823648,
+          "unfairness": 8.212849830969388
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.647077238784403e-15,
+          "cost": 116.6055955704141,
+          "unfairness": 9.109221495699309
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.63341471194029,
+          "unfairness": 8.00600351491158
+        }
+      ],
+      "seed": 24003,
+      "episode": 120,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_120.pt",
+      "sha256": "a638155c813f11db384163ea7ae3e2c4582d9ed8b920bcdff6b08bcfd0997a80",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.475666253974637e-13,
+      "objective": 73.97267406409405,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.4806629780044,
+          "unfairness": 7.773287289623299
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.6295562905502,
+          "unfairness": 5.383462605794218
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.17919780715111e-14,
+          "cost": 104.72524424681293,
+          "unfairness": 4.062048327652312
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.68211347131275e-15,
+          "cost": 103.63637143841898,
+          "unfairness": 5.216940918237844
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.31311441735991,
+          "unfairness": 8.76437960501146
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 88.72427849937418,
+          "unfairness": 8.41612082176319
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 88.40458991534243,
+          "unfairness": 9.521489070692205
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.59507106946512,
+          "unfairness": 6.063877600702151
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.953844618933741e-15,
+          "cost": 101.64731175280758,
+          "unfairness": 5.810329240677425
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.89555849547443,
+          "unfairness": 8.162723774097568
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.57242402832111,
+          "unfairness": 6.015946718238989
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.8146144795992,
+          "unfairness": 5.562595816917733
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.509967309212626e-14,
+          "cost": 126.20224882172012,
+          "unfairness": 5.794589086206123
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.71051924181475,
+          "unfairness": 5.651456543563661
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.33490533256273,
+          "unfairness": 3.2132074405210043
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5335417150881322e-14,
+          "cost": 98.31969047822764,
+          "unfairness": 6.491496928416671
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.0582679651379948e-14,
+          "cost": 91.8718717441953,
+          "unfairness": 10.505720752401723
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 7.663221403261337e-15,
+          "cost": 117.4193860556376,
+          "unfairness": 4.2512114871639755
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.2073858431435262e-14,
+          "cost": 117.77354913568618,
+          "unfairness": 6.163682700548499
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.10279558173158,
+          "unfairness": 6.281588204125848
+        }
+      ],
+      "seed": 24003,
+      "episode": 140,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_140.pt",
+      "sha256": "2f36de9d059e09162323b262b934f73a4b31c9a14bf378cacfd1b8d75d4294cc",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 2,
+      "gap_kwh": 1.0113550445488237,
+      "objective": 73.41510525947996,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.445160840924035e-15,
+          "cost": 95.53506305076448,
+          "unfairness": 3.5844299737305962
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.45700138217514,
+          "unfairness": 4.852795506521456
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.9645593254535717e-14,
+          "cost": 105.16608443086278,
+          "unfairness": 4.5638551136920364
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2921291377504894e-14,
+          "cost": 103.17486000690172,
+          "unfairness": 5.143998705430063
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 8.44188349134972e-15,
+          "cost": 95.06015244494802,
+          "unfairness": 5.502628624867981
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.8256819916259298e-14,
+          "cost": 87.94414993366576,
+          "unfairness": 6.801169802414709
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 87.94136931403008,
+          "unfairness": 5.600381532979881
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 6.75917591462204e-15,
+          "cost": 110.65461503206089,
+          "unfairness": 5.757683303353617
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.3907689237867482e-14,
+          "cost": 100.5499421941633,
+          "unfairness": 5.084266259393767
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.47127932860757,
+          "unfairness": 5.952642105738953
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.1238913447732173e-14,
+          "cost": 107.78780393758461,
+          "unfairness": 4.067868094987139
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.3051649759609053,
+          "cost": 101.61653908207745,
+          "unfairness": 4.604198835676995
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.9318549531366844e-14,
+          "cost": 127.51985392945278,
+          "unfairness": 5.377014565074331
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.01470281622022,
+          "unfairness": 5.064387997433203
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.11731140679538,
+          "unfairness": 3.375488410823328
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.5854528174296435e-14,
+          "cost": 99.01660754093066,
+          "unfairness": 5.528585649864702
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.7053067856833734e-14,
+          "cost": 92.31181851983703,
+          "unfairness": 5.431332305889672
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.7061900685877011,
+          "cost": 116.45776238244504,
+          "unfairness": 4.847601023280198
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.954704021729521e-14,
+          "cost": 117.8906185991832,
+          "unfairness": 5.1392972558444185
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 5.917803248925516e-15,
+          "cost": 100.12795730974261,
+          "unfairness": 5.824576065953007
+        }
+      ],
+      "seed": 24003,
+      "episode": 160,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_160.pt",
+      "sha256": "3bffc407656a52c3d60f9f877c353225d696268f730a27dbc26287c177178658",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 3,
+      "gap_kwh": 1.8628512929829775,
+      "objective": 73.60558134610628,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.688027979760951e-15,
+          "cost": 95.02628139396904,
+          "unfairness": 4.469605693025281
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 7.849123611274892e-15,
+          "cost": 120.58592016860769,
+          "unfairness": 6.380629167758189
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.87609882222319e-14,
+          "cost": 106.45312745048078,
+          "unfairness": 5.222536192510104
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5819412548040664e-14,
+          "cost": 103.84576392960346,
+          "unfairness": 5.235195356593633
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.1714050488240578e-14,
+          "cost": 94.70392518052157,
+          "unfairness": 5.35765970377079
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.7543815120907868e-14,
+          "cost": 87.91094875396006,
+          "unfairness": 6.867021701844661
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 87.4582565058468,
+          "unfairness": 5.285053755168155
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.3230278848976981e-14,
+          "cost": 110.34125781203286,
+          "unfairness": 7.042580926236685
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.3907689237867482e-14,
+          "cost": 99.87929671739525,
+          "unfairness": 5.913448947110083
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.53571203611844,
+          "unfairness": 6.248413015020549
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.880097481679107e-14,
+          "cost": 108.42452096539047,
+          "unfairness": 4.471966129822121
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.34240045103605593,
+          "cost": 103.10154359443206,
+          "unfairness": 5.318670467124181
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 1,
+          "gap_kwh": 1.0806580505476615,
+          "cost": 126.94537827801446,
+          "unfairness": 6.840634483479771
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.68309560284027,
+          "unfairness": 5.477852346091821
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.0449804006248676e-15,
+          "cost": 97.51602258779067,
+          "unfairness": 4.292827170992074
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.294598563475457e-14,
+          "cost": 99.56463198805295,
+          "unfairness": 5.542017600575959
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.1165359302759895e-14,
+          "cost": 90.73221108506343,
+          "unfairness": 4.309930913278421
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.4397927913989909,
+          "cost": 116.6302587323604,
+          "unfairness": 7.3256921957586085
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.954704021729521e-14,
+          "cost": 118.45756922873412,
+          "unfairness": 6.501066914597021
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.3060263039531642e-14,
+          "cost": 99.77705475201486,
+          "unfairness": 7.26614127879099
+        }
+      ],
+      "seed": 24003,
+      "episode": 180,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_180.pt",
+      "sha256": "444a2f810d37464a2e404a7d638c1038f20d2d8b2e2df4ffa941697ea6907b4c",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 5,
+      "gap_kwh": 2.897120975085633,
+      "objective": 73.89652140356796,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.069229672218436e-14,
+          "cost": 94.85577927258996,
+          "unfairness": 5.62042336481449
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 7.849123611274892e-15,
+          "cost": 120.6342050752056,
+          "unfairness": 7.445944238606444
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.02738193442382268,
+          "cost": 106.92591747252756,
+          "unfairness": 5.604074122241313
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5819412548040664e-14,
+          "cost": 103.79966236614754,
+          "unfairness": 5.8980765931828145
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.5862165233788777e-14,
+          "cost": 94.56674317866194,
+          "unfairness": 6.146742882717273
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.7543815120907868e-14,
+          "cost": 88.11309054234931,
+          "unfairness": 6.884403282113473
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.4973171193835087e-14,
+          "cost": 87.19981689709402,
+          "unfairness": 5.883439386639864
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.987592816465122e-14,
+          "cost": 110.66795359678922,
+          "unfairness": 8.438340596483053
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.6607152493574125e-14,
+          "cost": 100.47072381200655,
+          "unfairness": 6.4112522690177185
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.20966660466651,
+          "unfairness": 7.068129563700934
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.1430360740897596e-14,
+          "cost": 108.74463565283295,
+          "unfairness": 5.8219720984145376
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 2,
+          "gap_kwh": 0.9525448745374047,
+          "cost": 103.11408495171744,
+          "unfairness": 6.086598503447158
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 1,
+          "gap_kwh": 1.8780731194814482,
+          "cost": 127.30116731178052,
+          "unfairness": 8.07586845516305
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.949803732308962e-15,
+          "cost": 82.47379620916453,
+          "unfairness": 5.354645091301235
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.0449804006248676e-15,
+          "cost": 97.28888946096325,
+          "unfairness": 4.731760040469632
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.6516003452591664e-14,
+          "cost": 99.89490284605633,
+          "unfairness": 6.784024791098218
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.633624508669354e-14,
+          "cost": 90.40918546408014,
+          "unfairness": 5.308560688858452
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.03912104664267778,
+          "cost": 117.11450050523038,
+          "unfairness": 9.51462439073756
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.650063962408612e-14,
+          "cost": 118.38384351018959,
+          "unfairness": 7.372169830714228
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 9.3853504485121e-15,
+          "cost": 99.39456394734677,
+          "unfairness": 8.003076467542984
+        }
+      ],
+      "seed": 24003,
+      "episode": 200,
+      "path": "artifacts/runs/r106_rl_lr_20261107/engine/artifacts/runs/ppo_half/ppo_model/episode_200.pt",
+      "sha256": "57fb2efafb614e31a3a37c7dfa6c0249357e3779c260e3bf0e1cb8d6916f0831",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 1,
+      "gap_kwh": 1.6690791714361173,
+      "objective": 77.67917183435841,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.58564779156286,
+          "unfairness": 26.58489831250022
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.70846117913885,
+          "unfairness": 16.98238027766872
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.57334834441794,
+          "unfairness": 8.578859457609635
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 102.83012308695263,
+          "unfairness": 8.463218280543499
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 97.00717335337988,
+          "unfairness": 16.0528720387993
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.14243715637319,
+          "unfairness": 21.003021980603773
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.28991973842595e-15,
+          "cost": 91.20042528499621,
+          "unfairness": 27.137018172813182
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.4800126562674,
+          "unfairness": 25.18362604402656
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.63414837162279,
+          "unfairness": 8.407574075773105
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 109.58725476359099,
+          "unfairness": 27.466338758285577
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.12131742564969,
+          "unfairness": 13.95888115089467
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.89577991076632,
+          "unfairness": 14.009131827905449
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 125.92662038082896,
+          "unfairness": 10.757780236694394
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.47322933695575,
+          "unfairness": 11.158805377978469
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.89484207049672,
+          "unfairness": 4.59067126918408
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.44917595584354,
+          "unfairness": 11.305742646265283
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.96476750657109,
+          "unfairness": 16.67856281673574
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 1.669079171436113,
+          "cost": 115.19141806735415,
+          "unfairness": 37.366003629260646
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.92723226780457,
+          "unfairness": 14.500418506664385
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.01426042584296,
+          "unfairness": 20.007741645381884
+        }
+      ],
+      "seed": 24004,
+      "episode": 20,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_20.pt",
+      "sha256": "44715e1fb45e6631af483da571fe04b56833536fb88df61f7832937ba9264f7f",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 1,
+      "gap_kwh": 0.686307904055817,
+      "objective": 77.4062936320019,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.04302947696716,
+          "unfairness": 26.30373274368473
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.41521140120233,
+          "unfairness": 16.56264163405814
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.86519604003429,
+          "unfairness": 8.548615477208845
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.02436200084674,
+          "unfairness": 8.227444020864136
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.68089964647203,
+          "unfairness": 15.671605436504088
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.27126637163931,
+          "unfairness": 20.45854276533121
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.88066219575347,
+          "unfairness": 26.956910634586805
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.18013886208705,
+          "unfairness": 23.974403056347015
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.37345890441928,
+          "unfairness": 8.128755478377215
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 109.220218399973,
+          "unfairness": 26.80252632974316
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.8773295263978,
+          "unfairness": 13.635305129524912
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.60497407507543,
+          "unfairness": 13.701678021333748
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 126.04401900309409,
+          "unfairness": 10.312847037578505
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.38805373092691,
+          "unfairness": 10.601757510190483
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.15358348193251,
+          "unfairness": 4.7164586751996795
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.47010641793895,
+          "unfairness": 11.206380378452355
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.95444453570353,
+          "unfairness": 16.2696192434074
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.6863079040558049,
+          "cost": 115.83375468092873,
+          "unfairness": 31.242362094026703
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.05213295012672,
+          "unfairness": 14.432053846619358
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.10527790288815,
+          "unfairness": 19.310323543471476
+        }
+      ],
+      "seed": 24004,
+      "episode": 40,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_40.pt",
+      "sha256": "8abacee6fd653eb3bd413cb09cf85f45abd7bbfbb926948e8bb784576991efb9",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 1,
+      "gap_kwh": 0.07558985724485129,
+      "objective": 77.21444575492146,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.71393488343269,
+          "unfairness": 25.87834482955034
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.2156386473222,
+          "unfairness": 16.17155822487891
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.5257600217318,
+          "unfairness": 8.201113454810718
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.14670135495612,
+          "unfairness": 8.199478113007912
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.64364354150683,
+          "unfairness": 15.516153075886116
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.37550875940777,
+          "unfairness": 19.90453327246789
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.75027187243941,
+          "unfairness": 26.514314843658678
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.0196379006187,
+          "unfairness": 23.224601610675546
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.17622641081245,
+          "unfairness": 7.986939012969796
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.86966999580237,
+          "unfairness": 26.250155115506377
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.74627840564314,
+          "unfairness": 13.538604392703398
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.4749826144399,
+          "unfairness": 13.41469772637629
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 126.07382604437186,
+          "unfairness": 10.22433668422926
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.33220953514052,
+          "unfairness": 10.506805818001078
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.26655465612127,
+          "unfairness": 4.657639608534784
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.3721882015597,
+          "unfairness": 10.98070637020278
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.8835940125967,
+          "unfairness": 16.167806403749427
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.07558985724484271,
+          "cost": 116.09189244966471,
+          "unfairness": 27.78642941389372
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.07596584145594,
+          "unfairness": 14.168447881960207
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.02356128182096,
+          "unfairness": 18.854942803062823
+        }
+      ],
+      "seed": 24004,
+      "episode": 60,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_60.pt",
+      "sha256": "d95022a339180019f9ee895aa0b5b31ea88ccd525202a42c42869a70e46c582b",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 1,
+      "gap_kwh": 0.006099554137394603,
+      "objective": 77.18067491356098,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.71217877532318,
+          "unfairness": 25.972013551762668
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.23698163495955,
+          "unfairness": 16.13571718686739
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.51101804663818,
+          "unfairness": 8.238190660520322
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.10031819327818,
+          "unfairness": 8.109674974808287
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.56962791522258,
+          "unfairness": 15.39395840200315
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.33317575127508,
+          "unfairness": 19.81705120558744
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.65161219829105,
+          "unfairness": 26.598375323324092
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.0131858622701,
+          "unfairness": 23.009461487316624
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.21087239235536,
+          "unfairness": 7.976113069618545
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.84518990353925,
+          "unfairness": 26.105199059758394
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.68476083562724,
+          "unfairness": 13.527449546574152
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.37547034819998,
+          "unfairness": 13.4796591344265
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 126.03452993917927,
+          "unfairness": 10.229980521641645
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.29363095925726,
+          "unfairness": 10.497190607619764
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.23384492347517,
+          "unfairness": 4.713100848561449
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.38313555689393,
+          "unfairness": 10.882391773488871
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.85112892393309,
+          "unfairness": 16.20239740266307
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.006099554137386023,
+          "cost": 116.14527665991912,
+          "unfairness": 27.165798019977075
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.05662122727378,
+          "unfairness": 14.26740279713988
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.03153763856956,
+          "unfairness": 18.75097406428421
+        }
+      ],
+      "seed": 24004,
+      "episode": 80,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_80.pt",
+      "sha256": "e87bf615a3785240641b7e1aa2e8284e3f385e32b402425bca09dc1e1bbd7a0f",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.2095346484832188e-14,
+      "objective": 76.99840131886457,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.34263211083689,
+          "unfairness": 25.670581581260542
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 121.03104171361015,
+          "unfairness": 15.917124958545173
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.21479748588268,
+          "unfairness": 8.0641374421695
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.31230316380658,
+          "unfairness": 8.018516878343517
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.4377905646635,
+          "unfairness": 15.222248758934235
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.33803139478464,
+          "unfairness": 19.466412586746777
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.46089513031265,
+          "unfairness": 26.019989053006693
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.86354321051088,
+          "unfairness": 22.05511250046797
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.02349250288265,
+          "unfairness": 7.915382589183803
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.49778908554846,
+          "unfairness": 25.836309653665552
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.44920052281756,
+          "unfairness": 13.014174927929005
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.27873255206988,
+          "unfairness": 13.343021902891277
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 125.86876083116249,
+          "unfairness": 10.118772091651083
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.15981508080581,
+          "unfairness": 10.362208423249765
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.30573228660258,
+          "unfairness": 4.69239995990964
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.35171354475042,
+          "unfairness": 10.67006863232269
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.80880934029462,
+          "unfairness": 16.05229574003581
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.96659603194838,
+          "unfairness": 25.826926666839572
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.03899687396353,
+          "unfairness": 14.279083339474212
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.97598420593366,
+          "unfairness": 18.31978576023938
+        }
+      ],
+      "seed": 24004,
+      "episode": 100,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_100.pt",
+      "sha256": "dcf579cb2fe74849aa631488d595310cf0c0ca992423345c1e352a78c234ee61",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 2.2929089795000865e-14,
+      "objective": 76.55683087484252,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.56548908917115,
+          "unfairness": 24.826844541295074
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.50067875811641,
+          "unfairness": 15.27560776323633
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.86203404302049,
+          "unfairness": 7.825127924325754
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.71237004527921,
+          "unfairness": 7.71473158653067
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.11400710650133,
+          "unfairness": 14.477042284581655
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.30296121772207,
+          "unfairness": 18.077575838956147
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 90.08699743735684,
+          "unfairness": 24.666187578564312
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.83988382340212,
+          "unfairness": 19.690437088835715
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.06046272563488,
+          "unfairness": 7.47052400316004
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.45977992701864,
+          "unfairness": 24.653973435484676
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.01470582415573,
+          "unfairness": 12.446288798032043
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.66637909233108,
+          "unfairness": 12.936966371391696
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.293443146694,
+          "unfairness": 9.270841086093457
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.83172606585441,
+          "unfairness": 9.945384188060222
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.75135428353711,
+          "unfairness": 4.943589709170556
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.23067269482866,
+          "unfairness": 10.263196957513735
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.57047453530039,
+          "unfairness": 15.513780741059023
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.11959807978735,
+          "unfairness": 21.99348274526396
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 117.18320526694646,
+          "unfairness": 13.361871927736228
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.10925631039228,
+          "unfairness": 16.459151649758393
+        }
+      ],
+      "seed": 24004,
+      "episode": 120,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_120.pt",
+      "sha256": "afc8187ea937ed01f62beef1ff4010e130421d008660f900fd530da22480eef1",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 2.736998189350149e-14,
+      "objective": 76.17069060757734,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 97.73092517034098,
+          "unfairness": 23.818500332898743
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.07498587328305,
+          "unfairness": 14.409751601137927
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.95689583802042,
+          "unfairness": 7.357889307403973
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.88799455500971,
+          "unfairness": 7.530262130331527
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.12739850199503,
+          "unfairness": 13.813812301406841
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 87.338543079678,
+          "unfairness": 16.93043007448938
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.80183662979363,
+          "unfairness": 22.772062514067542
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.02492094605836,
+          "unfairness": 17.58787715644072
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.51888712086219,
+          "unfairness": 7.011313025601343
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.83187210169069,
+          "unfairness": 23.411260613703455
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.79835821406498,
+          "unfairness": 11.91075577840104
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.29234944125722,
+          "unfairness": 12.319751382665824
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 124.95176561361126,
+          "unfairness": 8.166915644106858
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.7960295775525,
+          "unfairness": 9.476248689494112
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.43752662920303,
+          "unfairness": 4.906502384464903
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.82200875418859,
+          "unfairness": 10.179431662009103
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.09501054207637,
+          "unfairness": 14.998334532959259
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.90065147045559,
+          "unfairness": 18.749620788317518
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 117.14634499002813,
+          "unfairness": 12.50887524042333
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.09633758333422,
+          "unfairness": 14.38161253565694
+        }
+      ],
+      "seed": 24004,
+      "episode": 140,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_140.pt",
+      "sha256": "5ac90b1403ca203a26de9604bdab7afb4b053dee5dde7ad9f291de667a17de53",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 3.3614250818420407e-14,
+      "objective": 75.83059322982083,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 97.11849814486932,
+          "unfairness": 22.491388352329515
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.58491319679,
+          "unfairness": 13.604659527519686
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.77847217263093,
+          "unfairness": 7.11050032693233
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.0817811152042,
+          "unfairness": 7.364404959288603
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.89090452993605,
+          "unfairness": 13.127589773081063
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 87.75359813728505,
+          "unfairness": 15.937148397879827
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.5810564120199,
+          "unfairness": 20.914069599282264
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.31319750793418,
+          "unfairness": 15.910728698394989
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.56712193643207,
+          "unfairness": 6.691491877898404
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.26497791696494,
+          "unfairness": 22.069032471400156
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.5178824216048,
+          "unfairness": 11.411473550842457
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 98.9891049598804,
+          "unfairness": 11.801914073975563
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 124.72630406785532,
+          "unfairness": 7.3352539349098915
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.75485502027217,
+          "unfairness": 9.17752806749332
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.00472642311946,
+          "unfairness": 4.908314231856385
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.29704009963544,
+          "unfairness": 9.758368254614743
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 90.45486278911773,
+          "unfairness": 14.365893185291418
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.04934795619351,
+          "unfairness": 15.707811891989095
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 116.89960735360626,
+          "unfairness": 11.61659933946667
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.20852063594786,
+          "unfairness": 12.449574946576593
+        }
+      ],
+      "seed": 24004,
+      "episode": 160,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_160.pt",
+      "sha256": "f60c5093144df9852d33cc68f5aa06e5449bb4eb6dcb2f6a4c0009796b6bb89c",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 4.797705146916319e-14,
+      "objective": 75.21843429794065,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.33978039636102,
+          "unfairness": 19.471529009062294
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.54675925136377,
+          "unfairness": 11.877084549059719
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.57993221099768,
+          "unfairness": 6.3516044511373355
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.28420663123157,
+          "unfairness": 7.062255946984418
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 94.96441752540872,
+          "unfairness": 11.893716693767024
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 7.752548652567826e-15,
+          "cost": 88.58510202005883,
+          "unfairness": 14.466582715639056
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.71596789537038e-14,
+          "cost": 89.50354096805206,
+          "unfairness": 17.271523181413745
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.38511701858856,
+          "unfairness": 13.127187618972515
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.7740218611288,
+          "unfairness": 6.158195626445184
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.07768704017307,
+          "unfairness": 18.6819782184926
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 105.60212792592446,
+          "unfairness": 10.567328722917663
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 99.01625339616311,
+          "unfairness": 10.606736916420068
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 124.50535111480617,
+          "unfairness": 6.285331946976401
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.0688383950201,
+          "unfairness": 8.649116224545944
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.67702319870878,
+          "unfairness": 4.9400215776653
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.39564035402353,
+          "unfairness": 8.646689521846758
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 89.40810289469108,
+          "unfairness": 12.889122795784143
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.31982354040089,
+          "unfairness": 10.640964942539064
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.953599406790917e-15,
+          "cost": 116.7370504299148,
+          "unfairness": 10.342280872715614
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 101.07752504064912,
+          "unfairness": 9.986998831770702
+        }
+      ],
+      "seed": 24004,
+      "episode": 180,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_180.pt",
+      "sha256": "f169817760713484c64863a8d6ba41d11d844b5ba1fd465576893c5d943ac764",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.0501451431284177e-13,
+      "objective": 74.53658387780487,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.18994653733742,
+          "unfairness": 11.676875535246309
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.31102119161395,
+          "unfairness": 7.164284532272687
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.938362888486481e-15,
+          "cost": 105.16381289443308,
+          "unfairness": 4.915733816365213
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.341056735656375e-15,
+          "cost": 103.64036124450456,
+          "unfairness": 5.419975490491976
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.17901561712509,
+          "unfairness": 9.902588714302913
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 89.19279745180567,
+          "unfairness": 10.69993178818294
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.71596789537038e-14,
+          "cost": 89.03123017254724,
+          "unfairness": 11.527581693478378
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.33045106869324,
+          "unfairness": 8.138428673201785
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.29427285878491,
+          "unfairness": 5.381402576671249
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.81466660052057,
+          "unfairness": 11.46849373061387
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.3657648031226,
+          "unfairness": 8.97928186407166
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 101.01798671570606,
+          "unfairness": 7.802459108758366
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 9.659274765683422e-15,
+          "cost": 125.76150505190297,
+          "unfairness": 5.626843298328035
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 84.09273911386232,
+          "unfairness": 7.212447006500584
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.6015343989801,
+          "unfairness": 4.321720642659918
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.176539933304423e-14,
+          "cost": 98.22130760993957,
+          "unfairness": 7.345317892124575
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 6.470388205453784e-15,
+          "cost": 91.10521343193943,
+          "unfairness": 11.712252319052423
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.1125333967889535e-15,
+          "cost": 117.36585114004681,
+          "unfairness": 5.586109183922089
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.8250405601172166e-14,
+          "cost": 117.58543679863939,
+          "unfairness": 8.659193796578496
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.55346854522485,
+          "unfairness": 6.9884426151316
+        }
+      ],
+      "seed": 24004,
+      "episode": 200,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24004/ppo_model/episode_200.pt",
+      "sha256": "beb2976ff7c9772f2fe92462c2d37005c5e464129d6ae0a56f95e7da703bb5cc",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.2095346484832188e-14,
+      "objective": 77.03798448639152,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.2808271964677,
+          "unfairness": 25.311913562813793
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.92618120752448,
+          "unfairness": 15.917975868257344
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.22565164066806,
+          "unfairness": 7.906640155101948
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.49491749589666,
+          "unfairness": 8.29330567851375
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.51910547390361,
+          "unfairness": 15.459915331138133
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.41969111548629,
+          "unfairness": 19.459373683402884
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.70036594636322,
+          "unfairness": 25.727435154281572
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.8123440881676,
+          "unfairness": 22.40468655315338
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.11778263307858,
+          "unfairness": 7.913059765293776
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 108.41529554135889,
+          "unfairness": 25.826955518081064
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.62029942098224,
+          "unfairness": 13.271837093147264
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.56344121266532,
+          "unfairness": 13.11697920808601
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 125.94609908863741,
+          "unfairness": 10.156464654266301
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.24362548163091,
+          "unfairness": 10.39963516761463
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.50347895118239,
+          "unfairness": 4.465688093438021
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.26859602066847,
+          "unfairness": 10.917604777391617
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.90953303929646,
+          "unfairness": 15.885942555472694
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.84962936717484,
+          "unfairness": 26.326242546683005
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.14259033841708,
+          "unfairness": 13.77987027765663
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.93220966302219,
+          "unfairness": 18.243555296258464
+        }
+      ],
+      "seed": 24005,
+      "episode": 20,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_20.pt",
+      "sha256": "b6ab7f865a5e1fad296f81fa061ea7cd3bcff8a5aec346295ba53dc96460e1f6",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.4815545648053608e-14,
+      "objective": 76.73532879587485,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.8531001751082,
+          "unfairness": 24.595336459143695
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.47087092927141,
+          "unfairness": 15.478581675038082
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.09929420707519,
+          "unfairness": 7.799599679210043
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.74213180211876,
+          "unfairness": 8.325549812818846
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.20763315858117,
+          "unfairness": 15.042719314477736
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.40174992892796,
+          "unfairness": 18.702080736325577
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 90.40355672980236,
+          "unfairness": 24.907529731245052
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.62154074896088,
+          "unfairness": 20.773262041915817
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.11951771310169,
+          "unfairness": 7.666522867103242
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.72303307828919,
+          "unfairness": 25.054737928080147
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.0238955126638,
+          "unfairness": 12.767611583739285
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.36465482415551,
+          "unfairness": 12.763232789338362
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.57943623880453,
+          "unfairness": 9.67140517879144
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.02991212499776,
+          "unfairness": 10.127634600274721
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.84669309588989,
+          "unfairness": 4.49313515878694
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.13161984320672,
+          "unfairness": 10.80627716433992
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.79536163823954,
+          "unfairness": 15.64768289033511
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.81707367572959,
+          "unfairness": 23.81511701977428
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.10070012722926,
+          "unfairness": 13.357443257002695
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.99313793493019,
+          "unfairness": 17.13499503405463
+        }
+      ],
+      "seed": 24005,
+      "episode": 40,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_40.pt",
+      "sha256": "b8ff0cf9708732d9a2b88985ad8327f88e3b0d435d8704e4e41787f46d5531da",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 2.6453159556698358e-14,
+      "objective": 76.40912622834628,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.28796301358982,
+          "unfairness": 23.90689817474608
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.93868918259244,
+          "unfairness": 15.015988446953044
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.09870252401475,
+          "unfairness": 7.376597196728735
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.89007596572606,
+          "unfairness": 8.21266695790375
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.88776964716514,
+          "unfairness": 14.763246683114048
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.4820910741017,
+          "unfairness": 17.746579762983096
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 90.12863662315628,
+          "unfairness": 23.66647055684205
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.69162168966226,
+          "unfairness": 19.159245992451503
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.28620686500525,
+          "unfairness": 7.4151526551983675
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.26949381402346,
+          "unfairness": 24.157081520501112
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.55427767474778,
+          "unfairness": 12.397595287043918
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.15957411077594,
+          "unfairness": 12.311337850650746
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.13573132216536,
+          "unfairness": 9.174139162287043
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.00098149886614,
+          "unfairness": 10.009574933973486
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.07908473436342,
+          "unfairness": 4.324397206067545
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.93179531150975,
+          "unfairness": 10.612058628363613
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.45259198645942,
+          "unfairness": 15.322176534975512
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.68213298796718,
+          "unfairness": 21.42903337062379
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 117.09707106848913,
+          "unfairness": 12.693015798967213
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.81678900093132,
+          "unfairness": 15.548838280314893
+        }
+      ],
+      "seed": 24005,
+      "episode": 60,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_60.pt",
+      "sha256": "b66a4b475b408e2db0851e09b73d416db62ad633bce5f9488916c0ac398e688a",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.8639170056574915e-14,
+      "objective": 76.12426802562435,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 97.63262323658033,
+          "unfairness": 22.985896427994366
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.54144168225011,
+          "unfairness": 14.501412949387772
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.23965659097647,
+          "unfairness": 7.05329997113704
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.03105331783782,
+          "unfairness": 8.260527654926097
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.8114576939191,
+          "unfairness": 14.27942063745564
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 87.63372111990819,
+          "unfairness": 16.40895452945859
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 8.5798394768519e-15,
+          "cost": 89.92222686444597,
+          "unfairness": 22.056258053011305
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 111.86587391121965,
+          "unfairness": 17.309637087043754
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.67752456173956,
+          "unfairness": 7.282243696914219
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.45186448639991,
+          "unfairness": 23.01583879439967
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.34448151094128,
+          "unfairness": 11.972908843845987
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.83368209718955,
+          "unfairness": 11.91379569546932
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.72019916322142e-15,
+          "cost": 125.13081394855456,
+          "unfairness": 8.390497237713191
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.93388389687004,
+          "unfairness": 9.748279845922317
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.42349543853418,
+          "unfairness": 4.146239954359155
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.5639421936742,
+          "unfairness": 10.450443710727825
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 91.04403595968128,
+          "unfairness": 15.169134420681658
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.68385044215015,
+          "unfairness": 18.88082831531622
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 116.95919028320128,
+          "unfairness": 11.790797473558126
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.70447607337695,
+          "unfairness": 13.999764020250051
+        }
+      ],
+      "seed": 24005,
+      "episode": 80,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_80.pt",
+      "sha256": "48696080b37d620ef7957ac1e2296c789efa6df5e3f31a4b36c0f81551995cf0",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 3.453107315522354e-14,
+      "objective": 75.76924550586759,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 97.04410929690735,
+          "unfairness": 22.064394740821225
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 119.07180513758507,
+          "unfairness": 14.00479486653059
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.12161613584158,
+          "unfairness": 6.7061161672666385
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.94401109883354,
+          "unfairness": 7.840834805325882
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.66593450780329,
+          "unfairness": 13.522696654159953
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 88.03327440698372,
+          "unfairness": 15.342917164982833
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.7953312252874,
+          "unfairness": 20.165423870068974
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.20650751012013,
+          "unfairness": 15.6081537090362
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.74879635082597,
+          "unfairness": 6.893044677862482
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.57837072645991,
+          "unfairness": 21.522470121663837
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 106.11759485810106,
+          "unfairness": 11.37164119454458
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.20930572998968,
+          "unfairness": 11.403698837785091
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 124.87155440515201,
+          "unfairness": 7.647133811621808
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.87717245277159,
+          "unfairness": 9.441134799939519
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 100.81845964528928,
+          "unfairness": 4.1710418066380495
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.04072202811889,
+          "unfairness": 9.99968721484303
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 90.3511907334903,
+          "unfairness": 14.162327576166
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 115.95835518973624,
+          "unfairness": 16.330335399297553
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.823624408521307e-15,
+          "cost": 116.6808812175556,
+          "unfairness": 11.208115062469348
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.85069497054474,
+          "unfairness": 12.24380011288853
+        }
+      ],
+      "seed": 24005,
+      "episode": 100,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_100.pt",
+      "sha256": "41e4642672522fba6660652f95c064df49c2ec1fc671c9b8f3b04f0f6348bd4f",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 3.674422581669001e-14,
+      "objective": 75.40617053329503,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 96.61929086374215,
+          "unfairness": 20.39873804950529
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 118.93909449998235,
+          "unfairness": 13.05702260505977
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.81323041159625,
+          "unfairness": 6.367132189320961
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.94464572847245,
+          "unfairness": 7.5995997489458285
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 95.09280087044975,
+          "unfairness": 13.100172183893898
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 88.58200644622741,
+          "unfairness": 14.291231047215486
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2869759215277849e-14,
+          "cost": 89.74428386848037,
+          "unfairness": 18.14388148763355
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.36288245759553,
+          "unfairness": 13.796788164766845
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.94728614573353,
+          "unfairness": 6.88627774822183
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 107.56125646271605,
+          "unfairness": 19.451146828176576
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 105.84653112364782,
+          "unfairness": 10.753454037629124
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 98.69721944758759,
+          "unfairness": 10.675284980100974
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 5.44039832644284e-15,
+          "cost": 124.28315630579041,
+          "unfairness": 6.876954006503111
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.25695819472448,
+          "unfairness": 9.112766628321655
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.49312154404357,
+          "unfairness": 3.9604444339094522
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 98.74361687691717,
+          "unfairness": 9.30885718947568
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 89.6629761997484,
+          "unfairness": 13.325260210291313
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 116.34048451924153,
+          "unfairness": 13.31939806782764
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.953599406790917e-15,
+          "cost": 116.43526829762791,
+          "unfairness": 10.601658149705342
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.83459976537156,
+          "unfairness": 10.58364439387286
+        }
+      ],
+      "seed": 24005,
+      "episode": 120,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_120.pt",
+      "sha256": "8dae7304e8fe6e4bfb375e4f5a72d98b9e0e4095c016674912d925c57f12f4a5",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 0,
+      "gap_kwh": 1.0709901993478115e-13,
+      "objective": 74.42380463208816,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.23444427222407,
+          "unfairness": 11.312420265245086
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.45161681947926,
+          "unfairness": 7.331586450828572
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.938362888486481e-15,
+          "cost": 105.0490671913131,
+          "unfairness": 4.317793030187018
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 6.68211347131275e-15,
+          "cost": 103.58059777122256,
+          "unfairness": 5.517810322254801
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.0433773188176,
+          "unfairness": 10.36498494677639
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 89.0185822328486,
+          "unfairness": 9.651589518751303
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.71596789537038e-14,
+          "cost": 88.88086014116948,
+          "unfairness": 11.407794985743834
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 112.13021020634886,
+          "unfairness": 8.201271281300759
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.953844618933741e-15,
+          "cost": 101.48843235576965,
+          "unfairness": 6.0353078256943675
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 104.71789117470124,
+          "unfairness": 10.551586424865265
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 106.24653681965938,
+          "unfairness": 8.192518465118486
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.78959227136454,
+          "unfairness": 7.167616149230814
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 9.659274765683422e-15,
+          "cost": 125.63008933404916,
+          "unfairness": 5.652939873055264
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.97227678188148,
+          "unfairness": 7.028842119980305
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 101.74974282634375,
+          "unfairness": 3.416181107347499
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 7.667708575440661e-15,
+          "cost": 98.1456753871721,
+          "unfairness": 7.18063070751608
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 6.470388205453784e-15,
+          "cost": 91.16005131043907,
+          "unfairness": 11.710821572632927
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 117.61510518141338,
+          "unfairness": 5.442942643746776
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.8250234022913958e-14,
+          "cost": 117.40882713274146,
+          "unfairness": 8.55517822676319
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.35325237193673,
+          "unfairness": 6.659292120082682
+        }
+      ],
+      "seed": 24005,
+      "episode": 140,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_140.pt",
+      "sha256": "4099b02f2c3e9c311124fdbd25694084f93602ea2ee0faadc524cb650934f1de",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 1,
+      "gap_kwh": 0.6617116355618717,
+      "objective": 73.62534197406288,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 96.11783833612066,
+          "unfairness": 5.435543608915384
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 120.21200694107075,
+          "unfairness": 4.649637918481646
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.17919780715111e-14,
+          "cost": 104.78820385295745,
+          "unfairness": 4.072763488324018
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2921291377504894e-14,
+          "cost": 102.93533451755083,
+          "unfairness": 4.6203733393383555
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 4.141490998059088e-15,
+          "cost": 95.29245243976517,
+          "unfairness": 7.378293329282701
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.1064205206635028e-14,
+          "cost": 88.5260966800983,
+          "unfairness": 7.293012490038235
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 88.21413871653752,
+          "unfairness": 7.536510335879802
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 110.95341704094032,
+          "unfairness": 5.606238165825816
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.953844618933741e-15,
+          "cost": 101.50219736603758,
+          "unfairness": 5.1387366412888085
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.72079050454369,
+          "unfairness": 6.963433724451164
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.63124935998003e-15,
+          "cost": 107.29321889310992,
+          "unfairness": 4.946247950858032
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.5240697616974927e-15,
+          "cost": 100.98646500924252,
+          "unfairness": 4.389118148764386
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.509967309212626e-14,
+          "cost": 126.87954513689392,
+          "unfairness": 4.522433724674691
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.32671365739296,
+          "unfairness": 5.168339336390599
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 99.31556826700243,
+          "unfairness": 2.95683346784783
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5335417150881322e-14,
+          "cost": 98.8066596750339,
+          "unfairness": 5.750594166466625
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.2940776410907567e-14,
+          "cost": 92.49072697610737,
+          "unfairness": 9.32253215732837
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.6617116355617232,
+          "cost": 116.7466561087785,
+          "unfairness": 3.978903203405794
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.2073858431435262e-14,
+          "cost": 117.61540181513911,
+          "unfairness": 5.43655391421862
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 3.515507007980289e-15,
+          "cost": 100.39928469529784,
+          "unfairness": 5.570360356629535
+        }
+      ],
+      "seed": 24005,
+      "episode": 160,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_160.pt",
+      "sha256": "4d26b9dc4fe9df103be5d0c6780a17c791704b9c018e28e3c9740ba60854c224",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 2,
+      "gap_kwh": 0.9819884191644264,
+      "objective": 73.43972395714385,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 4.440892098500626e-15,
+          "cost": 95.5256125295132,
+          "unfairness": 3.6113367140645942
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 7.849123611274892e-15,
+          "cost": 120.20362991985009,
+          "unfairness": 5.4270987841084235
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.8606801614407124e-14,
+          "cost": 105.52398366539256,
+          "unfairness": 4.797203457125713
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.2921291377504894e-14,
+          "cost": 103.53224885763451,
+          "unfairness": 4.919176245008273
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 8.44188349134972e-15,
+          "cost": 95.00223617221161,
+          "unfairness": 5.251251130988544
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.142977478440273e-14,
+          "cost": 87.91611333889176,
+          "unfairness": 6.594973166499719
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.1066425073769443e-14,
+          "cost": 87.84482668234338,
+          "unfairness": 5.250620041892373
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 9.59113091030947e-15,
+          "cost": 110.53848407202581,
+          "unfairness": 5.598029105531956
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.3907689237867482e-14,
+          "cost": 100.41094357274197,
+          "unfairness": 5.21820859177336
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.58488879364302,
+          "unfairness": 5.824982528315948
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.1238913447732173e-14,
+          "cost": 107.94376340738256,
+          "unfairness": 4.087558218161979
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.13906798851826718,
+          "cost": 102.02377836223515,
+          "unfairness": 4.638796568586059
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.9318549531366844e-14,
+          "cost": 127.64325321240555,
+          "unfairness": 5.459157735324698
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 83.04785462230524,
+          "unfairness": 5.190000674500808
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.0449804006248676e-15,
+          "cost": 98.16710981741663,
+          "unfairness": 3.7255048812360965
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.353079866608846e-14,
+          "cost": 99.07733806706213,
+          "unfairness": 5.101711600597061
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.1165359302759895e-14,
+          "cost": 92.25919376709419,
+          "unfairness": 4.9236848891985865
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.8429204306459142,
+          "cost": 116.3756697615759,
+          "unfairness": 5.170798710087491
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.954704021729521e-14,
+          "cost": 117.95129224686602,
+          "unfairness": 5.111934459809034
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 5.917803248925516e-15,
+          "cost": 99.99882150658081,
+          "unfairness": 6.080470764711879
+        }
+      ],
+      "seed": 24005,
+      "episode": 180,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_180.pt",
+      "sha256": "26fedde9d9cd8ef25b1b9c464cec1620c6022a7f902d3487f694f8b23e51b068",
+      "state_schema": "pressure21_v1"
+    },
+    {
+      "failed": 4,
+      "gap_kwh": 2.107607672747583,
+      "objective": 73.61966717394333,
+      "scenarios": [
+        {
+          "seed": 80000,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.069229672218436e-14,
+          "cost": 95.0301077378927,
+          "unfairness": 4.573304237662411
+        },
+        {
+          "seed": 80001,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 7.849123611274892e-15,
+          "cost": 120.434004293463,
+          "unfairness": 6.761877862306045
+        },
+        {
+          "seed": 80002,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 3.661460340525652e-14,
+          "cost": 106.59782577511865,
+          "unfairness": 5.559952849836522
+        },
+        {
+          "seed": 80003,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 1.5819412548040664e-14,
+          "cost": 103.85453232894038,
+          "unfairness": 5.094487652541497
+        },
+        {
+          "seed": 80004,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.1714050488240578e-14,
+          "cost": 94.7378328005196,
+          "unfairness": 5.22188851278619
+        },
+        {
+          "seed": 80005,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 2.7543815120907868e-14,
+          "cost": 87.85148594236861,
+          "unfairness": 6.6934750912171115
+        },
+        {
+          "seed": 80006,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 2.4973171193835087e-14,
+          "cost": 87.36486131991693,
+          "unfairness": 5.245158335983061
+        },
+        {
+          "seed": 80007,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 9.59113091030947e-15,
+          "cost": 110.26454912705927,
+          "unfairness": 6.987613777889731
+        },
+        {
+          "seed": 80008,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 1.3907689237867482e-14,
+          "cost": 100.16053535432702,
+          "unfairness": 6.041730009239368
+        },
+        {
+          "seed": 80009,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 103.50556380416731,
+          "unfairness": 5.99852359430531
+        },
+        {
+          "seed": 80010,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 1.880097481679107e-14,
+          "cost": 108.4188343572052,
+          "unfairness": 4.822169002393021
+        },
+        {
+          "seed": 80011,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.5518133557903073,
+          "cost": 102.77392100411925,
+          "unfairness": 5.5207489386261965
+        },
+        {
+          "seed": 80012,
+          "limit": 40,
+          "failed": 2,
+          "gap_kwh": 1.2530495026288149,
+          "cost": 127.25029876469591,
+          "unfairness": 6.652271817685432
+        },
+        {
+          "seed": 80013,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 0.0,
+          "cost": 82.59308661486051,
+          "unfairness": 5.4607535603577055
+        },
+        {
+          "seed": 80014,
+          "limit": 30,
+          "failed": 0,
+          "gap_kwh": 6.0449804006248676e-15,
+          "cost": 97.67646556801444,
+          "unfairness": 4.3826636976562
+        },
+        {
+          "seed": 80015,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.6516003452591664e-14,
+          "cost": 99.59954962421945,
+          "unfairness": 5.587285484255927
+        },
+        {
+          "seed": 80016,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 2.3523456062287517e-14,
+          "cost": 90.64943985570095,
+          "unfairness": 4.36260236251469
+        },
+        {
+          "seed": 80017,
+          "limit": 30,
+          "failed": 1,
+          "gap_kwh": 0.30274481432817457,
+          "cost": 116.81452587015467,
+          "unfairness": 7.497751809059876
+        },
+        {
+          "seed": 80018,
+          "limit": 40,
+          "failed": 0,
+          "gap_kwh": 3.337066462581651e-14,
+          "cost": 118.2548939969496,
+          "unfairness": 6.532030337531162
+        },
+        {
+          "seed": 80019,
+          "limit": 35.0,
+          "failed": 0,
+          "gap_kwh": 9.3853504485121e-15,
+          "cost": 99.74968833179096,
+          "unfairness": 7.290183562244945
+        }
+      ],
+      "seed": 24005,
+      "episode": 200,
+      "path": "artifacts/runs/ppo_half_formal_20261107/engine/artifacts/runs/ppo_24005/ppo_model/episode_200.pt",
+      "sha256": "8d3728960c47fe6ba0108fdad6a0eda2e090e2528779ee29c528975db17c6e33",
+      "state_schema": "pressure21_v1"
+    }
+  ],
+  "formal_test_used_for_selection": false
+}

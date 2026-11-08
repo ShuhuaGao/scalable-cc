@@ -1,0 +1,26 @@
+{
+  "schema": "r106-training-v1",
+  "source_sha256": {
+    "scripts/train_r106.py": "9cc90fe8daf2ea7b4576e270177085aaf4180daf7bacf12c315aa6bb4a9530c7",
+    "scripts/train_il_pressure21.py": "d5e7da5c2385c4bdce535b5b27785148d9f0a56a25a98a131a84e39915e55a74",
+    "configs/pressure21_il.json": "e6945db313c2dd33af72fb458a6d68245c0772ca6c7c87ce2ad486bde93df9c2",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "artifacts/runs/pressure21_v1/expert_cache/manifest.json": "40f749da88a4c3d07ccb2e5497ad6e8030936e4ee546b213269eecbcce55bcf4"
+  },
+  "subsets_sha256": "0a6d1d9d4405ddc5a924b4cb15400299dbeb81a8ec750510ce5a6679b3de851d",
+  "reference_samples": 150174,
+  "widths": {
+    "w64": 64,
+    "w256": 256,
+    "n30": 128,
+    "n60": 128
+  },
+  "seeds": [
+    11002,
+    11003,
+    11004
+  ],
+  "teacher_permutation": "original 128-wide initialization RNG for each seed",
+  "continuation_permutation": "fresh torch generator seeded by training seed",
+  "historical_source_fingerprints_note": "Source hashes document the original execution and may differ from the public implementation; they are not checksums of current source files."
+}

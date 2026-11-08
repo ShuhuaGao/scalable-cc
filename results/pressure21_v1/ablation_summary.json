@@ -1,0 +1,2855 @@
+{
+  "definition": "day means within each training run, then mean and sample SD across three independently trained runs; compare service before F",
+  "groups": [
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "Full",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1649.6952710203227,
+        "sample_sd": 1.9465824238692795
+      },
+      "unfairness": {
+        "mean": 53.225018522685566,
+        "sample_sd": 4.157998908037617
+      },
+      "weighted_objective": {
+        "mean": 1170.7541952710314,
+        "sample_sd": 0.38078433352357133
+      },
+      "all_met": {
+        "mean": 0.9733333333333333,
+        "sample_sd": 0.011547005383792526
+      },
+      "vehicle_met_percent": {
+        "mean": 99.71,
+        "sample_sd": 0.14422205101856045
+      },
+      "gap_kwh": {
+        "mean": 0.012290825706519567,
+        "sample_sd": 0.0026281157438194686
+      },
+      "purchased_kwh": {
+        "mean": 2518.313900720349,
+        "sample_sd": 0.0027664376250897595
+      },
+      "failed_vehicles": {
+        "mean": 0.5800000000000001,
+        "sample_sd": 0.2884441020371191
+      },
+      "total_spp_l1": {
+        "mean": 48.32869477658848,
+        "sample_sd": 7.224170969802053
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6550792859261586,
+        "sample_sd": 0.0007733747016501244
+      },
+      "max_physical_residual": 4.547473508864641e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "LocalRefined",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1652.5427519864977,
+        "sample_sd": 0.649014181524091
+      },
+      "unfairness": {
+        "mean": 77.99660370996399,
+        "sample_sd": 2.11891390296682
+      },
+      "weighted_objective": {
+        "mean": 1180.1789075035374,
+        "sample_sd": 0.1975282379254354
+      },
+      "all_met": {
+        "mean": 0.6866666666666666,
+        "sample_sd": 0.04163331998932263
+      },
+      "vehicle_met_percent": {
+        "mean": 97.59,
+        "sample_sd": 0.5884725991921772
+      },
+      "gap_kwh": {
+        "mean": 0.4626058477281593,
+        "sample_sd": 0.05603540269750685
+      },
+      "purchased_kwh": {
+        "mean": 2517.839884907695,
+        "sample_sd": 0.05898463441843743
+      },
+      "failed_vehicles": {
+        "mean": 4.82,
+        "sample_sd": 1.1769451983843595
+      },
+      "total_spp_l1": {
+        "mean": 228.66115324767074,
+        "sample_sd": 8.688544280461635
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6563335357127427,
+        "sample_sd": 0.0002603826125047835
+      },
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutA",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1649.7557374936407,
+        "sample_sd": 1.7418058897152857
+      },
+      "unfairness": {
+        "mean": 62.050503947762095,
+        "sample_sd": 4.587725309050771
+      },
+      "weighted_objective": {
+        "mean": 1173.444167429877,
+        "sample_sd": 0.26083872946226083
+      },
+      "all_met": {
+        "mean": 0.8333333333333334,
+        "sample_sd": 0.110151410945722
+      },
+      "vehicle_met_percent": {
+        "mean": 98.40333333333334,
+        "sample_sd": 1.119702341398518
+      },
+      "gap_kwh": {
+        "mean": 0.16731455758423883,
+        "sample_sd": 0.0973243685109665
+      },
+      "purchased_kwh": {
+        "mean": 2518.150717844688,
+        "sample_sd": 0.10244670369571195
+      },
+      "failed_vehicles": {
+        "mean": 3.1933333333333334,
+        "sample_sd": 2.239404682797045
+      },
+      "total_spp_l1": {
+        "mean": 101.3711886544526,
+        "sample_sd": 5.918679057599556
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6551457317124503,
+        "sample_sd": 0.000666516759974839
+      },
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutB",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1746.6645890689617,
+        "sample_sd": 1.1007044207606769
+      },
+      "unfairness": {
+        "mean": 273.26927556188645,
+        "sample_sd": 3.108867707474529
+      },
+      "weighted_objective": {
+        "mean": 1304.6459950168392,
+        "sample_sd": 1.459752454570375
+      },
+      "all_met": {
+        "mean": 0.8200000000000001,
+        "sample_sd": 0.09165151389911683
+      },
+      "vehicle_met_percent": {
+        "mean": 99.77666666666667,
+        "sample_sd": 0.10263202878893896
+      },
+      "gap_kwh": {
+        "mean": 0.313918193501902,
+        "sample_sd": 0.12144473540962954
+      },
+      "purchased_kwh": {
+        "mean": 2517.9963982279332,
+        "sample_sd": 0.1278365635890988
+      },
+      "failed_vehicles": {
+        "mean": 0.44666666666666666,
+        "sample_sd": 0.20526405757787536
+      },
+      "total_spp_l1": {
+        "mean": 617.7490430668896,
+        "sample_sd": 7.189782525900142
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6936724089541888,
+        "sample_sd": 0.0004705643092904919
+      },
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutC",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1652.583501267836,
+        "sample_sd": 0.8954826286079639
+      },
+      "unfairness": {
+        "mean": 56.08189573138071,
+        "sample_sd": 1.5405083484180115
+      },
+      "weighted_objective": {
+        "mean": 1173.6330196068993,
+        "sample_sd": 0.5635616565630712
+      },
+      "all_met": {
+        "mean": 0.8466666666666667,
+        "sample_sd": 0.011547005383792526
+      },
+      "vehicle_met_percent": {
+        "mean": 98.67333333333333,
+        "sample_sd": 0.345880518869356
+      },
+      "gap_kwh": {
+        "mean": 0.09891252607050643,
+        "sample_sd": 0.04706983686931717
+      },
+      "purchased_kwh": {
+        "mean": 2518.222719983124,
+        "sample_sd": 0.04954719670464795
+      },
+      "failed_vehicles": {
+        "mean": 2.6533333333333333,
+        "sample_sd": 0.6917610377387073
+      },
+      "total_spp_l1": {
+        "mean": 98.14267897123797,
+        "sample_sd": 2.627696125570595
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6562499417832642,
+        "sample_sd": 0.00036845966036565714
+      },
+      "max_physical_residual": 4.547473508864641e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "Full",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1566.1902820900712,
+        "sample_sd": 1.3541251324992192
+      },
+      "unfairness": {
+        "mean": 62.138333589486365,
+        "sample_sd": 2.791964581316064
+      },
+      "weighted_objective": {
+        "mean": 1114.9746975398957,
+        "sample_sd": 0.3716659432389289
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 2.8224589380751876e-15,
+        "sample_sd": 7.644538777757639e-16
+      },
+      "purchased_kwh": {
+        "mean": 2518.3268384316193,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 27.953798381523814,
+        "sample_sd": 1.235742635180685
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.621917003857003,
+        "sample_sd": 0.0005377082560668345
+      },
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "LocalRefined",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1597.3506122763927,
+        "sample_sd": 1.026094822078967
+      },
+      "unfairness": {
+        "mean": 61.249848292222836,
+        "sample_sd": 1.1419389238117288
+      },
+      "weighted_objective": {
+        "mean": 1136.5203830811417,
+        "sample_sd": 0.3937574288339121
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 9.386890481293593e-15,
+        "sample_sd": 2.0150161687488753e-15
+      },
+      "purchased_kwh": {
+        "mean": 2518.3268384316193,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 29.84806848353039,
+        "sample_sd": 4.953142161207334
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6342904296215982,
+        "sample_sd": 0.00040745101327594504
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutA",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1571.314438780131,
+        "sample_sd": 7.176328989420832
+      },
+      "unfairness": {
+        "mean": 66.1906459882643,
+        "sample_sd": 4.2771231011022905
+      },
+      "weighted_objective": {
+        "mean": 1119.777300942571,
+        "sample_sd": 3.7489840297056443
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 8.338080643284682e-15,
+        "sample_sd": 3.257992083558973e-16
+      },
+      "purchased_kwh": {
+        "mean": 2518.3268384316193,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 37.8163002771505,
+        "sample_sd": 1.9088670109459762
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6239517503449731,
+        "sample_sd": 0.002849641627093229
+      },
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutB",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1672.6649195655616,
+        "sample_sd": 4.999064392752493
+      },
+      "unfairness": {
+        "mean": 356.1510800152371,
+        "sample_sd": 7.307995362956835
+      },
+      "weighted_objective": {
+        "mean": 1277.7107677004642,
+        "sample_sd": 5.1681689493499405
+      },
+      "all_met": {
+        "mean": 0.94,
+        "sample_sd": 0.03464101615137751
+      },
+      "vehicle_met_percent": {
+        "mean": 99.95333333333333,
+        "sample_sd": 0.04618802153516908
+      },
+      "gap_kwh": {
+        "mean": 0.0246256167923488,
+        "sample_sd": 0.032569069523167314
+      },
+      "purchased_kwh": {
+        "mean": 2518.3009167297328,
+        "sample_sd": 0.03428323107704293
+      },
+      "failed_vehicles": {
+        "mean": 0.09333333333333334,
+        "sample_sd": 0.09237604307034013
+      },
+      "total_spp_l1": {
+        "mean": 593.8952349445798,
+        "sample_sd": 1.1942894575751204
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6642037361696254,
+        "sample_sd": 0.0019767152275330224
+      },
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutC",
+      "runs": 3,
+      "days_per_run": 50,
+      "cost": {
+        "mean": 1581.8152015543392,
+        "sample_sd": 0.7722789733645922
+      },
+      "unfairness": {
+        "mean": 55.88414030982136,
+        "sample_sd": 0.20137919291743347
+      },
+      "weighted_objective": {
+        "mean": 1124.0358831809835,
+        "sample_sd": 0.4961344783838429
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 5.0735085506690015e-15,
+        "sample_sd": 2.7966828973100985e-16
+      },
+      "purchased_kwh": {
+        "mean": 2518.3268384316193,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 26.620213339961104,
+        "sample_sd": 0.39916673004573666
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6281214882097961,
+        "sample_sd": 0.0003066635202305423
+      },
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "Full",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 7831.132871032294,
+        "sample_sd": 8.026151260708152
+      },
+      "unfairness": {
+        "mean": 302.2681898011658,
+        "sample_sd": 14.104460782466587
+      },
+      "weighted_objective": {
+        "mean": 5572.473466662955,
+        "sample_sd": 3.4599572560169904
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 3.57299159499861e-15,
+        "sample_sd": 3.1387400580862548e-15
+      },
+      "purchased_kwh": {
+        "mean": 12666.294462203445,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 136.31410571414105,
+        "sample_sd": 3.474051527688963
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.618265499385049,
+        "sample_sd": 0.0006336621404672012
+      },
+      "max_physical_residual": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "LocalRefined",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 7965.949940569139,
+        "sample_sd": 6.628766034299336
+      },
+      "unfairness": {
+        "mean": 285.05844707875406,
+        "sample_sd": 3.9657848209329285
+      },
+      "weighted_objective": {
+        "mean": 5661.682492522023,
+        "sample_sd": 3.45082046601145
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 1.574788087225718e-14,
+        "sample_sd": 8.604683192120711e-15
+      },
+      "purchased_kwh": {
+        "mean": 12666.294462203445,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 132.34030332096515,
+        "sample_sd": 15.402565003596978
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6289092650056212,
+        "sample_sd": 0.0005233390123749484
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutA",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 7840.740748693666,
+        "sample_sd": 35.63935713658743
+      },
+      "unfairness": {
+        "mean": 318.03805502055565,
+        "sample_sd": 24.782520544067193
+      },
+      "weighted_objective": {
+        "mean": 5583.929940591733,
+        "sample_sd": 17.516999864782694
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 1.2118233862620275e-14,
+        "sample_sd": 2.597691821705407e-15
+      },
+      "purchased_kwh": {
+        "mean": 12666.294462203445,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 169.85497825172132,
+        "sample_sd": 14.26240283717534
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6190240383318611,
+        "sample_sd": 0.0028137161379705204
+      },
+      "max_physical_residual": 9.094947017729282e-13
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutB",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 8355.800065733594,
+        "sample_sd": 28.07408905791884
+      },
+      "unfairness": {
+        "mean": 1835.4902763194373,
+        "sample_sd": 51.5053568790553
+      },
+      "weighted_objective": {
+        "mean": 6399.7071289093465,
+        "sample_sd": 33.27768304734079
+      },
+      "all_met": {
+        "mean": 0.7777777777777778,
+        "sample_sd": 0.3849001794597505
+      },
+      "vehicle_met_percent": {
+        "mean": 99.92222222222222,
+        "sample_sd": 0.13471506281091322
+      },
+      "gap_kwh": {
+        "mean": 0.23888875872704757,
+        "sample_sd": 0.4137674674710907
+      },
+      "purchased_kwh": {
+        "mean": 12666.043000352154,
+        "sample_sd": 0.4355447026015507
+      },
+      "failed_vehicles": {
+        "mean": 0.7777777777777778,
+        "sample_sd": 1.3471506281091268
+      },
+      "total_spp_l1": {
+        "mean": 2921.1552407080067,
+        "sample_sd": 10.296487621934233
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6597008643811816,
+        "sample_sd": 0.0021969132782815666
+      },
+      "max_physical_residual": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutC",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 7901.1877751465445,
+        "sample_sd": 2.6234580949923383
+      },
+      "unfairness": {
+        "mean": 264.76837587822274,
+        "sample_sd": 1.7968223604710853
+      },
+      "weighted_objective": {
+        "mean": 5610.261955366048,
+        "sample_sd": 1.362760861191197
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 7.248105785457415e-15,
+        "sample_sd": 4.709262066023953e-15
+      },
+      "purchased_kwh": {
+        "mean": 12666.294462203445,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 113.75144832507068,
+        "sample_sd": 2.3213090986933684
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6237963122303761,
+        "sample_sd": 0.00020712119892851596
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "Full",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 23230.603940486497,
+        "sample_sd": 24.838161235228608
+      },
+      "unfairness": {
+        "mean": 953.9992481571348,
+        "sample_sd": 46.86644687383638
+      },
+      "weighted_objective": {
+        "mean": 16547.62253278769,
+        "sample_sd": 9.43349731156744
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 3.1188851258486484e-14,
+        "sample_sd": 1.2184408245611728e-14
+      },
+      "purchased_kwh": {
+        "mean": 38017.54900530244,
+        "sample_sd": 4.200776087161108e-12
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 439.4116289019537,
+        "sample_sd": 26.27071204822057
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6110494902563668,
+        "sample_sd": 0.0006533341018845335
+      },
+      "max_physical_residual": 7.275957614183426e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "LocalRefined",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 23807.61088766505,
+        "sample_sd": 29.785416682311638
+      },
+      "unfairness": {
+        "mean": 910.0394564022056,
+        "sample_sd": 14.646536665277388
+      },
+      "weighted_objective": {
+        "mean": 16938.339458286195,
+        "sample_sd": 16.540527168738425
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 1.4227762493122902e-13,
+        "sample_sd": 3.198431851395204e-14
+      },
+      "purchased_kwh": {
+        "mean": 38017.54900530243,
+        "sample_sd": 4.200776087161108e-12
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 481.5301104980563,
+        "sample_sd": 72.71439369727248
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6262268744453916,
+        "sample_sd": 0.0007834649382094648
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutA",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 23333.696913658347,
+        "sample_sd": 136.69914957762666
+      },
+      "unfairness": {
+        "mean": 972.5696603941853,
+        "sample_sd": 71.36193995405056
+      },
+      "weighted_objective": {
+        "mean": 16625.3587376791,
+        "sample_sd": 74.33761280067947
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 9.912759768530818e-14,
+        "sample_sd": 1.5218193196884224e-14
+      },
+      "purchased_kwh": {
+        "mean": 38017.54900530244,
+        "sample_sd": 4.200776087161108e-12
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 587.3320371005417,
+        "sample_sd": 16.52735192967606
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6137612109187764,
+        "sample_sd": 0.0035956854966783325
+      },
+      "max_physical_residual": 3.637978807091713e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutB",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 25019.233768885482,
+        "sample_sd": 116.29980836556199
+      },
+      "unfairness": {
+        "mean": 5454.84756889692,
+        "sample_sd": 145.20770515322664
+      },
+      "weighted_objective": {
+        "mean": 19149.91790888891,
+        "sample_sd": 119.01796593473877
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 2.193374974847313e-12,
+        "sample_sd": 2.1464351712443032e-13
+      },
+      "purchased_kwh": {
+        "mean": 38017.54900530243,
+        "sample_sd": 4.200776087161108e-12
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 8945.625211827493,
+        "sample_sd": 36.94538092415012
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6580969689917665,
+        "sample_sd": 0.00305910852773124
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutC",
+      "runs": 3,
+      "days_per_run": 3,
+      "cost": {
+        "mean": 23518.77698654795,
+        "sample_sd": 5.456271906162212
+      },
+      "unfairness": {
+        "mean": 814.84262285182,
+        "sample_sd": 9.08348039414081
+      },
+      "weighted_objective": {
+        "mean": 16707.59667743911,
+        "sample_sd": 4.527587857417295
+      },
+      "all_met": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "vehicle_met_percent": {
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "gap_kwh": {
+        "mean": 6.352605253116158e-14,
+        "sample_sd": 1.0972963301781792e-14
+      },
+      "purchased_kwh": {
+        "mean": 38017.54900530244,
+        "sample_sd": 0.0
+      },
+      "failed_vehicles": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "total_spp_l1": {
+        "mean": 409.98005955039184,
+        "sample_sd": 6.13712192687879
+      },
+      "cost_per_purchased_kwh": {
+        "mean": 0.6186294909034694,
+        "sample_sd": 0.00014351982305321048
+      },
+      "max_physical_residual": 5.551115123125783e-17
+    }
+  ],
+  "run_summaries": [
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "Full",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1651.9083121304993,
+      "unfairness": 48.912624497521136,
+      "weighted_objective": 1171.0096058406057,
+      "all_met": 0.98,
+      "vehicle_met_percent": 99.75,
+      "gap_kwh": 0.013528384184538333,
+      "purchased_kwh": 2518.3125980272143,
+      "failed_vehicles": 0.5,
+      "total_spp_l1": 41.470834903067825,
+      "cost_per_purchased_kwh": 0.6559584038234827,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "LocalRefined",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1653.1892521768298,
+      "unfairness": 76.08800676854466,
+      "weighted_objective": 1180.0588785543441,
+      "all_met": 0.64,
+      "vehicle_met_percent": 96.93,
+      "gap_kwh": 0.5028728165835668,
+      "purchased_kwh": 2517.797498624689,
+      "failed_vehicles": 6.14,
+      "total_spp_l1": 218.94517371301697,
+      "cost_per_purchased_kwh": 0.6566013561773179,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutA",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1651.6965636706689,
+      "unfairness": 56.78195194205503,
+      "weighted_objective": 1173.2221801520845,
+      "all_met": 0.96,
+      "vehicle_met_percent": 99.69,
+      "gap_kwh": 0.05515978442492774,
+      "purchased_kwh": 2518.2687755006455,
+      "failed_vehicles": 0.62,
+      "total_spp_l1": 97.95504581018548,
+      "cost_per_purchased_kwh": 0.6558857337784775,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutB",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1746.9055312290873,
+      "unfairness": 270.4635894810626,
+      "weighted_objective": 1303.9729487046798,
+      "all_met": 0.8,
+      "vehicle_met_percent": 99.75,
+      "gap_kwh": 0.3838545340937176,
+      "purchased_kwh": 2517.92278102731,
+      "failed_vehicles": 0.5,
+      "total_spp_l1": 614.6697968971099,
+      "cost_per_purchased_kwh": 0.6937883657084795,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutC",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1652.0541983583319,
+      "unfairness": 57.86051194652188,
+      "weighted_objective": 1173.7960924347888,
+      "all_met": 0.84,
+      "vehicle_met_percent": 98.81,
+      "gap_kwh": 0.07570252785508844,
+      "purchased_kwh": 2518.247151560193,
+      "failed_vehicles": 2.38,
+      "total_spp_l1": 95.13161818487487,
+      "cost_per_purchased_kwh": 0.6560333831152328,
+      "max_physical_residual": 4.547473508864641e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "Full",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1648.2481335008624,
+      "unfairness": 57.20916472713188,
+      "weighted_objective": 1170.9364428687431,
+      "all_met": 0.98,
+      "vehicle_met_percent": 99.83,
+      "gap_kwh": 0.009272394592128119,
+      "purchased_kwh": 2518.317078016259,
+      "failed_vehicles": 0.34,
+      "total_spp_l1": 55.87052693286451,
+      "cost_per_purchased_kwh": 0.6545038144280181,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "LocalRefined",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1652.5477510889616,
+      "unfairness": 77.62510452846966,
+      "weighted_objective": 1180.070957120814,
+      "all_met": 0.72,
+      "vehicle_met_percent": 98.06,
+      "gap_kwh": 0.39861013843816673,
+      "purchased_kwh": 2517.9072488122106,
+      "failed_vehicles": 3.88,
+      "total_spp_l1": 235.6849241616476,
+      "cost_per_purchased_kwh": 0.6563179608258124,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutA",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1648.3283965438961,
+      "unfairness": 65.16331242984252,
+      "weighted_objective": 1173.3788713096799,
+      "all_met": 0.76,
+      "vehicle_met_percent": 97.65,
+      "gap_kwh": 0.21722648803753916,
+      "purchased_kwh": 2518.098178970527,
+      "failed_vehicles": 4.7,
+      "total_spp_l1": 97.95302970354012,
+      "cost_per_purchased_kwh": 0.6545925851142871,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutB",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1747.6248632773402,
+      "unfairness": 276.61148773541396,
+      "weighted_objective": 1306.3208506147623,
+      "all_met": 0.74,
+      "vehicle_met_percent": 99.69,
+      "gap_kwh": 0.38421400069679623,
+      "purchased_kwh": 2517.922402641412,
+      "failed_vehicles": 0.62,
+      "total_spp_l1": 612.6117166208063,
+      "cost_per_purchased_kwh": 0.694074154725342,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutC",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1652.0788881643045,
+      "unfairness": 55.168939347482464,
+      "weighted_objective": 1173.0059035192578,
+      "all_met": 0.86,
+      "vehicle_met_percent": 98.93,
+      "gap_kwh": 0.06795531741082689,
+      "purchased_kwh": 2518.2553065185552,
+      "failed_vehicles": 2.14,
+      "total_spp_l1": 99.97212545534207,
+      "cost_per_purchased_kwh": 0.6560410629882778,
+      "max_physical_residual": 4.547473508864641e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "Full",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1648.9293674296064,
+      "unfairness": 53.55326634340369,
+      "weighted_objective": 1170.3165371037455,
+      "all_met": 0.96,
+      "vehicle_met_percent": 99.55,
+      "gap_kwh": 0.01407169834289225,
+      "purchased_kwh": 2518.312026117574,
+      "failed_vehicles": 0.9,
+      "total_spp_l1": 47.64472249383309,
+      "cost_per_purchased_kwh": 0.6547756395269749,
+      "max_physical_residual": 4.547473508864641e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "LocalRefined",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1651.8912526937015,
+      "unfairness": 80.27669983287767,
+      "weighted_objective": 1180.4068868354543,
+      "all_met": 0.7,
+      "vehicle_met_percent": 97.78,
+      "gap_kwh": 0.48633458816274455,
+      "purchased_kwh": 2517.8149072861847,
+      "failed_vehicles": 4.44,
+      "total_spp_l1": 231.35336186834766,
+      "cost_per_purchased_kwh": 0.6560812901350976,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutA",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1649.2422522663574,
+      "unfairness": 64.20624747138874,
+      "weighted_objective": 1173.7314508278666,
+      "all_met": 0.78,
+      "vehicle_met_percent": 97.87,
+      "gap_kwh": 0.2295574002902496,
+      "purchased_kwh": 2518.0851990628926,
+      "failed_vehicles": 4.26,
+      "total_spp_l1": 108.20549044963217,
+      "cost_per_purchased_kwh": 0.6549588762445863,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutB",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1745.463372700458,
+      "unfairness": 272.7327494691828,
+      "weighted_objective": 1303.6441857310754,
+      "all_met": 0.92,
+      "vehicle_met_percent": 99.89,
+      "gap_kwh": 0.173686045715192,
+      "purchased_kwh": 2518.144011015077,
+      "failed_vehicles": 0.22,
+      "total_spp_l1": 625.9656156827525,
+      "cost_per_purchased_kwh": 0.6931547064287449,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "WithoutC",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1653.617417280872,
+      "unfairness": 55.2162359001378,
+      "weighted_objective": 1174.0970628666516,
+      "all_met": 0.84,
+      "vehicle_met_percent": 98.28,
+      "gap_kwh": 0.15307973294560398,
+      "purchased_kwh": 2518.1657018706237,
+      "failed_vehicles": 3.44,
+      "total_spp_l1": 99.32429327349696,
+      "cost_per_purchased_kwh": 0.656675379246282,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "Full",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1567.7538378912354,
+      "unfairness": 59.1806915123004,
+      "weighted_objective": 1115.1818939775549,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 2.081199377515679e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 26.855727622180126,
+      "cost_per_purchased_kwh": 0.6225378747373443,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "LocalRefined",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1598.0272744379715,
+      "unfairness": 60.773562351381855,
+      "weighted_objective": 1136.8511608119945,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.221495228521844e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 24.13041618137169,
+      "cost_per_purchased_kwh": 0.6345591247533231,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutA",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1579.57809985495,
+      "unfairness": 61.253551046305255,
+      "weighted_objective": 1124.0807352123566,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.513214922744251e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 37.7126323009654,
+      "cost_per_purchased_kwh": 0.6272331596317698,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutB",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1672.5408569303872,
+      "unfairness": 349.48121455447995,
+      "weighted_objective": 1275.622964217615,
+      "all_met": 0.96,
+      "vehicle_met_percent": 99.98,
+      "gap_kwh": 0.011319494286307118,
+      "purchased_kwh": 2518.314923174476,
+      "failed_vehicles": 0.04,
+      "total_spp_l1": 594.2595696526375,
+      "cost_per_purchased_kwh": 0.6641507944614238,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutC",
+      "training_seed": 11002,
+      "days": 50,
+      "cost": 1581.9336875521924,
+      "unfairness": 56.009980174615194,
+      "weighted_objective": 1124.156575338919,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 5.396015812892195e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 26.332933150955,
+      "cost_per_purchased_kwh": 0.6281685377015638,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "Full",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1565.3973320388304,
+      "unfairness": 64.7281592323757,
+      "weighted_objective": 1115.196580196894,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 2.778009895532401e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 27.71369478990538,
+      "cost_per_purchased_kwh": 0.6216021320781934,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "LocalRefined",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1597.8545797312859,
+      "unfairness": 60.423149357647944,
+      "weighted_objective": 1136.6251506191945,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.225546654923196e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 32.82919092582152,
+      "cost_per_purchased_kwh": 0.6344905495771187,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutA",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1567.7151746656123,
+      "unfairness": 68.77145285771307,
+      "weighted_objective": 1118.0320581232425,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.538855509311883e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 35.96137969831182,
+      "cost_per_purchased_kwh": 0.6225225219939937,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutB",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1677.7248605611844,
+      "unfairness": 363.96278248244016,
+      "weighted_objective": 1283.596237137561,
+      "all_met": 0.96,
+      "vehicle_met_percent": 99.98,
+      "gap_kwh": 0.0008163305078674773,
+      "purchased_kwh": 2518.325979136348,
+      "failed_vehicles": 0.04,
+      "total_spp_l1": 592.5612114910952,
+      "cost_per_purchased_kwh": 0.6662063904596477,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutC",
+      "training_seed": 11003,
+      "days": 50,
+      "cost": 1580.9905269033784,
+      "unfairness": 55.99056271017553,
+      "weighted_objective": 1123.4905376454174,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 4.926612901346066e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 27.076001873718415,
+      "cost_per_purchased_kwh": 0.6277940189399716,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "Full",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1565.4196763401478,
+      "unfairness": 62.506150023782986,
+      "weighted_objective": 1114.5456184452382,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 3.608167541177482e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 29.29197273248594,
+      "cost_per_purchased_kwh": 0.6216110047554712,
+      "max_physical_residual": 3.410605131648481e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "LocalRefined",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1596.1699826599208,
+      "unfairness": 62.55283316763872,
+      "weighted_objective": 1136.0848378122362,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.1713629560435736e-14,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 32.58459834339796,
+      "cost_per_purchased_kwh": 0.6338216145343527,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutA",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1566.6500418198304,
+      "unfairness": 68.54693406077457,
+      "weighted_objective": 1117.2191094921136,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 7.96217149779791e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 39.77488883217428,
+      "cost_per_purchased_kwh": 0.6220995694091556,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutB",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1667.7290412051134,
+      "unfairness": 355.0092430087911,
+      "weighted_objective": 1273.9131017462166,
+      "all_met": 0.9,
+      "vehicle_met_percent": 99.9,
+      "gap_kwh": 0.061741025582871804,
+      "purchased_kwh": 2518.2618478783743,
+      "failed_vehicles": 0.2,
+      "total_spp_l1": 594.8649236900067,
+      "cost_per_purchased_kwh": 0.6622540235878047,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "WithoutC",
+      "training_seed": 11004,
+      "days": 50,
+      "cost": 1582.5213902074465,
+      "unfairness": 55.65187804467336,
+      "weighted_objective": 1124.4605365586144,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 4.897896937768745e-15,
+      "purchased_kwh": 2518.3268384316193,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 26.4517049952099,
+      "cost_per_purchased_kwh": 0.6284019079878528,
+      "max_physical_residual": 2.2737367544323206e-13
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "Full",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 7840.157260218759,
+      "unfairness": 287.48105794304763,
+      "weighted_objective": 5574.354399536045,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 0.0,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 132.31079625653496,
+      "cost_per_purchased_kwh": 0.618977972098627,
+      "max_physical_residual": 9.094947017729282e-13
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "LocalRefined",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 7971.579455322506,
+      "unfairness": 281.762430372329,
+      "weighted_objective": 5664.634347837453,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.821797551968193e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 114.63244884378682,
+      "cost_per_purchased_kwh": 0.62935371344081,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutA",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 7881.883597539625,
+      "unfairness": 289.42221701970493,
+      "weighted_objective": 5604.145183383649,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.3266961676626926e-14,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 164.20675602422162,
+      "cost_per_purchased_kwh": 0.6222722534249755,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutB",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 8355.73236176631,
+      "unfairness": 1799.2695425458594,
+      "weighted_objective": 6388.793516000174,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 7.487525019778918e-13,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 2925.9761273936174,
+      "cost_per_purchased_kwh": 0.6596824656729743,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutC",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 7903.001717331468,
+      "unfairness": 264.3162223460361,
+      "weighted_objective": 5611.396068835838,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.2646321955376626e-14,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 114.76181580787448,
+      "cost_per_purchased_kwh": 0.6239395224005121,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "Full",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 7828.448080039303,
+      "unfairness": 315.57287766452026,
+      "weighted_objective": 5574.585519326868,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 4.833191421786308e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 138.09401947465176,
+      "cost_per_purchased_kwh": 0.6180535359729397,
+      "max_physical_residual": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "LocalRefined",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 7967.626503918999,
+      "unfairness": 283.95333817162924,
+      "weighted_objective": 5662.524554194788,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.3041433070778807e-14,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 142.63051954556545,
+      "cost_per_purchased_kwh": 0.6290416291595466,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutA",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 7820.952439037608,
+      "unfairness": 332.49987707135494,
+      "weighted_objective": 5574.416670447731,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 9.144219750368113e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 159.28172679138774,
+      "cost_per_purchased_kwh": 0.6174617574520737,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutB",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 8383.907945546558,
+      "unfairness": 1894.4521501663928,
+      "weighted_objective": 6437.071206932508,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 6.585179281594476e-13,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 2909.3327335095946,
+      "cost_per_purchased_kwh": 0.6619069192307473,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutC",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 7898.179675145972,
+      "unfairness": 266.74808843392213,
+      "weighted_objective": 5608.750199132357,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 3.981903489974313e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 115.3963446040276,
+      "cost_per_purchased_kwh": 0.6235588236728861,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "Full",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 7824.79327283882,
+      "unfairness": 303.75063379592956,
+      "weighted_objective": 5568.480481125952,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 5.885783363209522e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 138.53750141123643,
+      "cost_per_purchased_kwh": 0.6177649900835803,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "LocalRefined",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 7958.6438624659095,
+      "unfairness": 289.4595726923039,
+      "weighted_objective": 5657.888575533828,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 2.5380411994024546e-14,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 139.75794157354318,
+      "cost_per_purchased_kwh": 0.6283324524165067,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutA",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 7819.386209503766,
+      "unfairness": 332.192070970607,
+      "weighted_objective": 5573.227967943818,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.3943520160865785e-14,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 186.07645193955457,
+      "cost_per_purchased_kwh": 0.6173381041185343,
+      "max_physical_residual": 9.094947017729282e-13
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutB",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 8327.759889887913,
+      "unfairness": 1812.7491362460594,
+      "weighted_objective": 6373.256663795357,
+      "all_met": 0.3333333333333333,
+      "vehicle_met_percent": 99.76666666666667,
+      "gap_kwh": 0.7166662761797354,
+      "purchased_kwh": 12665.540076649571,
+      "failed_vehicles": 2.3333333333333335,
+      "total_spp_l1": 2928.1568612208084,
+      "cost_per_purchased_kwh": 0.6575132082398231,
+      "max_physical_residual": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "WithoutC",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 7902.381932962193,
+      "unfairness": 263.24081685471003,
+      "weighted_objective": 5610.639598129947,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 5.116091911021307e-15,
+      "purchased_kwh": 12666.294462203445,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 111.09618456330998,
+      "cost_per_purchased_kwh": 0.6238905906177302,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "Full",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 23258.549361861435,
+      "unfairness": 903.0797300898895,
+      "weighted_objective": 16551.90847232997,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.9525047532873707e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 428.7045755156873,
+      "cost_per_purchased_kwh": 0.611784556616669,
+      "max_physical_residual": 7.275957614183426e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "LocalRefined",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 23803.019283798913,
+      "unfairness": 909.3466294380729,
+      "weighted_objective": 16934.91748749066,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.2239459588741082e-13,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 398.1532606522796,
+      "cost_per_purchased_kwh": 0.6261060985409402,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutA",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 23491.53969951893,
+      "unfairness": 890.3030524453703,
+      "weighted_objective": 16711.168705396864,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.130332317755226e-13,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 591.1752319823986,
+      "cost_per_purchased_kwh": 0.6179130510555134,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutB",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 25005.03900154888,
+      "unfairness": 5339.652023356687,
+      "weighted_objective": 19105.42290809122,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 2.272119656221311e-12,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 8917.58855684221,
+      "cost_per_purchased_kwh": 0.6577235949130057,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutC",
+      "training_seed": 11002,
+      "days": 3,
+      "cost": 23515.356168172628,
+      "unfairness": 806.4723221486627,
+      "weighted_objective": 16702.69101436544,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 6.814559988148425e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 406.70690036192156,
+      "cost_per_purchased_kwh": 0.6185395109214659,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "Full",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 23222.219102532024,
+      "unfairness": 995.3292892433152,
+      "weighted_objective": 16554.15215854541,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 3.020704882160997e-14,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 420.1852945833104,
+      "cost_per_purchased_kwh": 0.6108289384803092,
+      "max_physical_residual": 7.275957614183426e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "LocalRefined",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 23839.42547899388,
+      "unfairness": 895.7516282098412,
+      "weighted_objective": 16956.323323758665,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.2526555902615315e-13,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 531.7980886207356,
+      "cost_per_purchased_kwh": 0.6270637140671251,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutA",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 23255.72352340421,
+      "unfairness": 1017.7871272513011,
+      "weighted_objective": 16584.342604558336,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.0147899525452997e-13,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 569.2216857967485,
+      "cost_per_purchased_kwh": 0.6117102267734477,
+      "max_physical_residual": 3.637978807091713e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutB",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 25141.979442039887,
+      "unfairness": 5617.957271568979,
+      "weighted_objective": 19284.772790898613,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.950480409796422e-12,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 8987.489915288252,
+      "cost_per_purchased_kwh": 0.6613256272394953,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutC",
+      "training_seed": 11003,
+      "days": 3,
+      "cost": 23525.069360854013,
+      "unfairness": 813.5539111595779,
+      "weighted_objective": 16711.61472594568,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 5.099860982970834e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 406.17337842695275,
+      "cost_per_purchased_kwh": 0.6187950032647525,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "Full",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 23211.043357066035,
+      "unfairness": 963.5887251381997,
+      "weighted_objective": 16536.806967487682,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 4.383445742097577e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 469.34501660686345,
+      "cost_per_purchased_kwh": 0.6105349756721221,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "LocalRefined",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 23780.387900202357,
+      "unfairness": 925.0201115587025,
+      "weighted_objective": 16923.77756360926,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 1.7917271988012308e-13,
+      "purchased_kwh": 38017.54900530243,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 514.6389822211537,
+      "cost_per_purchased_kwh": 0.6255108107281094,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutA",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 23253.8275180519,
+      "unfairness": 1009.6188014858847,
+      "weighted_objective": 16580.564903082097,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 8.287056602587198e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 601.599193522478,
+      "cost_per_purchased_kwh": 0.6116603549273683,
+      "max_physical_residual": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutB",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 24910.682863067683,
+      "unfairness": 5406.933411765093,
+      "weighted_objective": 19059.558027676903,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 2.3575248585242055e-12,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 8931.797163352017,
+      "cost_per_purchased_kwh": 0.6552416848227987,
+      "max_physical_residual": 5.551115123125783e-17
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "WithoutC",
+      "training_seed": 11004,
+      "days": 3,
+      "cost": 23515.905430617204,
+      "unfairness": 824.5016352472196,
+      "weighted_objective": 16708.484292006207,
+      "all_met": 1.0,
+      "vehicle_met_percent": 100.0,
+      "gap_kwh": 7.143394788229216e-14,
+      "purchased_kwh": 38017.54900530244,
+      "failed_vehicles": 0.0,
+      "total_spp_l1": 417.0598998623013,
+      "cost_per_purchased_kwh": 0.61855395852419,
+      "max_physical_residual": 5.551115123125783e-17
+    }
+  ],
+  "paired_run_differences": [
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11002,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -1.2809400463303564,
+      "unfairness_delta": -27.175382271023523,
+      "weighted_objective_delta": -9.04927271373831,
+      "all_met_delta": 0.34,
+      "vehicle_met_percent_delta": 2.82,
+      "gap_kwh_delta": -0.4893444323990284,
+      "lower_objective_days": 46
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": 0.21174845983043725,
+      "unfairness_delta": -7.869327444533897,
+      "weighted_objective_delta": -2.212574311478852,
+      "all_met_delta": 0.02,
+      "vehicle_met_percent_delta": 0.06,
+      "gap_kwh_delta": -0.04163140024038941,
+      "lower_objective_days": 40
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -94.99721909858802,
+      "unfairness_delta": -221.5509649835415,
+      "weighted_objective_delta": -132.96334286407406,
+      "all_met_delta": 0.18,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -0.3703261499091792,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -0.14588622783265692,
+      "unfairness_delta": -8.947887449000744,
+      "weighted_objective_delta": -2.786486594183066,
+      "all_met_delta": 0.14,
+      "vehicle_met_percent_delta": 0.94,
+      "gap_kwh_delta": -0.062174143670550096,
+      "lower_objective_days": 44
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11003,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -4.2996175880992045,
+      "unfairness_delta": -20.415939801337785,
+      "weighted_objective_delta": -9.13451425207079,
+      "all_met_delta": 0.26,
+      "vehicle_met_percent_delta": 1.77,
+      "gap_kwh_delta": -0.3893377438460386,
+      "lower_objective_days": 49
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": -0.08026304303360575,
+      "unfairness_delta": -7.954147702710642,
+      "weighted_objective_delta": -2.442428440936719,
+      "all_met_delta": 0.22,
+      "vehicle_met_percent_delta": 2.18,
+      "gap_kwh_delta": -0.20795409344541105,
+      "lower_objective_days": 42
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -99.37672977647782,
+      "unfairness_delta": -219.4023230082821,
+      "weighted_objective_delta": -135.3844077460191,
+      "all_met_delta": 0.24,
+      "vehicle_met_percent_delta": 0.14,
+      "gap_kwh_delta": -0.37494160610466815,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -3.830754663442044,
+      "unfairness_delta": 2.040225379649411,
+      "weighted_objective_delta": -2.0694606505146202,
+      "all_met_delta": 0.12,
+      "vehicle_met_percent_delta": 0.9,
+      "gap_kwh_delta": -0.05868292281869876,
+      "lower_objective_days": 42
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11004,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -2.96188526409514,
+      "unfairness_delta": -26.72343348947398,
+      "weighted_objective_delta": -10.090349731708775,
+      "all_met_delta": 0.26,
+      "vehicle_met_percent_delta": 1.77,
+      "gap_kwh_delta": -0.47226288981985226,
+      "lower_objective_days": 48
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": -0.3128848367509818,
+      "unfairness_delta": -10.652981127985045,
+      "weighted_objective_delta": -3.414913724121161,
+      "all_met_delta": 0.18,
+      "vehicle_met_percent_delta": 1.68,
+      "gap_kwh_delta": -0.21548570194735733,
+      "lower_objective_days": 45
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -96.5340052708516,
+      "unfairness_delta": -219.17948312577911,
+      "weighted_objective_delta": -133.32764862732984,
+      "all_met_delta": 0.04,
+      "vehicle_met_percent_delta": -0.34,
+      "gap_kwh_delta": -0.15961434737229974,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -4.6880498512654825,
+      "unfairness_delta": -1.6629695567341016,
+      "weighted_objective_delta": -3.78052576290605,
+      "all_met_delta": 0.12,
+      "vehicle_met_percent_delta": 1.27,
+      "gap_kwh_delta": -0.13900803460271174,
+      "lower_objective_days": 47
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11002,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -30.27343654673603,
+      "unfairness_delta": -1.592870839081459,
+      "weighted_objective_delta": -21.66926683443962,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -6.1402958510061644e-15,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": -11.82426196371458,
+      "unfairness_delta": -2.072859534004854,
+      "weighted_objective_delta": -8.89884123480162,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -6.432015545228573e-15,
+      "lower_objective_days": 45
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -104.78701903915179,
+      "unfairness_delta": -290.3005230421795,
+      "weighted_objective_delta": -160.44107024006007,
+      "all_met_delta": 0.04,
+      "vehicle_met_percent_delta": 0.02,
+      "gap_kwh_delta": -0.011319494286305038,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -14.179849660956975,
+      "unfairness_delta": 3.170711337685208,
+      "weighted_objective_delta": -8.974681361364274,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -3.3148164353765154e-15,
+      "lower_objective_days": 49
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11003,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -32.45724769245547,
+      "unfairness_delta": 4.305009874727759,
+      "weighted_objective_delta": -21.42857042230049,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -5.447536759390796e-15,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": -2.3178426267818577,
+      "unfairness_delta": -4.043293625337373,
+      "weighted_objective_delta": -2.835477926348499,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -5.760845613779483e-15,
+      "lower_objective_days": 37
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -112.32752852235393,
+      "unfairness_delta": -299.2346232500645,
+      "weighted_objective_delta": -168.39965694066706,
+      "all_met_delta": 0.04,
+      "vehicle_met_percent_delta": 0.02,
+      "gap_kwh_delta": -0.0008163305078646993,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -15.593194864547954,
+      "unfairness_delta": 8.737596522200166,
+      "weighted_objective_delta": -8.293957448523512,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -2.1486030058136648e-15,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11004,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 50,
+      "cost_delta": -30.75030631977318,
+      "unfairness_delta": -0.046683143855728845,
+      "weighted_objective_delta": -21.53921936699793,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -8.105462019258254e-15,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutA",
+      "days": 50,
+      "cost_delta": -1.2303654796827594,
+      "unfairness_delta": -6.0407840369915915,
+      "weighted_objective_delta": -2.6734910468754083,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -4.354003956620426e-15,
+      "lower_objective_days": 38
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutB",
+      "days": 50,
+      "cost_delta": -102.3093648649656,
+      "unfairness_delta": -292.5030929850081,
+      "weighted_objective_delta": -159.36748330097834,
+      "all_met_delta": 0.1,
+      "vehicle_met_percent_delta": 0.1,
+      "gap_kwh_delta": -0.061741025582868196,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "formal",
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutC",
+      "days": 50,
+      "cost_delta": -17.10171386729879,
+      "unfairness_delta": 6.85427197910963,
+      "weighted_objective_delta": -9.914918113376267,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.2897293965912623e-15,
+      "lower_objective_days": 50
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -131.42219510374767,
+      "unfairness_delta": 5.71862757071862,
+      "weighted_objective_delta": -90.27994830140808,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -8.821797551968193e-15,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": -41.726337320866456,
+      "unfairness_delta": -1.9411590766573188,
+      "weighted_objective_delta": -29.79078384760366,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.3266961676626926e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -515.5751015475513,
+      "unfairness_delta": -1511.7884846028116,
+      "weighted_objective_delta": -814.4391164641293,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -7.487525019778918e-13,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -62.844457112709584,
+      "unfairness_delta": 23.16483559701148,
+      "weighted_objective_delta": -37.04166929979298,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.2646321955376626e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -139.1784238796963,
+      "unfairness_delta": 31.619539492891032,
+      "weighted_objective_delta": -87.93903486791957,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -8.208241648992498e-15,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": 7.495641001695428,
+      "unfairness_delta": -16.926999406834682,
+      "weighted_objective_delta": 0.16884887913693092,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -4.311028328581804e-15,
+      "lower_objective_days": 1
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -555.4598655072547,
+      "unfairness_delta": -1578.8792725018725,
+      "weighted_objective_delta": -862.4856876056396,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -6.536847367376613e-13,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -69.73159510666937,
+      "unfairness_delta": 48.824789230598135,
+      "weighted_objective_delta": -34.16467980548865,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": 8.512879318119957e-16,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -133.8505896270899,
+      "unfairness_delta": 14.29106110362568,
+      "weighted_objective_delta": -89.40809440787537,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.949462863081502e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": 5.407063335053863,
+      "unfairness_delta": -28.441437174677464,
+      "weighted_objective_delta": -4.747486817865744,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -8.057736797656264e-15,
+      "lower_objective_days": 2
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -502.9666170490943,
+      "unfairness_delta": -1508.99850245013,
+      "weighted_objective_delta": -804.776182669405,
+      "all_met_delta": 0.6666666666666666,
+      "vehicle_met_percent_delta": 0.23333333333333428,
+      "gap_kwh_delta": -0.7166662761797296,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -77.5886601233736,
+      "unfairness_delta": 40.50981694121949,
+      "weighted_objective_delta": -42.15911700399556,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": 7.696914521882143e-16,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -544.4699219374779,
+      "unfairness_delta": -6.266899348183377,
+      "weighted_objective_delta": -383.0090151606898,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.0286954835453713e-13,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": -232.99033765749482,
+      "unfairness_delta": 12.77667764451913,
+      "weighted_objective_delta": -159.2602330668918,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -9.350818424264889e-14,
+      "lower_objective_days": 2
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -1746.4896396874453,
+      "unfairness_delta": -4436.572293266798,
+      "weighted_objective_delta": -2553.51443576125,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -2.2525946086884374e-12,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11002,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -256.8068063111932,
+      "unfairness_delta": 96.60740794122687,
+      "weighted_objective_delta": -150.7825420354669,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -4.8620552348610546e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -617.2063764618566,
+      "unfairness_delta": 99.57766103347394,
+      "weighted_objective_delta": -402.1711652132556,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -9.505851020454319e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": -33.50442087218713,
+      "unfairness_delta": -22.45783800798593,
+      "weighted_objective_delta": -30.19044601292626,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -7.127194643292e-14,
+      "lower_objective_days": 2
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -1919.7603395078622,
+      "unfairness_delta": -4622.627982325664,
+      "weighted_objective_delta": -2730.6206323532024,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.9202733609748124e-12,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11003,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -302.8502583219888,
+      "unfairness_delta": 181.77537808373725,
+      "weighted_objective_delta": -157.4625674002697,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -2.0791561008098363e-14,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_LocalRefined",
+      "days": 3,
+      "cost_delta": -569.3445431363216,
+      "unfairness_delta": 38.568613579497196,
+      "weighted_objective_delta": -386.97059612157744,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -1.3533826245914732e-13,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutA",
+      "days": 3,
+      "cost_delta": -42.78416098586846,
+      "unfairness_delta": -46.030076347684975,
+      "weighted_objective_delta": -43.757935594413844,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -3.9036108604896204e-14,
+      "lower_objective_days": 2
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutB",
+      "days": 3,
+      "cost_delta": -1699.6395060016475,
+      "unfairness_delta": -4443.344686626893,
+      "weighted_objective_delta": -2522.7510601892227,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -2.3136904011032298e-12,
+      "lower_objective_days": 3
+    },
+    {
+      "dataset": "scale",
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "training_seed": 11004,
+      "comparison": "Full_minus_WithoutC",
+      "days": 3,
+      "cost_delta": -304.8620735511698,
+      "unfairness_delta": 139.0870898909801,
+      "weighted_objective_delta": -171.67732451852558,
+      "all_met_delta": 0.0,
+      "vehicle_met_percent_delta": 0.0,
+      "gap_kwh_delta": -2.7599490461316395e-14,
+      "lower_objective_days": 3
+    }
+  ],
+  "sources": {
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "8ed9d7c12bca0ac9b0fcc5404a94a73bf7efbbd4332148262dbe3f70f3b0156a",
+    "artifacts/runs/pressure21_v1/evaluation/scale/scenarios.csv": "deda31b4859925cd4319d86bd4a654d6329042182175d1350eb87f80ec7ba54f",
+    "artifacts/runs/pressure21_v1/evaluation/ablation/formal/scenarios.csv": "e5827ff8e071e04a70ccbe0a83b2aeb1fbd3dac515a87461f753d64e9db69b0e",
+    "artifacts/runs/pressure21_v1/evaluation/ablation/scale/scenarios.csv": "8822a3a8293409998e1c25c68692356aef0f78b54cd658e486ba3b6ad89e1361"
+  }
+}

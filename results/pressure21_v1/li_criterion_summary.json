@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "IL",
+      "training_seeds": [
+        11002,
+        11003,
+        11004
+      ],
+      "days_per_run": 50,
+      "run_means": [
+        1164.5416191608388,
+        1169.4662607248383,
+        1165.9259428862335
+      ],
+      "mean": 1166.644607590637,
+      "sample_sd": 2.539760392533979
+    },
+    {
+      "vehicles": 200,
+      "capacity_kw": 600,
+      "method": "RDDPG",
+      "training_seeds": [
+        33001,
+        33002,
+        33003
+      ],
+      "days_per_run": 50,
+      "run_means": [
+        1627.6125712215428,
+        1545.9711991342483,
+        1585.5887455366446
+      ],
+      "mean": 1586.390838630812,
+      "sample_sd": 40.826595793340395
+    },
+    {
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "IL",
+      "training_seeds": [
+        11002,
+        11003,
+        11004
+      ],
+      "days_per_run": 50,
+      "run_means": [
+        1104.731555550673,
+        1106.9443945939947,
+        1104.9002727565128
+      ],
+      "mean": 1105.525407633727,
+      "sample_sd": 1.2317708264707206
+    },
+    {
+      "vehicles": 200,
+      "capacity_kw": 800,
+      "method": "RDDPG",
+      "training_seeds": [
+        33001,
+        33002,
+        33003
+      ],
+      "days_per_run": 50,
+      "run_means": [
+        1473.0737338381741,
+        1494.635439639748,
+        1399.4245667681123
+      ],
+      "mean": 1455.7112467486781,
+      "sample_sd": 49.92363715410147
+    },
+    {
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "IL",
+      "training_seeds": [
+        11002,
+        11003,
+        11004
+      ],
+      "days_per_run": 3,
+      "run_means": [
+        5497.420654957476,
+        5513.733897856051,
+        5498.743845508077
+      ],
+      "mean": 5503.299466107202,
+      "sample_sd": 9.060669553038164
+    },
+    {
+      "vehicles": 1000,
+      "capacity_kw": 4000,
+      "method": "RDDPG",
+      "training_seeds": [
+        33001,
+        33002,
+        33003
+      ],
+      "days_per_run": 3,
+      "run_means": [
+        7398.197582169718,
+        7485.883404137785,
+        7001.916984552875
+      ],
+      "mean": 7295.332656953459,
+      "sample_sd": 257.85997838220095
+    },
+    {
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "IL",
+      "training_seeds": [
+        11002,
+        11003,
+        11004
+      ],
+      "days_per_run": 3,
+      "run_means": [
+        16315.88326939378,
+        16363.36909828128,
+        16308.423573511458
+      ],
+      "mean": 16329.225313728839,
+      "sample_sd": 29.803695799964302
+    },
+    {
+      "vehicles": 3000,
+      "capacity_kw": 12000,
+      "method": "RDDPG",
+      "training_seeds": [
+        33001,
+        33002,
+        33003
+      ],
+      "days_per_run": 3,
+      "run_means": [
+        21873.158789009416,
+        22294.821547958363,
+        20943.238594027156
+      ],
+      "mean": 21703.73964366498,
+      "sample_sd": 691.5354332543501
+    }
+  ],
+  "trajectory_count": 636,
+  "rddpg_source_manifest_sha256": "658163a7133edbb44495331db9f43a8c0a032cd55a01e6fca1be2db32ef7e453",
+  "scenario_output_sha256": "6254e9077d2cd8daa61b38423508547c7d2d1331411b621bdbdb5b68429a9318",
+  "definition": "Li criterion .6 cost + .4 absolute slotwise cost deviation against Li urgency share; average within run, then three-run sample SD"
+}

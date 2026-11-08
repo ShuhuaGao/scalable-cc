@@ -1,0 +1,14 @@
+{
+  "schema": "ideal10h-expert-audit-v1",
+  "manifest_sha256": "d45433da3850edc5402478abc28e3b782901940a07ee0a2775f903f89581e8f4",
+  "scenarios": 20,
+  "audit_sha256": "07a44267847e60ab2fd189b9e4a404a8b5337685af4b59e2e518594388469385",
+  "source_archive_sha256": {
+    "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+    "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+  },
+  "max_trajectory_residual": 5.551115123125783e-17,
+  "nonoptimal_windows": []
+}

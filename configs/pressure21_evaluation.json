@@ -1,0 +1,21 @@
+{
+  "run_id": "pressure21_v1",
+  "state_schema": "pressure21_v1",
+  "training_seeds": [11002, 11003, 11004],
+  "development_seeds": [64000, 64001, 64002, 64003, 64004, 64005, 64006, 64007, 64008, 64009, 64010, 64011, 64012, 64013, 64014, 64015, 64016, 64017, 64018, 64019],
+  "formal_seeds": [65000, 65001, 65002, 65003, 65004, 65005, 65006, 65007, 65008, 65009, 65010, 65011, 65012, 65013, 65014, 65015, 65016, 65017, 65018, 65019, 65020, 65021, 65022, 65023, 65024, 65025, 65026, 65027, 65028, 65029, 65030, 65031, 65032, 65033, 65034, 65035, 65036, 65037, 65038, 65039, 65040, 65041, 65042, 65043, 65044, 65045, 65046, 65047, 65048, 65049],
+  "formal_capacities_kw": [600, 800],
+  "small_seeds": [76000, 76001, 76002, 76003, 76004, 76005, 76006, 76007, 76008, 76009, 76010, 76011, 76012, 76013, 76014, 76015, 76016, 76017, 76018, 76019],
+  "scale_sizes": [100, 500, 1000, 1500, 2000, 2500, 3000],
+  "scale_seeds_formula": "81000 + 10 * vehicles + index for index in 0..2",
+  "scale_additional_training_sizes": [1000, 3000],
+  "station_kw_per_ev": 4,
+  "soc_tolerance": 0.0001,
+  "physical_tolerance": 0.00000001,
+  "models_freeze": "artifacts/runs/pressure21_v1/il_selection.json",
+  "feature_api": "src/evcharging/state_schema.py",
+  "development_input_dir": "artifacts/runs/ideal10h_v1/development/inputs",
+  "formal_input_dir": "artifacts/runs/ideal10h_v1/formal/inputs",
+  "small_expert_dir": "artifacts/runs/ideal10h_v1/small_experts",
+  "scale_input_dir": "artifacts/runs/ideal10h_v1/scalability"
+}

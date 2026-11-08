@@ -1,0 +1,65 @@
+{
+  "config": {
+    "scenario_seeds": [
+      64000,
+      64001,
+      64002,
+      64003,
+      64004
+    ],
+    "vehicles": 200,
+    "capacity_kw": 800,
+    "beta": 0.3,
+    "orders_per_scenario": 100,
+    "order_seed": 20261103,
+    "soc_tolerance": 0.0001,
+    "physical_tolerance": 1e-08,
+    "workers": 3,
+    "model": "artifacts/runs/pressure21_v1/il_11002/il_model/best.pt",
+    "features": "src/evcharging/state_schema.py",
+    "model_freeze": "artifacts/runs/pressure21_v1/il_selection.json",
+    "input_dir": "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs",
+    "orders": "artifacts/runs/order_sensitivity/orders.npz",
+    "identity_reference_template": "Historical reference (not distributed): artifacts/runs/pressure21_v1/evaluation/development/11002_200_{seed}_800.npz"
+  },
+  "sha256": {
+    "configs/order_pressure21.json": "c5cd80102dfc2ee93d0748bff4a745de781811dd5184c2c1aa312ac10caa3524",
+    "scripts/order_pressure21.py": "a215ae3c1db648657b0234699cbf0855db8cf16b09e14e4fd7d7d10b366b43a2",
+    "artifacts/runs/order_sensitivity/orders.npz": "c656ffd9c86a36d82111da91eeef2a1f2589835f57c487886a7800275dbb8cf5",
+    "artifacts/runs/pressure21_v1/il_11002/il_model/best.pt": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+    "artifacts/runs/pressure21_v1/il_selection.json": "5040244d309274718952b372a407b6781d7c7dc73eaab5dc6d89565d7d177f65",
+    "src/evcharging/state_schema.py": "e0a39dffb3d7c70fc362a3bd1e8d1f700126eb752b60865fe477af33469ce9ac",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "src/evcharging/simulation_schema.py": "be7ad74c492d93389c248481f0e90d38e31079fb536e13e9b57379fbca366530",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64000.npz": "bffd924ae2e0cd083383ba9455c93e253d354d683775b0625ef608b0d533e109",
+    "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64001.npz": "15e3204fa7718a2958020c581d01b16123fb32fa6f72eae3df50e9310c3c6d1a",
+    "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64002.npz": "4a8d0f01a46b3b134d0968721689515ab523334c958ec252da14af33c91e3e4d",
+    "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64003.npz": "1cefbefc74ea2c281a7a0d009061789c64f9601cd1adef3221723685dce4f50a",
+    "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64004.npz": "7864a6710160663c84403d1daca78c4c097488ef1c76d3be6a73dfafa73c484a",
+    "artifacts/runs/pressure21_v1/evaluation/development/11002_200_64000_800.npz": "a8b92c57cc4d7b7c17b7fa41232a172a03bdf3aa3618f9efcb465fc61773c8f2",
+    "artifacts/runs/pressure21_v1/evaluation/development/11002_200_64001_800.npz": "3976f1bae3f25a0ae6e72f728c479648b86952e224092c137ac3be6719acde2c",
+    "artifacts/runs/pressure21_v1/evaluation/development/11002_200_64002_800.npz": "f961d5d26590b5a8ca1870b27ca3dcf8c51364b3f7d3c1530279606f8fa5926b",
+    "artifacts/runs/pressure21_v1/evaluation/development/11002_200_64003_800.npz": "29bec3b8fc17305652508b7b392ebd21878ea3e34a9b7123c5e2824107426b02",
+    "artifacts/runs/pressure21_v1/evaluation/development/11002_200_64004_800.npz": "1e9712b8b178e30ccf9bd4a1cc6d74219a6c313df9eaa6d9abf47586e4ed0925"
+  },
+  "python": "3.14.6",
+  "numpy": "2.5.4",
+  "torch": "2.14.1+cpu",
+  "threads": 1,
+  "order_mapping": "new processing index to original vehicle index, fixed all day",
+  "identity_reference_fields": [
+    "soc",
+    "raw",
+    "clip",
+    "scale",
+    "final",
+    "cost",
+    "unfair"
+  ],
+  "identity_reference_does_not_include": [
+    "states",
+    "records"
+  ],
+  "order_reproduced_from_seed": true
+}

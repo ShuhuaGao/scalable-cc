@@ -1,0 +1,52 @@
+{
+  "source_sha256": {
+    "results/pressure21_v1/r26/b_slot_daily.csv": "69b2f76df2eab9f381ecf2b76b9c07adde5fa51822c91e7c44d240a37f9a782a",
+    "results/pressure21_v1/r26/b_daily.csv": "eb9c67db374f99e133e2b26ba6b34b3a65324c0b1c81fc13e2bb045afd0ae5d3"
+  },
+  "script_sha256": "c98c029437ea978027d85153121847ee4172f6e85e0c0d830d958016243359bf",
+  "output_sha256": {
+    "r26_drift.pdf": "17a9c9368f37f61ca2515d877d5914d83614f8f4d8c52ac9a0d367afdb78441d",
+    "r26_drift.png": "93471e764b6b56143f85ca7dda3c66da890280ebafca60ec91f843c3ca291a67",
+    "installed_pdf": "17a9c9368f37f61ca2515d877d5914d83614f8f4d8c52ac9a0d367afdb78441d"
+  },
+  "style_reference_files": [
+    "manuscript/src/img/EV_10_COST_FAIR_PER_TIME.pdf",
+    "manuscript/src/img/Detail_action.pdf",
+    "code/scripts/plot_pressure21.py"
+  ],
+  "style": {
+    "font_family": "DejaVu Sans",
+    "font_size_pt": 7,
+    "data_line_width_pt": 1.5,
+    "axes_line_width_pt": 0.8,
+    "ours_color": "#d55e00",
+    "iqr_alpha": 0.22,
+    "previous_axes_height_in": 1.8633,
+    "current_axes_height_in": 1.2433
+  },
+  "days": [
+    76000,
+    76001,
+    76002,
+    76003,
+    76004,
+    76005,
+    76006,
+    76007,
+    76008,
+    76009,
+    76010,
+    76011,
+    76012,
+    76013,
+    76014,
+    76015,
+    76016,
+    76017,
+    76018,
+    76019
+  ],
+  "left": "Each slot: fixed 10-EV cohort mean absolute closed-loop versus expert SoC difference, in percentage points; mean and interquartile range across 20 days.",
+  "right": "Each stage: per-day mean absolute raw-to-final normalized action correction over active EV-time decisions; bars are mean and whiskers sample SD across 20 days.",
+  "stages": "early slots 0-18, middle slots 19-37, late slots 38-55; zero-based"
+}

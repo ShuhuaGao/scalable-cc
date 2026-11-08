@@ -1,0 +1,3558 @@
+{
+  "bootstrap_resamples": 10000,
+  "random_seed": 20261101,
+  "inputs_sha256": {
+    "physical_audit.csv": "4eb75c7fe240a794820a32e0c151e1885a8bbd6cfb7e5c113ba5214a60750dba",
+    "small_evaluation_scenarios.csv": "dc2b87b7c2cd9b1a81d1660f400bd49c212e8e8f9c973229bf747f7504eb9958",
+    "scalability_scenarios.csv": "9ca6462233d92cd6e89b1bf1a4e54342b64768dfb0bfecdd71d1a67c3ca5302a",
+    "training_repeats": "60b66bc317385eba05aa87b4247e72acd2bf3020e88742c09e9c71a2821448e9"
+  },
+  "results": {
+    "formal": [
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1895.1026736588421,
+        "sd_scenarios": 62.9601479731303,
+        "ci_low": 1877.8121384648564,
+        "ci_high": 1912.0439524423202,
+        "min_scenario": 1724.9244132758552,
+        "max_scenario": 2021.5506599892615
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1648.029351161988,
+        "sd_scenarios": 61.956925915254565,
+        "ci_low": 1630.8367421735886,
+        "ci_high": 1664.8122497390889,
+        "min_scenario": 1487.3213944123188,
+        "max_scenario": 1798.651155637831
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2004.1310739439118,
+        "sd_scenarios": 64.76004726492746,
+        "ci_low": 1986.2334461516593,
+        "ci_high": 2022.209598011721,
+        "min_scenario": 1860.34000829656,
+        "max_scenario": 2146.0065792022306
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2107.126294955493,
+        "sd_scenarios": 71.29437538825724,
+        "ci_low": 2087.7798044409883,
+        "ci_high": 2126.7149614612613,
+        "min_scenario": 1950.327225400268,
+        "max_scenario": 2259.5935709203673
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2116.4444356239587,
+        "sd_scenarios": 70.07445417804111,
+        "ci_low": 2097.404369258575,
+        "ci_high": 2135.497743436999,
+        "min_scenario": 1957.2687957124292,
+        "max_scenario": 2264.5861083029445
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -356.10172278192385,
+        "sd_scenarios": null,
+        "ci_low": -364.3209805458817,
+        "ci_high": -347.97521105625606,
+        "min_scenario": -425.44681882998975,
+        "max_scenario": -277.89641462713143
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -247.0733224968542,
+        "sd_scenarios": null,
+        "ci_low": -261.8058069419033,
+        "ci_high": -232.66723734187605,
+        "min_scenario": -365.2614131089981,
+        "max_scenario": -148.96917675020723
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -468.41508446197076,
+        "sd_scenarios": null,
+        "ci_low": -483.0175739439871,
+        "ci_high": -453.198217844183,
+        "min_scenario": -574.3075003224642,
+        "max_scenario": -338.11939541492234
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 718.330719472833,
+        "sd_scenarios": 81.15063210107742,
+        "ci_low": 695.6181571938748,
+        "ci_high": 740.0919900493619,
+        "min_scenario": 533.2343561135782,
+        "max_scenario": 854.8682549454423
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 75.06684241494673,
+        "sd_scenarios": 16.32382746045661,
+        "ci_low": 70.70292215628358,
+        "ci_high": 79.5236598803067,
+        "min_scenario": 41.30403327618862,
+        "max_scenario": 115.76104512809727
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 185.66483888079085,
+        "sd_scenarios": 9.00969921174842,
+        "ci_low": 183.18107940479197,
+        "ci_high": 188.1314023802762,
+        "min_scenario": 161.92291833856154,
+        "max_scenario": 208.08758579520662
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 637.9729920928726,
+        "sd_scenarios": 76.31514148684435,
+        "ci_low": 617.2433518993491,
+        "ci_high": 659.2231196164395,
+        "min_scenario": 491.0221682684519,
+        "max_scenario": 807.9173101248341
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 510.57727971997497,
+        "sd_scenarios": 88.71090288763368,
+        "ci_low": 486.27587846822183,
+        "ci_high": 535.1901603730252,
+        "min_scenario": 318.40282905453057,
+        "max_scenario": 719.0429775757943
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -110.59799646584412,
+        "sd_scenarios": null,
+        "ci_low": -115.66346025126579,
+        "ci_high": -105.59756456880068,
+        "min_scenario": -147.55632082212637,
+        "max_scenario": -72.71336890362731
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -643.2638770578862,
+        "sd_scenarios": null,
+        "ci_low": -664.793569332112,
+        "ci_high": -620.967422759518,
+        "min_scenario": -773.6331693679773,
+        "max_scenario": -435.378811239015
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -435.51043730502823,
+        "sd_scenarios": null,
+        "ci_low": -459.18978279211757,
+        "ci_high": -412.13386344295014,
+        "min_scenario": -631.637443357278,
+        "max_scenario": -261.8711769362122
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.8162497994262021,
+        "sd_scenarios": 0.018474842956950694,
+        "ci_low": 0.8112124395674926,
+        "ci_high": 0.8212860768831441,
+        "min_scenario": 0.7687974412853006,
+        "max_scenario": 0.8626838783802734
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.6544638678662723,
+        "sd_scenarios": 0.0118425284858615,
+        "ci_low": 0.6512093518084237,
+        "ci_high": 0.6577210719240447,
+        "min_scenario": 0.6268321795700892,
+        "max_scenario": 0.6781977801452969
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.7958184947876178,
+        "sd_scenarios": 0.011356789337999664,
+        "ci_low": 0.7927521159273969,
+        "ci_high": 0.7988942262435987,
+        "min_scenario": 0.7708379983427027,
+        "max_scenario": 0.8238927368865658
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.836717980025478,
+        "sd_scenarios": 0.02033352885435005,
+        "ci_low": 0.8312664007218599,
+        "ci_high": 0.8421515742516947,
+        "min_scenario": 0.7938620927615033,
+        "max_scenario": 0.8779144335812468
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.8404169003504137,
+        "sd_scenarios": 0.020848465536083237,
+        "ci_low": 0.8347538529682024,
+        "ci_high": 0.8459423567520863,
+        "min_scenario": 0.7938053488195441,
+        "max_scenario": 0.8800832661266677
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -0.14135462692134548,
+        "sd_scenarios": null,
+        "ci_low": -0.14466841009100023,
+        "ci_high": -0.13805352087012698,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -0.16178593155992982,
+        "sd_scenarios": null,
+        "ci_low": -0.1670053229550299,
+        "ci_high": -0.15653823425889812,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -0.1859530324841414,
+        "sd_scenarios": null,
+        "ci_low": -0.19218557761129015,
+        "ci_high": -0.17963363348069836,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 100.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0,
+        "min_scenario": 100.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 18.0,
+        "sd_scenarios": 38.808793449160355,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2.0,
+        "sd_scenarios": 14.142135623730951,
+        "ci_low": 0.0,
+        "ci_high": 6.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 18.0,
+        "sd_scenarios": null,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -82.0,
+        "sd_scenarios": null,
+        "ci_low": -92.0,
+        "ci_high": -70.0,
+        "min_scenario": -100.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 18.0,
+        "sd_scenarios": null,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 20.1,
+        "sd_scenarios": 4.3153735619980615,
+        "ci_low": 18.90975,
+        "ci_high": 21.24,
+        "min_scenario": 9.0,
+        "max_scenario": 28.999999999999996
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1.43,
+        "sd_scenarios": 3.7307464920247666,
+        "ci_low": 0.48,
+        "ci_high": 2.5,
+        "min_scenario": 0.0,
+        "max_scenario": 15.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.01,
+        "sd_scenarios": 0.07071067811865474,
+        "ci_low": 0.0,
+        "ci_high": 0.03,
+        "min_scenario": 0.0,
+        "max_scenario": 0.5
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 1.43,
+        "sd_scenarios": null,
+        "ci_low": 0.48,
+        "ci_high": 2.5,
+        "min_scenario": 0.0,
+        "max_scenario": 15.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -18.67,
+        "sd_scenarios": null,
+        "ci_low": -20.139999999999997,
+        "ci_high": -17.14,
+        "min_scenario": -28.999999999999996,
+        "max_scenario": -6.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 1.43,
+        "sd_scenarios": null,
+        "ci_low": 0.48,
+        "ci_high": 2.5,
+        "min_scenario": 0.0,
+        "max_scenario": 15.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 186.77744001007028,
+        "sd_scenarios": 48.92291106695838,
+        "ci_low": 173.35649770507015,
+        "ci_high": 200.01117305824684,
+        "min_scenario": 81.74934259825686,
+        "max_scenario": 294.00563744956895
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.18082505658546494,
+        "sd_scenarios": 0.5555140291762581,
+        "ci_low": 0.04963302357624249,
+        "ci_high": 0.35295814163196293,
+        "min_scenario": 0.0,
+        "max_scenario": 2.7757873971931524
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1.0879911502243084e-13,
+        "sd_scenarios": 3.1846945813848155e-14,
+        "ci_low": 1.000668019152767e-13,
+        "ci_high": 1.1759429894394127e-13,
+        "min_scenario": 4.663150275942957e-14,
+        "max_scenario": 1.9206875870134732e-13
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.003463322148304768,
+        "sd_scenarios": 0.024489385764998626,
+        "ci_low": 0.0,
+        "ci_high": 0.010389966444914302,
+        "min_scenario": 0.0,
+        "max_scenario": 0.17316610741523839
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 0.18082505658535614,
+        "sd_scenarios": null,
+        "ci_low": 0.04963302357613127,
+        "ci_high": 0.3529581416318601,
+        "min_scenario": -1.5397427243189126e-13,
+        "max_scenario": 2.7757873971930858
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -186.59661495348482,
+        "sd_scenarios": null,
+        "ci_low": -199.8202104661657,
+        "ci_high": -173.2400266554656,
+        "min_scenario": -294.0056374495689,
+        "max_scenario": -81.56101558162354
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 0.18082505658546494,
+        "sd_scenarios": null,
+        "ci_low": 0.04963302357624249,
+        "ci_high": 0.35295814163196293,
+        "min_scenario": 0.0,
+        "max_scenario": 2.7757873971931524
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 9338.872000503514,
+        "sd_scenarios": 48.92291106695838,
+        "ci_low": 8667.824885253507,
+        "ci_high": 10000.558652912343,
+        "min_scenario": 81.74934259825686,
+        "max_scenario": 294.00563744956895
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 9.041252829273247,
+        "sd_scenarios": 0.5555140291762581,
+        "ci_low": 2.4816511788121245,
+        "ci_high": 17.647907081598145,
+        "min_scenario": 0.0,
+        "max_scenario": 2.7757873971931524
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 5.439955751121542e-12,
+        "sd_scenarios": 3.1846945813848155e-14,
+        "ci_low": 5.003340095763835e-12,
+        "ci_high": 5.879714947197064e-12,
+        "min_scenario": 4.663150275942957e-14,
+        "max_scenario": 1.9206875870134732e-13
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.17316610741523839,
+        "sd_scenarios": 0.024489385764998626,
+        "ci_low": 0.0,
+        "ci_high": 0.5194983222457151,
+        "min_scenario": 0.0,
+        "max_scenario": 0.17316610741523839
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 9.041252829267808,
+        "sd_scenarios": null,
+        "ci_low": 2.4816511788065636,
+        "ci_high": 17.647907081593004,
+        "min_scenario": -1.5397427243189126e-13,
+        "max_scenario": 2.7757873971930858
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -9329.830747674241,
+        "sd_scenarios": null,
+        "ci_low": -9991.010523308285,
+        "ci_high": -8662.001332773281,
+        "min_scenario": -294.0056374495689,
+        "max_scenario": -81.56101558162354
+      },
+      {
+        "capacity_kw": "600",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 9.041252829273247,
+        "sd_scenarios": null,
+        "ci_low": 2.4816511788121245,
+        "ci_high": 17.647907081598145,
+        "min_scenario": 0.0,
+        "max_scenario": 2.7757873971931524
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2063.44317101908,
+        "sd_scenarios": 78.96605801422909,
+        "ci_low": 2041.4697827765792,
+        "ci_high": 2084.956140806741,
+        "min_scenario": 1907.9066601307902,
+        "max_scenario": 2213.959086638875
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1595.4033272631295,
+        "sd_scenarios": 60.7668150176883,
+        "ci_low": 1578.5475342522482,
+        "ci_high": 1611.839303155727,
+        "min_scenario": 1428.1213093439828,
+        "max_scenario": 1731.5515776710022
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2004.7055799380803,
+        "sd_scenarios": 64.77298669941692,
+        "ci_low": 1986.6673739259197,
+        "ci_high": 2022.355560939215,
+        "min_scenario": 1861.179514270878,
+        "max_scenario": 2146.147908701033
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2155.061453120186,
+        "sd_scenarios": 82.27974864104128,
+        "ci_low": 2132.193410209981,
+        "ci_high": 2177.457907607921,
+        "min_scenario": 1972.3678309929496,
+        "max_scenario": 2343.9379091970923
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 2155.41865236569,
+        "sd_scenarios": 82.58680246228421,
+        "ci_low": 2132.5122087424934,
+        "ci_high": 2177.9223958944644,
+        "min_scenario": 1972.3678309929496,
+        "max_scenario": 2345.7573935763403
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -409.30225267495075,
+        "sd_scenarios": null,
+        "ci_low": -419.4862289687373,
+        "ci_high": -399.11328113674,
+        "min_scenario": -495.7270417169143,
+        "max_scenario": -325.7349394302423
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -468.03984375595064,
+        "sd_scenarios": null,
+        "ci_low": -482.6844630982252,
+        "ci_high": -453.2468811461033,
+        "min_scenario": -588.4882842104623,
+        "max_scenario": -365.8670650334275
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -560.0153251025604,
+        "sd_scenarios": null,
+        "ci_low": -577.9381196812893,
+        "ci_high": -541.1404209616618,
+        "min_scenario": -723.6582875949107,
+        "max_scenario": -433.6317155284089
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 349.77382565266447,
+        "sd_scenarios": 17.052793061643257,
+        "ci_low": 345.2026843369166,
+        "ci_high": 354.6188870894534,
+        "min_scenario": 316.09862531874626,
+        "max_scenario": 393.2274878153402
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 78.15304156054316,
+        "sd_scenarios": 16.032917941605383,
+        "ci_low": 73.75102646168975,
+        "ci_high": 82.60247018156092,
+        "min_scenario": 46.88678677974298,
+        "max_scenario": 115.61951910853611
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 181.7225519868242,
+        "sd_scenarios": 8.78767471813571,
+        "ci_low": 179.22220748295106,
+        "ci_high": 184.1110310631998,
+        "min_scenario": 158.6986170751124,
+        "max_scenario": 203.34407009713337
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 703.0879680766828,
+        "sd_scenarios": 73.72908017141718,
+        "ci_low": 683.4449779880424,
+        "ci_high": 723.2679188891927,
+        "min_scenario": 573.055445401228,
+        "max_scenario": 844.0388181873561
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 701.6775396286987,
+        "sd_scenarios": 74.17146574563526,
+        "ci_low": 681.9314805363898,
+        "ci_high": 721.9307287291456,
+        "min_scenario": 571.619935132576,
+        "max_scenario": 844.0388181873561
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -103.56951042628103,
+        "sd_scenarios": null,
+        "ci_low": -108.43378516373515,
+        "ci_high": -98.67836978534677,
+        "min_scenario": -137.26309387973475,
+        "max_scenario": -64.95838153016784
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -271.6207840921213,
+        "sd_scenarios": null,
+        "ci_low": -276.42506942354674,
+        "ci_high": -266.85091672714117,
+        "min_scenario": -308.38800517371385,
+        "max_scenario": -230.21428790861785
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -623.5244980681555,
+        "sd_scenarios": null,
+        "ci_low": -642.4284470038971,
+        "ci_high": -604.9864280785017,
+        "min_scenario": -767.358536681015,
+        "max_scenario": -511.2439804934256
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.8198942952334206,
+        "sd_scenarios": 0.019328639172917123,
+        "ci_low": 0.8146307100364135,
+        "ci_high": 0.8251491558908,
+        "min_scenario": 0.7694012832371733,
+        "max_scenario": 0.8666957608282922
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.6335171840747746,
+        "sd_scenarios": 0.013232287061861964,
+        "ci_low": 0.6298623731467005,
+        "ci_high": 0.6371380119839872,
+        "min_scenario": 0.6018822807159937,
+        "max_scenario": 0.6591984721984613
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.7960466248243554,
+        "sd_scenarios": 0.011308522239265378,
+        "ci_low": 0.792931908815239,
+        "ci_high": 0.7992299598345888,
+        "min_scenario": 0.770873469283254,
+        "max_scenario": 0.8240797534348306
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.8557512949599226,
+        "sd_scenarios": 0.0221387950709315,
+        "ci_low": 0.8495971252260301,
+        "ci_high": 0.8617426295877123,
+        "min_scenario": 0.8164061084309269,
+        "max_scenario": 0.9004742048007118
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.8558931348672979,
+        "sd_scenarios": 0.0221967133331137,
+        "ci_low": 0.8497294471426085,
+        "ci_high": 0.8619079385734892,
+        "min_scenario": 0.8165361808114783,
+        "max_scenario": 0.90046557228305
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -0.16252944074958076,
+        "sd_scenarios": null,
+        "ci_low": -0.1665456446853852,
+        "ci_high": -0.15858859805867154,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -0.18637711115864597,
+        "sd_scenarios": null,
+        "ci_low": -0.1920464291815461,
+        "ci_high": -0.18066864570033256,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": -0.22237595079252326,
+        "sd_scenarios": null,
+        "ci_low": -0.22947050987686654,
+        "ci_high": -0.21495237460682895,
+        "min_scenario": null,
+        "max_scenario": null
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 26.0,
+        "sd_scenarios": 44.308749769345205,
+        "ci_low": 14.0,
+        "ci_high": 38.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -26.0,
+        "sd_scenarios": null,
+        "ci_low": -38.0,
+        "ci_high": -14.0,
+        "min_scenario": -100.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.53,
+        "sd_scenarios": 1.25523394030673,
+        "ci_low": 0.23,
+        "ci_high": 0.91,
+        "min_scenario": 0.0,
+        "max_scenario": 7.000000000000001
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -0.53,
+        "sd_scenarios": null,
+        "ci_low": -0.91,
+        "ci_high": -0.23,
+        "min_scenario": -7.000000000000001,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1.527886563295943,
+        "sd_scenarios": 4.3415219087405275,
+        "ci_low": 0.5382142827850829,
+        "ci_high": 2.882122241212473,
+        "min_scenario": 4.618161229341681e-13,
+        "max_scenario": 26.76242668892963
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 3.9305976216935825e-14,
+        "sd_scenarios": 2.1485409212060366e-14,
+        "ci_low": 3.335513771953475e-14,
+        "ci_high": 4.5324480299264827e-14,
+        "min_scenario": 3.698617832856148e-15,
+        "max_scenario": 8.549966488418631e-14
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1.129840904525474e-13,
+        "sd_scenarios": 3.2433535397142305e-14,
+        "ci_low": 1.0396128450746579e-13,
+        "ci_high": 1.221234519865593e-13,
+        "min_scenario": 3.89600906091757e-14,
+        "max_scenario": 1.9594626673997866e-13
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -7.367811423561157e-14,
+        "sd_scenarios": null,
+        "ci_low": -8.419305282941243e-14,
+        "ci_high": -6.321977484275717e-14,
+        "min_scenario": -1.6546941558692436e-13,
+        "max_scenario": 6.9302466100712625e-15
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -1.5278865632959038,
+        "sd_scenarios": null,
+        "ci_low": -2.882122241212428,
+        "ci_high": -0.5382142827850394,
+        "min_scenario": -26.76242668892957,
+        "max_scenario": -4.383072637836759e-13
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 3.9305976216935825e-14,
+        "sd_scenarios": null,
+        "ci_low": 3.335513771953475e-14,
+        "ci_high": 4.5324480299264827e-14,
+        "min_scenario": 3.698617832856148e-15,
+        "max_scenario": 8.549966488418631e-14
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 76.39432816479716,
+        "sd_scenarios": 4.3415219087405275,
+        "ci_low": 26.910714139254143,
+        "ci_high": 144.10611206062364,
+        "min_scenario": 4.618161229341681e-13,
+        "max_scenario": 26.76242668892963
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 1.9652988108467913e-12,
+        "sd_scenarios": 2.1485409212060366e-14,
+        "ci_low": 1.6677568859767374e-12,
+        "ci_high": 2.266224014963241e-12,
+        "min_scenario": 3.698617832856148e-15,
+        "max_scenario": 8.549966488418631e-14
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 5.64920452262737e-12,
+        "sd_scenarios": 3.2433535397142305e-14,
+        "ci_low": 5.19806422537329e-12,
+        "ci_high": 6.106172599327965e-12,
+        "min_scenario": 3.89600906091757e-14,
+        "max_scenario": 1.9594626673997866e-13
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "UPA",
+        "comparison": "",
+        "n_scenarios": 50,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 50,
+        "estimate": -3.683905711780578e-12,
+        "sd_scenarios": null,
+        "ci_low": -4.2096526414706215e-12,
+        "ci_high": -3.1609887421378582e-12,
+        "min_scenario": -1.6546941558692436e-13,
+        "max_scenario": 6.9302466100712625e-15
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 50,
+        "estimate": -76.3943281647952,
+        "sd_scenarios": null,
+        "ci_low": -144.10611206062143,
+        "ci_high": -26.910714139251972,
+        "min_scenario": -26.76242668892957,
+        "max_scenario": -4.383072637836759e-13
+      },
+      {
+        "capacity_kw": "800",
+        "metric": "total_shortfall_kwh",
+        "method": "IL",
+        "comparison": "UPA",
+        "n_scenarios": 50,
+        "estimate": 1.9652988108467913e-12,
+        "sd_scenarios": null,
+        "ci_low": 1.6677568859767374e-12,
+        "ci_high": 2.266224014963241e-12,
+        "min_scenario": 3.698617832856148e-15,
+        "max_scenario": 8.549966488418631e-14
+      }
+    ],
+    "small": [
+      {
+        "metric": "cost",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 97.80524567257599,
+        "sd_scenarios": 11.789066487813407,
+        "ci_low": 92.72169897070704,
+        "ci_high": 102.73450411814133,
+        "min_scenario": 75.42319379609609,
+        "max_scenario": 116.8509386763121
+      },
+      {
+        "metric": "cost",
+        "method": "IDEAL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 74.42784546719952,
+        "sd_scenarios": 13.230726134449057,
+        "ci_low": 68.78952868736492,
+        "ci_high": 79.91639697278676,
+        "min_scenario": 54.57591278806251,
+        "max_scenario": 93.15907361106943
+      },
+      {
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 77.0234592930902,
+        "sd_scenarios": 13.353153574540944,
+        "ci_low": 71.34633446251591,
+        "ci_high": 82.53909589367821,
+        "min_scenario": 56.698232227055186,
+        "max_scenario": 96.87060339709927
+      },
+      {
+        "metric": "cost",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 97.14970396276587,
+        "sd_scenarios": 14.318906319573028,
+        "ci_low": 91.02092827189888,
+        "ci_high": 103.0366611706582,
+        "min_scenario": 74.42897972372013,
+        "max_scenario": 119.35443792136147
+      },
+      {
+        "metric": "cost",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 103.84432489586933,
+        "sd_scenarios": 14.705333988600975,
+        "ci_low": 97.51936476718518,
+        "ci_high": 109.96729964614416,
+        "min_scenario": 77.32173366723785,
+        "max_scenario": 123.97497234778223
+      },
+      {
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "IDEAL",
+        "n_scenarios": 20,
+        "estimate": 2.5956138258906805,
+        "sd_scenarios": null,
+        "ci_low": 2.2095663977309266,
+        "ci_high": 2.9830730234913405,
+        "min_scenario": 0.8349914455946816,
+        "max_scenario": 4.478214369819142
+      },
+      {
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 20,
+        "estimate": -20.12624466967567,
+        "sd_scenarios": null,
+        "ci_low": -20.949763700294053,
+        "ci_high": -19.314730864844964,
+        "min_scenario": -22.91701354746455,
+        "max_scenario": -17.267230432636048
+      },
+      {
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 20,
+        "estimate": -20.781786379485794,
+        "sd_scenarios": null,
+        "ci_low": -22.558576232291678,
+        "ci_high": -18.994232676295166,
+        "min_scenario": -27.21914727738546,
+        "max_scenario": -11.128602888023053
+      },
+      {
+        "metric": "cost",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 20,
+        "estimate": -26.820865602779136,
+        "sd_scenarios": null,
+        "ci_low": -28.134205619597285,
+        "ci_high": -25.387840060695286,
+        "min_scenario": -31.85721830686721,
+        "max_scenario": -20.623501440182665
+      },
+      {
+        "metric": "unfairness",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 17.6449251050486,
+        "sd_scenarios": 5.138594132852537,
+        "ci_low": 15.514687634997824,
+        "ci_high": 19.774942283881234,
+        "min_scenario": 10.235695895863174,
+        "max_scenario": 28.259515704043963
+      },
+      {
+        "metric": "unfairness",
+        "method": "IDEAL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 1.5740794565537284,
+        "sd_scenarios": 1.0603651529351683,
+        "ci_low": 1.1664907795626498,
+        "ci_high": 2.059582110096573,
+        "min_scenario": 0.47223635675469955,
+        "max_scenario": 5.031601186578617
+      },
+      {
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 2.100687549597115,
+        "sd_scenarios": 1.1305482558158115,
+        "ci_low": 1.6560481367715367,
+        "ci_high": 2.6078425060865116,
+        "min_scenario": 0.6851100880454084,
+        "max_scenario": 4.6959764732583515
+      },
+      {
+        "metric": "unfairness",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 8.347965279210769,
+        "sd_scenarios": 2.99320550185412,
+        "ci_low": 7.091591517650755,
+        "ci_high": 9.65000667524095,
+        "min_scenario": 2.965047152061912,
+        "max_scenario": 13.819165489104241
+      },
+      {
+        "metric": "unfairness",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 23.323475510747848,
+        "sd_scenarios": 8.101731601828904,
+        "ci_low": 20.08154762465202,
+        "ci_high": 26.947565997245515,
+        "min_scenario": 9.139526052207733,
+        "max_scenario": 45.05062995978912
+      },
+      {
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "IDEAL",
+        "n_scenarios": 20,
+        "estimate": 0.5266080930433867,
+        "sd_scenarios": null,
+        "ci_low": 0.19968208807257434,
+        "ci_high": 0.8673384395510935,
+        "min_scenario": -0.6904146902980841,
+        "max_scenario": 2.082720955592611
+      },
+      {
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 20,
+        "estimate": -6.2472777296136535,
+        "sd_scenarios": null,
+        "ci_low": -7.427989472470437,
+        "ci_high": -5.108062753195872,
+        "min_scenario": -11.804217266124136,
+        "max_scenario": -1.8978443434940004
+      },
+      {
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 20,
+        "estimate": -15.544237555451485,
+        "sd_scenarios": null,
+        "ci_low": -17.449684605166375,
+        "ci_high": -13.681388578360245,
+        "min_scenario": -25.759953717951277,
+        "max_scenario": -9.34292848780395
+      },
+      {
+        "metric": "unfairness",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 20,
+        "estimate": -21.222787961150733,
+        "sd_scenarios": null,
+        "ci_low": -24.503507400658695,
+        "ci_high": -18.230194635370534,
+        "min_scenario": -40.354653486530765,
+        "max_scenario": -8.072323243639822
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 65.0,
+        "sd_scenarios": 48.936048492959294,
+        "ci_low": 45.0,
+        "ci_high": 85.0,
+        "min_scenario": 0.0,
+        "max_scenario": 100.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IDEAL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "IDEAL",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 20,
+        "estimate": -65.0,
+        "sd_scenarios": null,
+        "ci_low": -85.0,
+        "ci_high": -45.0,
+        "min_scenario": -100.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "scenario_failure_rate",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": null,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "DDQN",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 3.051310362326166,
+        "sd_scenarios": 3.2426450352019565,
+        "ci_low": 1.7295587581340177,
+        "ci_high": 4.469799088298116,
+        "min_scenario": 1.6348950772516374e-14,
+        "max_scenario": 9.894697150428826
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IDEAL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 1.0101416944012108e-15,
+        "sd_scenarios": 1.9205669571458883e-15,
+        "ci_low": 3.159554856124525e-16,
+        "ci_high": 1.8723920453863234e-15,
+        "min_scenario": 0.0,
+        "max_scenario": 6.6664686532870034e-15
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "PPO",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 4.8568326498774615e-15,
+        "sd_scenarios": 4.098397817670603e-15,
+        "ci_low": 3.1570536872255036e-15,
+        "ci_high": 6.669516329636566e-15,
+        "min_scenario": 0.0,
+        "max_scenario": 1.5017451475769023e-14
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 20,
+        "estimate": 0.0,
+        "sd_scenarios": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "min_scenario": 0.0,
+        "max_scenario": 0.0
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "IDEAL",
+        "n_scenarios": 20,
+        "estimate": 1.0101416944012108e-15,
+        "sd_scenarios": null,
+        "ci_low": 3.159554856124525e-16,
+        "ci_high": 1.8723920453863234e-15,
+        "min_scenario": 0.0,
+        "max_scenario": 6.6664686532870034e-15
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "PPO",
+        "n_scenarios": 20,
+        "estimate": -3.84669095547625e-15,
+        "sd_scenarios": null,
+        "ci_low": -5.856418496351147e-15,
+        "ci_high": -1.9837605613488922e-15,
+        "min_scenario": -1.5017451475769023e-14,
+        "max_scenario": 3.0160134659423678e-15
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "DDQN",
+        "n_scenarios": 20,
+        "estimate": -3.051310362326165,
+        "sd_scenarios": null,
+        "ci_low": -4.469799088298115,
+        "ci_high": -1.7295587581340164,
+        "min_scenario": -9.894697150428826,
+        "max_scenario": -9.68248211922937e-15
+      },
+      {
+        "metric": "shortfall_kwh",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 20,
+        "estimate": 1.0101416944012108e-15,
+        "sd_scenarios": null,
+        "ci_low": 3.159554856124525e-16,
+        "ci_high": 1.8723920453863234e-15,
+        "min_scenario": 0.0,
+        "max_scenario": 6.6664686532870034e-15
+      }
+    ],
+    "scalability": [
+      {
+        "vehicles": "100",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.0051257178581311435,
+        "sd_scenarios": 9.517298612850038e-05,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.005016860714282042,
+        "max_scenario": 0.005193203572291948
+      },
+      {
+        "vehicles": "100",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.0016493184525426755,
+        "sd_scenarios": 1.238918530412854e-05,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.0016350660714254314,
+        "max_scenario": 0.0016575142864374876
+      },
+      {
+        "vehicles": "100",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.003476399405588468,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.0033817946428566104,
+        "max_scenario": 0.00353568928585446
+      },
+      {
+        "vehicles": "100",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.00971633333635206,
+        "sd_scenarios": 0.000241084243917796,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.009508200018899515,
+        "max_scenario": 0.009980499977245927
+      },
+      {
+        "vehicles": "100",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.0031424333380224803,
+        "sd_scenarios": 8.999891312225239e-05,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.0030476999963866547,
+        "max_scenario": 0.003226800006814301
+      },
+      {
+        "vehicles": "100",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.00657389999832958,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.00635540000803303,
+        "max_scenario": 0.006753699970431626
+      },
+      {
+        "vehicles": "1000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.05421363273784491,
+        "sd_scenarios": 0.00058720740492833,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.053566007143152614,
+        "max_scenario": 0.054711366072297096
+      },
+      {
+        "vehicles": "1000",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.019326482738203293,
+        "sd_scenarios": 0.00032610055688403434,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.018954694642681198,
+        "max_scenario": 0.019564066071325215
+      },
+      {
+        "vehicles": "1000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.03488714999964161,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.03410531964254915,
+        "max_scenario": 0.035408830355403806
+      },
+      {
+        "vehicles": "1000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.09847536667560537,
+        "sd_scenarios": 0.0012338568069955574,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.09705310000572354,
+        "max_scenario": 0.09925910001038574
+      },
+      {
+        "vehicles": "1000",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.03571656666463241,
+        "sd_scenarios": 0.0015628149701088427,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.03402679999999236,
+        "max_scenario": 0.03710999999020714
+      },
+      {
+        "vehicles": "1000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.06275880001097296,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.05994310001551639,
+        "max_scenario": 0.06523230001039337
+      },
+      {
+        "vehicles": "1500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.08369312321502505,
+        "sd_scenarios": 0.0003236167247849043,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.08332795357117513,
+        "max_scenario": 0.08394438214392201
+      },
+      {
+        "vehicles": "1500",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.030899623809524376,
+        "sd_scenarios": 0.00021276884389788788,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.030671664285494313,
+        "max_scenario": 0.03109295357145519
+      },
+      {
+        "vehicles": "1500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.05279349940550067,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.05265628928568082,
+        "max_scenario": 0.05287278035835438
+      },
+      {
+        "vehicles": "1500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.15253816666275574,
+        "sd_scenarios": 0.0010075416868462407,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.15137720000348054,
+        "max_scenario": 0.1531838999944739
+      },
+      {
+        "vehicles": "1500",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.05839849999756552,
+        "sd_scenarios": 0.0029045157486228936,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.056609699997352436,
+        "max_scenario": 0.06174980000650976
+      },
+      {
+        "vehicles": "1500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.09413966666519022,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.08962739999697078,
+        "max_scenario": 0.09657419999712147
+      },
+      {
+        "vehicles": "2000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.11550780833290662,
+        "sd_scenarios": 0.0006450452028130386,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.11484882857309588,
+        "max_scenario": 0.11613795178553639
+      },
+      {
+        "vehicles": "2000",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.044222636309270806,
+        "sd_scenarios": 0.0006360293286830251,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.0436519053567151,
+        "max_scenario": 0.044908292856884406
+      },
+      {
+        "vehicles": "2000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.07128517202363582,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.07119692321638077,
+        "max_scenario": 0.07142893392587471
+      },
+      {
+        "vehicles": "2000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.21021556667013405,
+        "sd_scenarios": 0.0010167067084329868,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.20904159999918193,
+        "max_scenario": 0.21080920001259074
+      },
+      {
+        "vehicles": "2000",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.09329413333034609,
+        "sd_scenarios": 0.011886222450807315,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.07977979999850504,
+        "max_scenario": 0.10212599999795202
+      },
+      {
+        "vehicles": "2000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.11692143333978797,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.10868320001463871,
+        "max_scenario": 0.12926180000067689
+      },
+      {
+        "vehicles": "2500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.14881096488031853,
+        "sd_scenarios": 0.00040796319739265925,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.148386617856886,
+        "max_scenario": 0.14920028571266034
+      },
+      {
+        "vehicles": "2500",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.05858981666651311,
+        "sd_scenarios": 0.0002770748912033285,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.05832443392786705,
+        "max_scenario": 0.05887726428565137
+      },
+      {
+        "vehicles": "2500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.09022114821380542,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.0898188660708651,
+        "max_scenario": 0.0908758517847933
+      },
+      {
+        "vehicles": "2500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.27033836667154293,
+        "sd_scenarios": 0.0002885978309669747,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.27011599999968894,
+        "max_scenario": 0.2706645000143908
+      },
+      {
+        "vehicles": "2500",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.108579666664203,
+        "sd_scenarios": 0.0006306980351040441,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.10819660000561271,
+        "max_scenario": 0.10930759999610018
+      },
+      {
+        "vehicles": "2500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.16175870000733994,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.16092700000444893,
+        "max_scenario": 0.16242970002349466
+      },
+      {
+        "vehicles": "3000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.18389637976153086,
+        "sd_scenarios": 0.002074428742423131,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.1823771053573832,
+        "max_scenario": 0.18625979642820312
+      },
+      {
+        "vehicles": "3000",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.07549643214293784,
+        "sd_scenarios": 0.00029939334253199323,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.07516940892855928,
+        "max_scenario": 0.07575704285669158
+      },
+      {
+        "vehicles": "3000",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.10839994761859302,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.10720769642882391,
+        "max_scenario": 0.11050275357151154
+      },
+      {
+        "vehicles": "3000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.33386376666991663,
+        "sd_scenarios": 0.002716899805474366,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.33165880001615733,
+        "max_scenario": 0.3368989000155125
+      },
+      {
+        "vehicles": "3000",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.14139546666410752,
+        "sd_scenarios": 0.001363850336285116,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.1400522999902023,
+        "max_scenario": 0.1427791000023717
+      },
+      {
+        "vehicles": "3000",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.1924683000058091,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.19160650002595503,
+        "max_scenario": 0.19411980001314078
+      },
+      {
+        "vehicles": "500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.026405170237662135,
+        "sd_scenarios": 0.0006029099861853869,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.02599608035805951,
+        "max_scenario": 0.027097551783559277
+      },
+      {
+        "vehicles": "500",
+        "metric": "seconds_per_step",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.008567161309526583,
+        "sd_scenarios": 0.00012671115038437073,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.008488348214086727,
+        "max_scenario": 0.00871332500043666
+      },
+      {
+        "vehicles": "500",
+        "metric": "seconds_per_step",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.01783800892813555,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.017496269644003144,
+        "max_scenario": 0.01838422678312262
+      },
+      {
+        "vehicles": "500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.0482812333405794,
+        "sd_scenarios": 0.001443309870002032,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.047440200025448576,
+        "max_scenario": 0.04994779999833554
+      },
+      {
+        "vehicles": "500",
+        "metric": "max_step_seconds",
+        "method": "UC",
+        "comparison": "",
+        "n_scenarios": 3,
+        "estimate": 0.016397899996566895,
+        "sd_scenarios": 0.0007503591349858632,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.015568100003292784,
+        "max_scenario": 0.01702869999280665
+      },
+      {
+        "vehicles": "500",
+        "metric": "max_step_seconds",
+        "method": "IL",
+        "comparison": "UC",
+        "n_scenarios": 3,
+        "estimate": 0.0318833333440125,
+        "sd_scenarios": null,
+        "ci_low": null,
+        "ci_high": null,
+        "min_scenario": 0.030411500032641925,
+        "max_scenario": 0.033350900004734285
+      }
+    ],
+    "training_repeats": [
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          1895.1026736588421,
+          1895.529468872036,
+          1894.8958943290206
+        ],
+        "mean": 1895.1760122866328,
+        "sd": 0.3230914593949426
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          718.330719472833,
+          753.6119347331812,
+          709.6840701638152
+        ],
+        "mean": 727.2089081232765,
+        "sd": 23.27081856512114
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          1542.0710874030397,
+          1552.9542086303793,
+          1539.332347079459
+        ],
+        "mean": 1544.7858810376263,
+        "sd": 7.205300575750004
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          0.8162497994262021,
+          0.8162701887600201,
+          0.8163042499977353
+        ],
+        "mean": 0.8162747460613192,
+        "sd": 2.7509869709265618e-05
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          186.77744001007028,
+          186.33581655152756,
+          187.16521006498587
+        ],
+        "mean": 186.75948887552792,
+        "sd": 0.41498805099086933
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          20.1,
+          19.0,
+          20.78
+        ],
+        "mean": 19.96,
+        "sd": 0.8982204629154253
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "600",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          2063.44317101908,
+          2063.6226825496815,
+          2063.7089308355708
+        ],
+        "mean": 2063.591594801444,
+        "sd": 0.13557988819558392
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          349.77382565266447,
+          349.56394109764005,
+          347.04322532874374
+        ],
+        "mean": 348.79366402634946,
+        "sd": 1.5195524364647792
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          1549.3423674091548,
+          1549.405060114069,
+          1548.7092191835225
+        ],
+        "mean": 1549.1522155689154,
+        "sd": 0.3849245925058703
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          0.8198942952334207,
+          0.8199432002415094,
+          0.8200208344766365
+        ],
+        "mean": 0.8199527766505222,
+        "sd": 6.381085899432825e-05
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          1.527886563295943,
+          1.4625042042776408,
+          1.588944341719687
+        ],
+        "mean": 1.5264450364310902,
+        "sd": 0.06323239350892425
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          26.0,
+          26.0,
+          24.0
+        ],
+        "mean": 25.333333333333332,
+        "sd": 1.1547005383792515
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          0.53,
+          0.5,
+          0.58
+        ],
+        "mean": 0.5366666666666666,
+        "sd": 0.04041451884327378
+      },
+      {
+        "method": "DDQN",
+        "capacity_kw": "800",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "training_repeats/ddqn_21003",
+          "training_repeats/ddqn_21004"
+        ],
+        "training_seeds": [
+          "21002",
+          "21003",
+          "21004"
+        ],
+        "run_means": [
+          74.0,
+          74.0,
+          76.0
+        ],
+        "mean": 74.66666666666667,
+        "sd": 1.1547005383792517
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          1648.029351161988,
+          1649.6823235739698,
+          1653.5274806574625
+        ],
+        "mean": 1650.4130517978067,
+        "sd": 2.8209625644601948
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          75.06684241494673,
+          69.72275218298837,
+          64.03071015065589
+        ],
+        "mean": 69.60676824953033,
+        "sd": 5.5189802539369195
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          1176.1405985378753,
+          1175.6944521566757,
+          1176.6784495054203
+        ],
+        "mean": 1176.1711667333236,
+        "sd": 0.4927103677758926
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          0.6544638678662722,
+          0.6551391809357856,
+          0.6566397069598594
+        ],
+        "mean": 0.6554142519206391,
+        "sd": 0.0011136951895948865
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          0.18082505658546494,
+          0.24978776304848185,
+          0.1532358314423739
+        ],
+        "mean": 0.19461621702544027,
+        "sd": 0.0497314382853391
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          18.0,
+          14.0,
+          12.0
+        ],
+        "mean": 14.666666666666666,
+        "sd": 3.055050463303893
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          1.43,
+          0.98,
+          0.75
+        ],
+        "mean": 1.0533333333333335,
+        "sd": 0.3458805188693536
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "600",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          82.0,
+          86.0,
+          88.0
+        ],
+        "mean": 85.33333333333333,
+        "sd": 3.055050463303893
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          1595.4033272631295,
+          1586.5337771195814,
+          1601.5842895653232
+        ],
+        "mean": 1594.5071313160115,
+        "sd": 7.565173930689261
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          78.15304156054316,
+          68.90287561177914,
+          67.55568439529519
+        ],
+        "mean": 71.53720052253915,
+        "sd": 5.768946656326979
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          1140.2282415523532,
+          1131.2445066672403,
+          1141.3757080143148
+        ],
+        "mean": 1137.6161520779694,
+        "sd": 5.547753486807133
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          0.6335171840747746,
+          0.6299951828761249,
+          0.6359715764943238
+        ],
+        "mean": 0.6331613144817411,
+        "sd": 0.0030040476935871948
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          3.9305976216935825e-14,
+          2.5408209617883568e-14,
+          2.5962112070932844e-14
+        ],
+        "mean": 3.0225432635250745e-14,
+        "sd": 7.868856701328031e-15
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "IL",
+        "capacity_kw": "800",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "ideal10h_v1",
+          "training_repeats/il_11003",
+          "training_repeats/il_11004"
+        ],
+        "training_seeds": [
+          "11002",
+          "11003",
+          "11004"
+        ],
+        "run_means": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          2004.1310739439118,
+          1996.3872487348913,
+          1997.3710492604666
+        ],
+        "mean": 1999.29645731309,
+        "sd": 4.215697373364865
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          185.66483888079085,
+          200.60245619888497,
+          141.8121235908476
+        ],
+        "mean": 176.02647289017446,
+        "sd": 30.557312975255506
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          1458.5912034249754,
+          1457.6518109740896,
+          1440.7033715595805
+        ],
+        "mean": 1452.3154619862153,
+        "sd": 10.067328225574565
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.7958184947876178,
+          0.7927435066284783,
+          0.7931341630399344
+        ],
+        "mean": 0.7938987214853436,
+        "sd": 0.0016740072452193317
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          1.0879911502243084e-13,
+          8.496223299773791e-14,
+          1.537824998026931e-13
+        ],
+        "mean": 1.1584794927428728e-13,
+        "sd": 3.494741519782132e-14
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "600",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "cost",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          2004.7055799380803,
+          1996.9108674918157,
+          1998.229421809271
+        ],
+        "mean": 1999.9486230797222,
+        "sd": 4.172064870807906
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "unfairness",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          181.7225519868242,
+          197.97850929421813,
+          139.9620932624058
+        ],
+        "mean": 173.22105151448272,
+        "sd": 29.927959586396785
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "weighted_objective",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          1457.8106715527035,
+          1457.2311600325365,
+          1440.7492232452114
+        ],
+        "mean": 1451.9303516101506,
+        "sd": 9.687475524378664
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "cost_per_purchased_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.7960466248243555,
+          0.7929514299007611,
+          0.7934750133758419
+        ],
+        "mean": 0.7941576893669863,
+        "sd": 0.0016566812564355249
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "shortfall_kwh",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          1.129840904525474e-13,
+          8.49485906421916e-14,
+          1.562891967203577e-13
+        ],
+        "mean": 1.1807395927169891e-13,
+        "sd": 3.594162756953481e-14
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "scenario_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "vehicle_failure_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      {
+        "method": "PPO",
+        "capacity_kw": "800",
+        "metric": "all_met_rate",
+        "n_runs": 3,
+        "run_ids": [
+          "mpc10h_v1",
+          "mpc10h_v1_ppo2",
+          "training_repeats/ppo_24005"
+        ],
+        "training_seeds": [
+          "24003",
+          "24004",
+          "24005"
+        ],
+        "run_means": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      }
+    ]
+  }
+}

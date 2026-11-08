@@ -1,0 +1,255 @@
+{
+  "model": "artifacts/runs/pressure21_v1/il_11002/il_model/best.pt",
+  "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+  "sources_sha256": {
+    "src/evcharging/simulation_schema.py": "b7f8dd8f6854c67b03be958ad56f2610ea8753c7d5bb3b33dda3e63f90165a5d",
+    "src/evcharging/state_schema.py": "2918ed0e84c665de411193d8d23b2ed6f3e75617d9efffc36ed82b6e05e89b8d",
+    "src/evcharging/core.py": "ffd977060d08def3770748c7a93bc60160c659f20aaf74c7a3e15b915585ea63",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "scripts/audit_pressure21_linear.py": "1501338eb7aa0a0d8f15623b2f93915a8025f5efe2657f7f0618472f74619530"
+  },
+  "threads": 1,
+  "tolerance": 1e-06,
+  "cases": [
+    {
+      "input": "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64000.npz",
+      "input_sha256": "bffd924ae2e0cd083383ba9455c93e253d354d683775b0625ef608b0d533e109",
+      "limit": 600,
+      "max_abs_error": {
+        "states": 1.5543122344752192e-15,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "soc": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0,
+        "records": 0.0
+      },
+      "failed_vehicles": [
+        0,
+        0
+      ],
+      "physical": [
+        {
+          "station": 1.1368683772161603e-13,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        },
+        {
+          "station": 1.1368683772161603e-13,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        }
+      ],
+      "seconds_linear": 0.39555399998789653,
+      "seconds_reference": 0.7505597000126727,
+      "cost_total": [
+        1565.471705613627,
+        1565.471705613627
+      ],
+      "unfair_total": [
+        49.65738047261114,
+        49.65738047261114
+      ]
+    },
+    {
+      "input": "Historical reference (not distributed): artifacts/runs/ideal10h_v1/development/inputs/64000.npz",
+      "input_sha256": "bffd924ae2e0cd083383ba9455c93e253d354d683775b0625ef608b0d533e109",
+      "limit": 800,
+      "max_abs_error": {
+        "states": 1.1102230246251565e-15,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "soc": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0,
+        "records": 0.0
+      },
+      "failed_vehicles": [
+        0,
+        0
+      ],
+      "physical": [
+        {
+          "station": 0.0,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        },
+        {
+          "station": 0.0,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        }
+      ],
+      "seconds_linear": 0.39580719999503344,
+      "seconds_reference": 0.7700689999619499,
+      "cost_total": [
+        1493.9259004386076,
+        1493.9259004386076
+      ],
+      "unfair_total": [
+        82.0572316628141,
+        82.0572316628141
+      ]
+    },
+    {
+      "input": "artifacts/runs/ideal10h_v1/scalability/input_3000_111000.npz",
+      "input_sha256": "74ea3501b96eda4e0b23f0dc8e6eb0cecc723faaddc48587c02d2919b6937294",
+      "limit": 12000,
+      "max_abs_error": {
+        "states": 5.551115123125783e-15,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "soc": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0,
+        "records": 0.0
+      },
+      "failed_vehicles": [
+        0,
+        0
+      ],
+      "physical": [
+        {
+          "station": 5.4569682106375694e-12,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        },
+        {
+          "station": 5.4569682106375694e-12,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        }
+      ],
+      "seconds_linear": 5.8370027000200935,
+      "seconds_reference": 15.031391900032759,
+      "cost_total": [
+        23778.624283863046,
+        23778.624283863046
+      ],
+      "unfair_total": [
+        801.8254458136985,
+        801.8254458136985
+      ]
+    },
+    {
+      "input": "artifacts/runs/ideal10h_v1/scalability/input_3000_111001.npz",
+      "input_sha256": "89ce2be4c9429e51af348d8cc5111870b75d6f988cca3317f1df891207e4b8b2",
+      "limit": 12000,
+      "max_abs_error": {
+        "states": 5.773159728050814e-15,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "soc": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0,
+        "records": 0.0
+      },
+      "failed_vehicles": [
+        0,
+        0
+      ],
+      "physical": [
+        {
+          "station": 0.0,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        },
+        {
+          "station": 0.0,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        }
+      ],
+      "seconds_linear": 5.789277500007302,
+      "seconds_reference": 14.813493599998765,
+      "cost_total": [
+        23105.420019731857,
+        23105.420019731857
+      ],
+      "unfair_total": [
+        942.9073611377513,
+        942.9073611377513
+      ]
+    },
+    {
+      "input": "artifacts/runs/ideal10h_v1/scalability/input_3000_111002.npz",
+      "input_sha256": "240bd395cf1baa1a355e54baf26863ddbf278e8fbe43cae8d6045bf8d7b28ed2",
+      "limit": 12000,
+      "max_abs_error": {
+        "states": 8.43769498715119e-15,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "soc": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0,
+        "records": 0.0
+      },
+      "failed_vehicles": [
+        0,
+        0
+      ],
+      "physical": [
+        {
+          "station": 7.275957614183426e-12,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        },
+        {
+          "station": 7.275957614183426e-12,
+          "disconnected": 0.0,
+          "dynamics": 5.551115123125783e-17,
+          "overcharge": 0.0,
+          "action_lower": 0.0,
+          "action_upper": 0.0
+        }
+      ],
+      "seconds_linear": 5.905676399997901,
+      "seconds_reference": 16.197198900044896,
+      "cost_total": [
+        22891.6037819894,
+        22891.6037819894
+      ],
+      "unfair_total": [
+        964.5063833182187,
+        964.5063833182187
+      ]
+    }
+  ]
+}

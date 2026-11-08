@@ -1,0 +1,16 @@
+{
+  "execution_driver_matches_pretraining_protocol": true,
+  "sha256": {
+    "artifacts/runs/r106_rl_lr_20261107/execution_driver.py": "32510df990acc03316b2a51f9a7cb044c68bdbc5f7365f83745a461a6ed65c34",
+    "artifacts/runs/r106_rl_lr_20261107/selection_driver.py": "f4cce1bd1a1e7e34d8b61385cac973687c08c73fbb9bebdaf4f0762ae58b022b",
+    "artifacts/runs/r106_rl_lr_20261107/formal_driver.py": "a372587563b1e605ba804bb17636c841fcf277343e11d8087e4ea33c9b3d920c",
+    "scripts/run_r106_rl_lr_search.py": "7e9dea01b782d9a90d4ebb33f74bc3b7c4e25b7626d5e404999184b1f48c9559",
+    "scripts/evaluate_r106_rl_lr_search.py": "a372587563b1e605ba804bb17636c841fcf277343e11d8087e4ea33c9b3d920c"
+  },
+  "versions": {
+    "python": "3.14.6",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4"
+  },
+  "relation": "Maintained driver uses equivalent training and selection rules, with formatting, relative paths, and extra source and overwrite checks; snapshots record scripts used for execution."
+}

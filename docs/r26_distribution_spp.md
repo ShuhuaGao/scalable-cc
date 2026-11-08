@@ -1,0 +1,25 @@
+# Safety post-processing and distribution shift diagnostics
+
+The diagnostic summaries are in `results/pressure21_v1/r26/`. To regenerate the underlying trajectories, first run `uv run --locked python scripts/regenerate_core.py formal` and `uv run --locked python scripts/regenerate_core.py learned --dataset small`. The diagnostic run described below produces the inputs for the equipment-shift and efficiency studies.
+
+This protocol is fixed before evaluation. The frozen pressure21 continuation checkpoint (seed 11002) and existing 50 formal days 65000–65049 at 800 and 600 kW are used. No training or expert re-solving is performed. The 20 small expert days are 76000–76019 at 40 kW.
+
+The safety-correction analysis compares raw, clipped, scaled and final actions for all connected EV decisions, including satisfied EVs, using a 1e-6 threshold. Daily statistics describe decision and active-slot fractions, action and power-weighted energy changes, and changed-only magnitudes. Stage cost and unfairness are recomputed at the same slot-start SoC using each stage's own action sum.
+
+The distribution-drift analysis compares expert SoC with expert and recursively predicted action prefixes, and closed-loop SoC with its own saved raw prefix. The first two predictions use expert labels; the third describes trajectory deviation. Decision differences are stratified by connected rank, and SoC and feature differences are summarized over the day.
+
+The SPP ablation evaluates `no_scale` (clipping and ordered compensation without station scaling) and `no_boost` (clipping and station scaling) in closed loop. Each policy uses its own SoC. Paired differences are ablation minus Full; station overload is retained and quantified for `no_scale`.
+
+The distribution-shift analysis constructs Gaussian and uniform arrival, departure and initial-SoC perturbations using independent `SeedSequence([day, 2601, distribution code])` streams. Gaussian means and standard deviations are (8, 6), (40, 6), and (0.4, 0.15); uniform distributions have the same means and variances. Arrival and departure are rounded and clipped as in the generator, and infeasible pairs are redrawn up to 10,000 times per vehicle. Target, battery, power, efficiency and price remain fixed. Both methods and capacities share each input. Full and urgency-proportional allocation (UPA) are compared on all cases and on the initial-feasibility LP subset; outcomes are not used to exclude samples.
+
+Reproduction: in a separate working copy without the existing `artifacts/runs/pressure21_v1/r26_diagnostics/` and `results/pressure21_v1/r26/` output directories, run `uv run python scripts/run_r26_diagnostics.py` from the repository root. The script writes only the dedicated r26 archive and summary directories, and refuses an existing completed run. Development diagnostics are separate from formal outputs. All reported across-day dispersion is sample SD; inference is not based on treating EV decisions as independent scenarios.
+
+## Output interpretation and audit
+
+`demand_kwh` is the grid-side energy needed to meet all target SoCs, i.e. battery-side demand divided by efficiency. `battery_demand_kwh` and `gap_kwh` are battery-side quantities; `gap_fraction_battery_demand` divides the latter by the former for each day. `purchased_kwh` is grid-side delivered energy. `overload_slot_fraction` uses all 56 slots, whereas `overload_active_slot_fraction` uses slots with at least one connected EV. `overload_max_kw_observed_max` is the maximum over all days, not the mean of each day's maximum.
+
+Small-fleet remaining-demand deviation is the absolute difference in the policy state feature before the affine transform, normalized by 40 kWh. Urgency deviation is the analogous difference in bounded urgency. Pressure differences are similarly before the affine transform. Active-EV means are affected by entry and departure. The additional fixed-cohort series includes all original ten vehicles at each slot, using the recorded SoC even before arrival or after departure; slot-level active and departure counts and battery-side departure gap are provided separately. These series describe trajectories, not expert labels at policy-visited states.
+
+The sign-resolved cost and fairness contributions are sums of slot-level positive and negative changes, using tolerance 1e-10, alongside counts and active-slot fractions. The clip rates in the perturbation inputs count all draws including rejected arrival/departure pairs. Sample standard deviations are computed across days. All 50 cases per distribution and limit passed the initial-feasibility LP; the predefined feasible-subset and full-sample summaries therefore coincide. The original fixed-day generator actually uses arrival-SoC standard deviation 0.1 in `core.py`; the new Gaussian standard deviation 0.15 and uniform matched variance define this perturbation experiment.
+
+For changed-only daily mean and 95th percentile, days without any changed connected decisions are undefined and excluded from the across-day mean. `changed_days_n` gives the number of contributing days, while `n_days` gives all 50 days.

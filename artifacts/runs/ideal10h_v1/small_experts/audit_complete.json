@@ -1,0 +1,269 @@
+{
+  "nonoptimal_windows": [],
+  "sample_count": 6384,
+  "departure_targets_passed": 20,
+  "max_window_residual": 9.85083381532803e-09,
+  "max_trajectory_residual": 5.551115123125783e-17,
+  "max_departure_residual": 0.0,
+  "unique_scenarios": 20,
+  "unique_vehicle_count": 200,
+  "mean_parking_hours": 7.98,
+  "fraction_parking_over_10_hours": 0.06,
+  "source_archive_sha256": {
+    "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+    "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+  },
+  "schema": "ideal10h-expert-audit-v1",
+  "manifest_sha256": "d45433da3850edc5402478abc28e3b782901940a07ee0a2775f903f89581e8f4",
+  "entries": {
+    "seed_76000.npz": {
+      "npz_sha256": "07020bbe16e81ed7a62a997cb6ce6a895648fa23f20377f9b79de979047bc750",
+      "report_sha256": "5a7f783c3a56fab1c332f8023fe06d9ff470e6ebbf803a2879244fb763cfb3ff",
+      "input_sha256": "935795e7365f431102e1c6083ca8eafb35d90e888895ea9c47f37e72d4596e49",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76001.npz": {
+      "npz_sha256": "eb63b2df241c371627a1193527a6b7d4090fc9e9656753620f47eb40cfc95325",
+      "report_sha256": "e0ecb1b76abb7631f0a52d6a7e5fad26996557b662aa8b5f83494e8a535daaa4",
+      "input_sha256": "76186b8679fcd092df3f1eccea10e315e3164f2ba98d5722eb1bbf0633af6ce3",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76002.npz": {
+      "npz_sha256": "bf8379ce18639dbdd5443cc6839e8c0cbc591b393e970644e0fdcbed18e15b44",
+      "report_sha256": "2315d4740c5aec526350c3687cbfaee2f051cd1995a54082376acce38d3f8a86",
+      "input_sha256": "ed432ecbfc9dbf236ea7ed3f4d378a990087c8195967e8f142b1ed63fda4699c",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76003.npz": {
+      "npz_sha256": "b29fc658061b784d49b312a484b45e763fbc1716a7f22b8fb2711bf2ac5e48fb",
+      "report_sha256": "568c90ede7d20ff11b793a295ff171c41dcc8c9c47d6d76346492213fbe06c15",
+      "input_sha256": "69bb9551ede16362c442e65c109a5ce4d0c34a3ca8215e44db51b942217ca7d6",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76004.npz": {
+      "npz_sha256": "2e952a45bdd3b1670b315605ab0875c393d22804ec55687b02f693bc93dd1174",
+      "report_sha256": "807f8ad96827695b115c314f3d65736acc32c4eae981720f59068468af925cea",
+      "input_sha256": "d07ce7e75240d792dd69522c9b88ba63b15a0ed8c89595698c034a436b641bbe",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76005.npz": {
+      "npz_sha256": "c400f4ca4b5f8eaa22774677d48d72c2763609e8ce63dfaeadffe494ca306a82",
+      "report_sha256": "4134e56f140319d42e49bb89817d166cf4889b29577298699cd1c065a44c6112",
+      "input_sha256": "ee9468bbb00c7c44a622215e11f23210bcc04c66fe9ff3b79f8d39fc55ff078c",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76006.npz": {
+      "npz_sha256": "221b833313cd707c8dc765cfe4a9e5395281aa243e90e6daf174a1b73aa26450",
+      "report_sha256": "56e60f08e451ff5c88192d96c9cd0999feba228c70152e3597c5f771c179e8a9",
+      "input_sha256": "865a5b998cc75d5336e06416d32cd381c8e83b567038ed6661e694e8339690c4",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76007.npz": {
+      "npz_sha256": "ff4ff47cb1891aefca1ca62dcff20aadbf9406979ac43b6408f238f7b404843e",
+      "report_sha256": "a47bb9fa6f3f78f1a946d2f74263503fa2b9f8c3e42c734b17b450a9b162743c",
+      "input_sha256": "d1c207a447150fe9a7b46d33353cdd482b7d58a95a15bd12d03e7c6c869c9c56",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76008.npz": {
+      "npz_sha256": "3c0df4051c3b1be501e46841006c9d19a3744c4865e178eb4aa625f9f3da12db",
+      "report_sha256": "ff5269689053600e5b9cdb7be6cb10cf862ccdbc6cebb2991706e4e2d09d1218",
+      "input_sha256": "77fb0b78251792a935fb3a3f53b2a8ee658d858cb806306acc3815222e91f27a",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76009.npz": {
+      "npz_sha256": "4d37722a050e371bcff44ca732d0569976887d897d349c9f4aafd3e35c138279",
+      "report_sha256": "34777fa12b5f13c1896d121699932dd1d5163d68ed8f90af55f5104ac49f9f87",
+      "input_sha256": "0aa9f711c5612f08dc8327831b35ea3cd6d7768787b94fc0cfe93b4c961dd38b",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76010.npz": {
+      "npz_sha256": "4746a40912aebda419024c38cb743cef21e4fc75e6d29c13314db6345efeab6f",
+      "report_sha256": "3b73148ab7cf91f4ca613f39917e8bb6783579711100ce172688c5d2305acc8d",
+      "input_sha256": "c7456482f05e9631b21b4bdcaf0a219764c80168c0eade9393b911ca0db951d0",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76011.npz": {
+      "npz_sha256": "f76195e82d6dcb527ba07eb0bcffa6f960f4e3856e8a4350e03e2635bf3fc721",
+      "report_sha256": "477c658dc0a45d471b3f9f353a9dcf120f4d8ab38e5ae6a3a348ca9378e6d670",
+      "input_sha256": "1a92fb2b52e03c2028f16c97361eb54732997d22b0ac4c9e64916eefb3bf8011",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76012.npz": {
+      "npz_sha256": "de0c5bc7da67f1f8126d17e33c7713fc47095d6e499e471c42687b6b6b47db10",
+      "report_sha256": "536736f0d10bbff9d5da00019b047122d3443f08de20fd5c591b6f97f5a20415",
+      "input_sha256": "bee1f4bd305a608073de4183b35c8f976c246b972937b7d10dd27ef6a1bb3eac",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76013.npz": {
+      "npz_sha256": "08388dc387e86ab72ba8b1b789dc3e34d3780bc92e0934b68484f23caef99ad9",
+      "report_sha256": "9c6b5ee17bfe6ab673c462725d0230253e590ca2bfb54666b43e9f13e7c05f2f",
+      "input_sha256": "6f3466707bc88878661b7cb42bf755f0f303ef2f2a57a564d128cad93d7bfd6c",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76014.npz": {
+      "npz_sha256": "a7ad18d04a9e864ba3dbdbedf5255cb25d6fccd623759c4c3214036ebab99e84",
+      "report_sha256": "6d1f9d1c1aba21c41c95183ece30a9d6f3723ee93067f23b512353355062475f",
+      "input_sha256": "3b8f6a5de98abdf8af539b01d362169f0caa6b8a7fc708d7f198b62de994d816",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76015.npz": {
+      "npz_sha256": "e2d529e502ab70258d4f45146880644fb241650c1baf6f6d463e99c11c54ad41",
+      "report_sha256": "989bc4d0e32aa63ebb3c7d88b9b8bbfc500831a5f08b491160d7d31fd0ac26ae",
+      "input_sha256": "71e272d5b256b4b72dc85a6502bcde7322a6562e1adee03d83c47da2b1d7ab8c",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76016.npz": {
+      "npz_sha256": "420ae017ac744177906eac13a11bd87bd1b3baba65be79d3bb60796f99d4f5fa",
+      "report_sha256": "79cb8bf926e16672f3cfb8f50056c23140724fc1c1abf65b4d6a27d654a59a03",
+      "input_sha256": "8c5df99e836775c24e384e19f2e4d909a5002bbd7f5d201b21c998d1c0391ae8",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76017.npz": {
+      "npz_sha256": "30233fa3fe6bd46365eb963f76dc83ca3326c6c898751cadb0a3de4c47b4ef67",
+      "report_sha256": "c2490289f33c8895e03d91b43f9bee1b62b7a42989009bcbac0d48235690d621",
+      "input_sha256": "0d2d11921a8008111f2e5fb67e434bbd91b7240a7671abe9702768ef8da4ba5b",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76018.npz": {
+      "npz_sha256": "1710b0d090ff894498f258df352577ddc7fd2ea4ca2969c567b080be9c9ab1bd",
+      "report_sha256": "675b8b59a249ade759c9c564819d1b3e4b4737948658ce6d33c6e225fcb34ebe",
+      "input_sha256": "1bc7004d701886f86cced79d782197beb00496503ca523386a980ba99a3d90a3",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    },
+    "seed_76019.npz": {
+      "npz_sha256": "ae846a00091da5804095765d876a9c21487e58735d3a7d960e846e3bd7091a4e",
+      "report_sha256": "3cd2d74100dcff29fecd48fca96d5a8000686d93a281c874c622eb6ef8096086",
+      "input_sha256": "f63f9e3e193425a10056b35314a2bb4987e5f0ba883c287c45cdcfb454b39e50",
+      "source_sha256": {
+        "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+        "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+        "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+        "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+      },
+      "source_provenance": "recorded_at_generation_verified_against_archive"
+    }
+  },
+  "errors": [],
+  "earlier_reports_without_start_counts": 0,
+  "recorded_multistart_completions": {
+    "0": 20,
+    "4": 909
+  },
+  "historical_source_fingerprints_note": "Source hashes document the original execution and may differ from the public implementation; they are not checksums of current source files."
+}

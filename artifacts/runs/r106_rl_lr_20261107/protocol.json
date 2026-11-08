@@ -1,0 +1,50 @@
+{
+  "purpose": "Single-factor learning-rate comparison; one matched training seed per algorithm, not a multi-seed search.",
+  "locked_before_training": true,
+  "source": "Original execution-time Pressure21 archived training sources, verified against training_plan.json.",
+  "source_sha256": {
+    "scripts/train_ddqn_pressure21.py": "2b4633b11ab63a80ec92ca02d14eaabadfac3898870fef09469cbe42b4418325",
+    "scripts/train_ppo_pressure21.py": "aa1ba6e678ea8e85b93e5c9b5ca7c7e19e4ce01a4674e84f1f96191871519bdd",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "src/evcharging/state_schema.py": "e0a39dffb3d7c70fc362a3bd1e8d1f700126eb752b60865fe477af33469ce9ac",
+    "src/evcharging/simulation_schema.py": "be7ad74c492d93389c248481f0e90d38e31079fb536e13e9b57379fbca366530"
+  },
+  "driver_sha256": "32510df990acc03316b2a51f9a7cb044c68bdbc5f7365f83745a461a6ed65c34",
+  "jobs": [
+    {
+      "method": "ddqn",
+      "label": "half",
+      "learning_rate": 5e-06,
+      "config": "artifacts/runs/r106_rl_lr_20261107/configs/ddqn_half.json",
+      "config_sha256": "a76ccd20de8c21d909b66c53c0494f2131b7455266065ebaffc148a0664ca0a7"
+    },
+    {
+      "method": "ddqn",
+      "label": "double",
+      "learning_rate": 2e-05,
+      "config": "artifacts/runs/r106_rl_lr_20261107/configs/ddqn_double.json",
+      "config_sha256": "0d9d0158ca113d26d955311a98de4bd0b8c0cbe573c78ac4301176b81b073098"
+    },
+    {
+      "method": "ppo",
+      "label": "half",
+      "learning_rate": 5e-05,
+      "config": "artifacts/runs/r106_rl_lr_20261107/configs/ppo_half.json",
+      "config_sha256": "6ffa00fbfaf1a26bf0ff883ba970ccffc7ce1176f59388386354f6ff5ee7e2f5"
+    },
+    {
+      "method": "ppo",
+      "label": "double",
+      "learning_rate": 0.0002,
+      "config": "artifacts/runs/r106_rl_lr_20261107/configs/ppo_double.json",
+      "config_sha256": "9af0520f08e785a8b5fed0b1167be65efc3c92a67b2f8ceca78dd9531f24d0a1"
+    }
+  ],
+  "one_x": "Reuse all ten original checkpoints for DDQN seed 21002 and PPO seed 24003.",
+  "training": "DDQN 1000 episodes, PPO 200 episodes; all other hyperparameters and scenario sequences held at original settings.",
+  "selection": "All ten checkpoints per candidate; DDQN validation seeds 73000-73008 ranked by failures, summed SoC gap, objective; PPO common validation seeds 80000-80019 ranked by failures, kWh gap when failures > 0, objective. Ties resolve in factor order 0.5, 1, 2 then ascending episode.",
+  "formal": "After selection is saved, evaluate differing winners and their 1x controls on the same archived 50 days at 600 and 800 kW. Formal results do not influence selection.",
+  "ppo_scope": "The 1x candidate is seed 24003 alone, not the historical 24003/24004 two-run main selection.",
+  "threads": 1
+}

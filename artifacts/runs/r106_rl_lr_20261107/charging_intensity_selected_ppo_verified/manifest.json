@@ -1,0 +1,56 @@
+{
+  "selected_checkpoint_sha256": "2f36de9d059e09162323b262b934f73a4b31c9a14bf378cacfd1b8d75d4294cc",
+  "records": 100,
+  "formal_max_absolute_differences": {
+    "cost": 0.0,
+    "unfairness": 0.0,
+    "weighted_objective": 0.0,
+    "failed_vehicles": 0.0,
+    "all_met": 0.0,
+    "gap_kwh": 0.0,
+    "purchased_kwh": 0.0,
+    "physical_max_residual": 0.0
+  },
+  "maximum_residuals": {
+    "residual_cost": 0.0,
+    "residual_unfairness": 0.0,
+    "residual_dynamics_soc": 5.551115123125783e-17,
+    "residual_station_capacity_kw": 0.0,
+    "residual_action_lower": 0.0,
+    "residual_action_upper": 0.0,
+    "residual_disconnected_action": 0.0,
+    "residual_initial_soc": 0.0,
+    "residual_soc_lower": 0.0,
+    "residual_soc_upper": 0.0,
+    "residual_target_overshoot": 0.0,
+    "residual_energy_balance_kwh": 2.4424906541753444e-15,
+    "residual_disconnected_power_kw": 0.0
+  },
+  "residual_strict_tolerance": 1e-08,
+  "verified_comparator_trajectories": 500,
+  "failed_vehicles_total": 0,
+  "days_all_met": 100,
+  "maximum_departure_soc_gap": 8.881784197001252e-16,
+  "sources_sha256": {
+    "scripts/summarize_r106_selected_ppo_intensity.py": "f59b5efddaf1db873ca66d48416b8a0789c20944840f4df5c98c70aa4a9700db",
+    "scripts/evaluate_pressure21.py": "214c4b04baaa7721806cc3c40031957906dad44f169cfb4e733ca335c140c98f",
+    "scripts/summarize_r106_charging_intensity.py": "1575cedd071e7ff0e4e446f89788b40ce4c9c0c9645bed2517696cda6191ac06",
+    "configs/pressure21_evaluation.json": "a598ac7b8b9af94a2a2fb63f4afba271fe06fa6e847704bbb603175a88fe55d7",
+    "src/evcharging/core.py": "ffd977060d08def3770748c7a93bc60160c659f20aaf74c7a3e15b915585ea63",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "src/evcharging/state_schema.py": "2918ed0e84c665de411193d8d23b2ed6f3e75617d9efffc36ed82b6e05e89b8d",
+    "src/evcharging/simulation_schema.py": "1508cfba1226e1ecf2eec07b541227d53e156dfe9225beadf6e9f0076ce944a9",
+    "artifacts/runs/r106_rl_lr_20261107/selection.json": "0ba4e082283603bf65820d54e9ab863ea6181092aa948ac9d457229504cfc298",
+    "artifacts/runs/r106_rl_lr_20261107/formal/scenarios.csv": "b8d27ba871301b2fef5e1a8b3434b304dc391cb7335ac270682ca3e2fb5b17d8",
+    "results/r106_v1/charging_intensity/manifest.json": "48f9a428ac220c5e89254a25459a9456f8d8810fe821a11272951ec0a36e0101",
+    "results/r106_v1/charging_intensity/daily.csv": "dcecac4a080adf61d6996e318d99a07fe9fa5ba5ea209126f5a99ffb1a3ab1dd",
+    "results/r106_v1/charging_intensity/summary.csv": "f695417c150675daa53de890aad3f524a1837cc0ec8b2ae3df7905d33f7027eb"
+  },
+  "output_sha256": {
+    "daily.csv": "c7c2043bb0e74249f7f164109eac15c40db1eb2a405b07ea25982d77ac1e1e86",
+    "summary.csv": "ac6752a849c9da6c610f088972ee55974ad80a6359b5495b3dbb01eb2a39df2e",
+    "combined_summary.csv": "876c7ef17aa81a285ef5d3de4a59ff0f46714517f205ba258f8ed939e0fba3b3"
+  },
+  "definition": "Battery-side efficiency * grid power / battery capacity; daily mean weighted by delivered battery energy; peak is maximum slot-vehicle value over 50 days.",
+  "note": "Selected PPO is separate from the original six-method archive; other methods are reused from that archive."
+}

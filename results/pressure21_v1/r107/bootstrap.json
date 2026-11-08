@@ -1,0 +1,59 @@
+{
+  "seed": 20261101,
+  "samples": 10000,
+  "input_sha256": "7b9c7bdb2def9795ac3ffa08dd4c0be4b40c9a5d53f3309c7e60fe265615cd6a",
+  "results": [
+    {
+      "capacity_kw": "600",
+      "metric": "cost",
+      "method": "IL",
+      "comparison": "UPA",
+      "n_scenarios": 50,
+      "estimate": -428.33016758321924,
+      "sd_scenarios": null,
+      "ci_low": -457.0751867520651,
+      "ci_high": -398.6444491670418,
+      "min_scenario": -591.9081599855858,
+      "max_scenario": -153.39827055568912
+    },
+    {
+      "capacity_kw": "600",
+      "metric": "unfairness",
+      "method": "IL",
+      "comparison": "UPA",
+      "n_scenarios": 50,
+      "estimate": -307.5547011314779,
+      "sd_scenarios": null,
+      "ci_low": -329.55077150539546,
+      "ci_high": -285.309678942361,
+      "min_scenario": -479.78996824337105,
+      "max_scenario": -152.26280310193806
+    },
+    {
+      "capacity_kw": "800",
+      "metric": "cost",
+      "method": "IL",
+      "comparison": "UPA",
+      "n_scenarios": 50,
+      "estimate": -588.4561208239393,
+      "sd_scenarios": null,
+      "ci_low": -615.5569456278849,
+      "ci_high": -560.0226828916368,
+      "min_scenario": -835.182257434486,
+      "max_scenario": -351.72729460318624
+    },
+    {
+      "capacity_kw": "800",
+      "metric": "unfairness",
+      "method": "IL",
+      "comparison": "UPA",
+      "n_scenarios": 50,
+      "estimate": -559.8073478449879,
+      "sd_scenarios": null,
+      "ci_low": -580.2021844951975,
+      "ci_high": -539.9184396890084,
+      "min_scenario": -732.1397494705144,
+      "max_scenario": -427.6308083006854
+    }
+  ]
+}

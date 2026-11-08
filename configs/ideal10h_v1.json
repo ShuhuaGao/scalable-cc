@@ -1,0 +1,129 @@
+{
+  "pilot": {
+    "seed_start": 61000,
+    "count": 20,
+    "capacities_kw": [
+      700,
+      650,
+      600,
+      550,
+      500,
+      450,
+      400,
+      350,
+      300,
+      250
+    ],
+    "minimum_trigger_fraction": 0.05,
+    "minimum_scenes": 10
+  },
+  "scenario": {
+    "vehicles": 200,
+    "efficiency": 0.95,
+    "time_step_hours": 0.25,
+    "beta": 0.3
+  },
+  "expert": {
+    "train_seed_start": 62000,
+    "validation_seed_start": 63000,
+    "train_families": {
+      "10": 100,
+      "20": 10,
+      "30": 5,
+      "40": 3,
+      "50": 2
+    },
+    "validation_families": {
+      "10": 20,
+      "20": 4,
+      "30": 2,
+      "40": 2,
+      "50": 2
+    },
+    "capacity_per_ev_kw": [
+      4,
+      3.5,
+      3
+    ],
+    "starts": 4,
+    "seconds_per_10_vehicles": 30
+  },
+  "il": {
+    "seed": 11002,
+    "epochs": 300,
+    "early_stop_patience": 30,
+    "batch_size": 512,
+    "learning_rate": 0.001
+  },
+  "evaluation": {
+    "seed_start": 65000,
+    "default_capacity_kw": 800,
+    "capacities_kw": [
+      800,
+      600
+    ],
+    "count": 50,
+    "soc_tolerance": 0.0001
+  },
+  "ddqn": {
+    "seed": 21002,
+    "train_seed_start": 70000,
+    "validation_seed_start": 73000,
+    "validation_count": 9,
+    "episodes": 1000,
+    "max_episodes": 1000,
+    "checkpoint_interval": 100,
+    "extension_improvement": 0.01,
+    "replay_capacity": 5000,
+    "gradient_updates_per_episode": 100,
+    "batch_size": 64,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0001,
+    "gamma": 0.99,
+    "target_update_episodes": 10,
+    "epsilon_min": 0.01,
+    "epsilon_decay": 0.98,
+    "vehicles": 10,
+    "actions": 6
+  },
+  "development": {
+    "seed_start": 64000,
+    "count": 20,
+    "capacities_kw": [
+      800,
+      600
+    ],
+    "soc_tolerance": 0.0001
+  },
+  "ppo": {
+    "seed": 24003,
+    "train_seed_start": 74000,
+    "validation_seed_start": 75000,
+    "validation_count": 12,
+    "vehicles": 10,
+    "episodes": 200,
+    "checkpoint_interval": 20,
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip": 0.2,
+    "update_epochs": 4,
+    "batch_size": 256,
+    "value_coefficient": 0.5,
+    "entropy_coefficient": 0.001,
+    "action_epsilon": 1e-05,
+    "capacity_per_ev_kw": [
+      4,
+      3.5,
+      3
+    ]
+  },
+  "model_paths": {
+    "IL": "artifacts/runs/ideal10h_v1/il_model/best.pt",
+    "DDQN": "artifacts/runs/ideal10h_v1/ddqn_model/episode_100.pt"
+  },
+  "input_paths": {
+    "development": "artifacts/runs/ideal10h_v1/development/inputs",
+    "formal": "artifacts/runs/ideal10h_v1/formal/inputs"
+  }
+}

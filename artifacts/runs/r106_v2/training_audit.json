@@ -1,0 +1,110 @@
+{
+  "result": "passed",
+  "manifest_sha256": "a2ef3f2bb1eaefe2ebe5c5d7480c03fc4e2f0b165e2a81e22872c7ff97ac9f6d",
+  "checks": [
+    "source hashes",
+    "12 model identities and dimensions",
+    "150174 samples and 294 updates in each epoch",
+    "teacher minimum and early stopping",
+    "continuation minimum across epochs 0-20",
+    "model hashes"
+  ],
+  "models": [
+    {
+      "group": "w64",
+      "seed": 11002,
+      "teacher_stop_epoch": 244,
+      "teacher_best_epoch": 214,
+      "continuation_best_epoch": 18,
+      "model_sha256": "f8e846e90f103cf38d921fbe657cc1d3f7a2760ef8b89e928f89c3dbbc2b1f98"
+    },
+    {
+      "group": "w64",
+      "seed": 11003,
+      "teacher_stop_epoch": 218,
+      "teacher_best_epoch": 188,
+      "continuation_best_epoch": 7,
+      "model_sha256": "407d6a66024d2fc2ae01a5652ac49c1c0f1b582a1c2961b9b234a6eacd3576b2"
+    },
+    {
+      "group": "w64",
+      "seed": 11004,
+      "teacher_stop_epoch": 217,
+      "teacher_best_epoch": 187,
+      "continuation_best_epoch": 10,
+      "model_sha256": "7b5abf70dd2d3b4740ef9bed62523d3b187977c79c3b7d4dd1996bc1fe6f6e4b"
+    },
+    {
+      "group": "w256",
+      "seed": 11002,
+      "teacher_stop_epoch": 167,
+      "teacher_best_epoch": 137,
+      "continuation_best_epoch": 10,
+      "model_sha256": "7bfabc1ac5ddb697c17fb28fe0a3535b002b6a6baa37fc397ac69ac4c32d5d2d"
+    },
+    {
+      "group": "w256",
+      "seed": 11003,
+      "teacher_stop_epoch": 124,
+      "teacher_best_epoch": 94,
+      "continuation_best_epoch": 7,
+      "model_sha256": "55eaa7cba45cf692c74feac607c5ab53a9e2e383768cd09cd5138b2ecf525222"
+    },
+    {
+      "group": "w256",
+      "seed": 11004,
+      "teacher_stop_epoch": 128,
+      "teacher_best_epoch": 98,
+      "continuation_best_epoch": 10,
+      "model_sha256": "c71d11d5440df132a22c76aad0355d2c051a87becfd0f587d134fc874fe39321"
+    },
+    {
+      "group": "n30",
+      "seed": 11002,
+      "teacher_stop_epoch": 89,
+      "teacher_best_epoch": 59,
+      "continuation_best_epoch": 5,
+      "model_sha256": "0293bdc1a8dfa5e5c3159e78d721fdff787e5d741a0c8396e2ac3364fa6ba54a"
+    },
+    {
+      "group": "n30",
+      "seed": 11003,
+      "teacher_stop_epoch": 77,
+      "teacher_best_epoch": 47,
+      "continuation_best_epoch": 15,
+      "model_sha256": "81b56abc94bfc0995a7c3731c71e259212c0e98563954cfdb0769f9b39c1faa2"
+    },
+    {
+      "group": "n30",
+      "seed": 11004,
+      "teacher_stop_epoch": 74,
+      "teacher_best_epoch": 44,
+      "continuation_best_epoch": 1,
+      "model_sha256": "f69b59d410b0839045f98f6e87d3a857559b311371a5a0b6db5d877c89ffa6a7"
+    },
+    {
+      "group": "n60",
+      "seed": 11002,
+      "teacher_stop_epoch": 105,
+      "teacher_best_epoch": 75,
+      "continuation_best_epoch": 8,
+      "model_sha256": "c4930b25a9f6a098e1587c165d40f1dea36e730b64b57d4784b3328d38242f6a"
+    },
+    {
+      "group": "n60",
+      "seed": 11003,
+      "teacher_stop_epoch": 120,
+      "teacher_best_epoch": 90,
+      "continuation_best_epoch": 0,
+      "model_sha256": "2e1016831f40e0ef81ce20887e5b11806aa889d402d3a4e89034ebe1bb37e696"
+    },
+    {
+      "group": "n60",
+      "seed": 11004,
+      "teacher_stop_epoch": 133,
+      "teacher_best_epoch": 103,
+      "continuation_best_epoch": 2,
+      "model_sha256": "40ab1caa7b3ef8815be0766412621cebf603c9559f5abcc285d094935846ed28"
+    }
+  ]
+}

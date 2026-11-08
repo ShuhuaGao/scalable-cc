@@ -1,0 +1,25 @@
+{
+  "records": 1590,
+  "new_records": 1272,
+  "baseline_records": 318,
+  "failed_vehicle_records": 1255,
+  "bootstrap": "20000 paired date resamples, same dates for three fixed matched models; conditional on the models",
+  "soc_tolerance": 0.0001,
+  "gap_kwh": "sum of all positive departure gaps times battery capacity, including gaps below tolerance",
+  "failed_vehicle_gaps": "only departure gaps strictly greater than tolerance; pooled means weight each failed vehicle equally",
+  "max_physical_residual": 7.275957614183426e-12,
+  "source_sha256": {
+    "scripts/summarize_r106.py": "6696e6edcc0ea149094b12f573cea4b2ee27f727c0bf87e9a7c6ac350bf6adee",
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "abcd8378f6fd0d0564689a5a64ac6b6ed24a505231887d60d803bff81d610a47",
+    "artifacts/runs/pressure21_v1/evaluation/scale/scenarios.csv": "d2683a9ce2e287efd1f2a84b8d09a4560b9933f01a5604357cfdca342270ee0a"
+  },
+  "output_sha256": {
+    "daily.csv": "4a04cb46b4074cfd09842e79085e2e5c2ea86c3618912c33c0b838196f2bca72",
+    "failed_vehicles.csv": "2b89b7d56a06db512b7b08e0f944f36fd833c78775e2450de57eb4bdd5f46d94",
+    "paired_daily.csv": "ce71207db0962270ce4d3945af0fc650e931af0cc1441c9fd8d1bb6699e54c78",
+    "paired_summary.csv": "10e43d6eb23a47104c11754be04aa0a57ef4989d56eae1978d828e7d58b7914e",
+    "run_summary.csv": "85e8d5242868da55e4d98ace4819c6629b74e95d9aedff4682e0811465537bfd",
+    "summary.csv": "ef028af088e92de494884e9ff13b876b637c10592bc2d1fb851c8f7cf96807d2"
+  },
+  "historical_source_fingerprints_note": "Source hashes document the original execution and may differ from the public implementation; they are not checksums of current source files."
+}

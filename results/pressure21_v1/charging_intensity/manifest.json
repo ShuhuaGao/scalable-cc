@@ -1,0 +1,16 @@
+{
+  "main_model_sha256": "2f36de9d059e09162323b262b934f73a4b31c9a14bf378cacfd1b8d75d4294cc",
+  "records": 100,
+  "source_sha256": {
+    "scripts/summarize_current_ppo_intensity.py": "8a6a59d8b5649691275fa894447e2d8a47dd492af8ac5ab9ca970ac078035aa0",
+    "artifacts/runs/ppo_half_formal_20261107/selection.json": "4529292679e78e71eb9c6b070f4b9389c464d599be467299373afca89ec67548",
+    "artifacts/runs/ppo_half_formal_20261107/evaluation/formal/scenarios.csv": "98b32e2934ac6f85d767f8785f3c3284f59c08e1926dc0010255856d3e50e0f3"
+  },
+  "output_sha256": {
+    "daily.csv": "9e686b5a66eed39afd9fab19b61f21786679eb06014a894746207025a70d7e84",
+    "summary.csv": "0643032d508ba8f94a0913a4b7c44b3fe2ab2ed8bfd5b26227c04296ccc2e564",
+    "combined_summary.csv": "38d405ea4a822400f03eee99a6213c589aaab36e01adfd98d4740785d21423ca"
+  },
+  "maximum_soc_dynamics_residual": 5.551115123125783e-17,
+  "definition": "Battery-side efficiency times grid power divided by battery capacity; daily means weighted by delivered battery energy; peak is the maximum over slot, EV, and day."
+}

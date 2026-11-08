@@ -1,0 +1,1219 @@
+{
+  "example_76000": {
+    "IL": {
+      "cost": 74.2224969342285,
+      "unfairness": 0.7775337509591889,
+      "weighted_objective": 52.189007979247705,
+      "unit_cost_by_ev": [
+        0.6065098389156424,
+        0.6380376247689201,
+        0.606078177917527,
+        0.6067421828859934,
+        0.6042011565766754,
+        0.6292889236300522,
+        0.6181451880046207,
+        0.6081482698178835,
+        0.6369755277817086,
+        0.5960721833192939
+      ],
+      "unit_unfair_by_ev": [
+        0.002624486928264719,
+        0.017879026201659712,
+        0.011469273637044915,
+        0.0017549700213732704,
+        0.001576590163201651,
+        0.00542768051868774,
+        0.0042676893080710945,
+        0.004570856846947643,
+        0.008239406225194649,
+        0.004768844781067597
+      ],
+      "trajectory_sha256": "650b27d9235dfa261b55600b5ee3aa27db547da00543d38d54aaac1c1a682ca7"
+    },
+    "DDQN": {
+      "cost": 100.55304592533798,
+      "unfairness": 15.51080581711441,
+      "weighted_objective": 75.0403738928709,
+      "unit_cost_by_ev": [
+        0.7826209284360625,
+        0.8024281497933511,
+        0.7396705297965361,
+        0.9372546680699283,
+        0.9182506721606046,
+        0.7369964108633597,
+        0.8631603973119385,
+        0.8153162055433955,
+        0.8500921480782948,
+        0.9719860325146586
+      ],
+      "unit_unfair_by_ev": [
+        0.15215986582645924,
+        0.2184330862973518,
+        0.2070564154634642,
+        0.0566054045271009,
+        0.05473673146783677,
+        0.29005102946063865,
+        0.1198072272490565,
+        0.10935150213341481,
+        0.11434072723282356,
+        0.17806635706050963
+      ],
+      "trajectory_sha256": "bc303cf0cd4fb3984ed916c5bf11cb1a5c1859d9a07de63d9d8803bc16992e34"
+    },
+    "PPO": {
+      "cost": 97.28166107812206,
+      "unfairness": 6.060440804541895,
+      "weighted_objective": 69.91529499604799,
+      "unit_cost_by_ev": [
+        0.7885375504834676,
+        0.8572848256772174,
+        0.7418154825857259,
+        0.794221831023828,
+        0.818732320472373,
+        0.8894761541662946,
+        0.832733280117463,
+        0.7747636848938625,
+        0.8213090907670245,
+        0.774741055158295
+      ],
+      "unit_unfair_by_ev": [
+        0.03848953420864277,
+        0.11709736384724878,
+        0.08188676727721884,
+        0.018191103266480674,
+        0.00543782829770854,
+        0.1377162523044336,
+        0.06622270186899348,
+        0.00554616906945974,
+        0.09414283861440494,
+        0.0060742532766343066
+      ],
+      "trajectory_sha256": "e0b8acda4ab9f1ab6eb97363932ffb04fcaff9d4fa23070c955a8c4a68a62f9f"
+    },
+    "UC": {
+      "cost": 105.70568287528346,
+      "unfairness": 25.238028066437792,
+      "weighted_objective": 81.56538643262977,
+      "unit_cost_by_ev": [
+        0.87110994626391,
+        0.7351624377774165,
+        0.9391779217127013,
+        0.9192073009118114,
+        0.9414731688789212,
+        0.9506313254582079,
+        0.9465221307342527,
+        0.8244245693772213,
+        0.9094621292501894,
+        0.8267602019123833
+      ],
+      "unit_unfair_by_ev": [
+        0.11528096448897034,
+        0.7441613008147134,
+        0.14945283782174085,
+        0.0928571173756081,
+        0.054863623150570355,
+        0.3558814049225665,
+        0.203052201450313,
+        0.09150829464008736,
+        0.21753273076207816,
+        0.055980179744006035
+      ],
+      "trajectory_sha256": "18db77fbb9e4798b9082d2be82515290353bc7f34c3213588cf2dcf227ad477d"
+    },
+    "IDEAL": {
+      "cost": 74.43885396518476,
+      "unfairness": 0.5964463156018238,
+      "weighted_objective": 52.28613167030988,
+      "unit_cost_by_ev": [
+        0.6074098901789516,
+        0.6280367800115804,
+        0.603848265584836,
+        0.6121440031588486,
+        0.6109766096343056,
+        0.6138341447487428,
+        0.6153077303893215,
+        0.6141181220017126,
+        0.6384243457456091,
+        0.611277974919927
+      ],
+      "unit_unfair_by_ev": [
+        0.004772166779792415,
+        0.010764881411317956,
+        0.0071079718263505455,
+        0.0018220086693113446,
+        0.0028468631501594533,
+        0.007877707375606011,
+        0.0018841397043491807,
+        0.0033542274258531895,
+        0.007904264495164135,
+        0.0006516398648164569
+      ],
+      "trajectory_sha256": "15f93ea4327b79260fca58db40e7a1b69d65c5135afa3c3b1bf79c24a476d9f6"
+    },
+    "RDDPG": {
+      "cost": 83.49223551312217,
+      "unfairness": 20.69549923236695,
+      "weighted_objective": 64.6532146288956,
+      "unit_cost_by_ev": [
+        0.5944022554415683,
+        0.6510384476582532,
+        0.618202084093967,
+        0.7201575373341187,
+        0.7129431704031187,
+        0.7929722224728729,
+        0.8295031520411225,
+        0.6683131079112244,
+        0.7128891235197937,
+        0.7250024209281603
+      ],
+      "unit_unfair_by_ev": [
+        0.13376703644176027,
+        0.15304622786286173,
+        0.20790785923435803,
+        0.077494117803719,
+        0.057401851534742525,
+        0.11706794953766754,
+        0.25007081499222156,
+        0.06982794319538879,
+        0.4073191845566863,
+        0.26326058652841605
+      ],
+      "trajectory_sha256": "97424172dd12ffb0fb358c591529263b8ce50b28ba1f3a155dfbc1ae31618bcd"
+    }
+  },
+  "example_unit_metric_lower_counts": {
+    "UC": {
+      "lower_unit_cost": 10,
+      "lower_unit_unfair": 10
+    },
+    "DDQN": {
+      "lower_unit_cost": 10,
+      "lower_unit_unfair": 10
+    },
+    "PPO": {
+      "lower_unit_cost": 10,
+      "lower_unit_unfair": 10
+    },
+    "RDDPG": {
+      "lower_unit_cost": 9,
+      "lower_unit_unfair": 10
+    }
+  },
+  "small_20_per_day_reduction": [
+    {
+      "method": "IDEAL",
+      "mean_daily_cost_reduction_vs_UC_percent": 28.651624627261278,
+      "mean_daily_unfairness_reduction_vs_UC_percent": 93.53706197780113,
+      "failed_vehicles": 0,
+      "vehicle_met_percent": 100.0,
+      "all_met_scenarios": 20
+    },
+    {
+      "method": "IL",
+      "mean_daily_cost_reduction_vs_UC_percent": 27.291598214332883,
+      "mean_daily_unfairness_reduction_vs_UC_percent": 93.3398377512697,
+      "failed_vehicles": 0,
+      "vehicle_met_percent": 100.0,
+      "all_met_scenarios": 20
+    },
+    {
+      "method": "UC",
+      "mean_daily_cost_reduction_vs_UC_percent": 0.0,
+      "mean_daily_unfairness_reduction_vs_UC_percent": 0.0,
+      "failed_vehicles": 0,
+      "vehicle_met_percent": 100.0,
+      "all_met_scenarios": 20
+    },
+    {
+      "method": "DDQN",
+      "mean_daily_cost_reduction_vs_UC_percent": 5.545572521304823,
+      "mean_daily_unfairness_reduction_vs_UC_percent": 20.291448810856043,
+      "failed_vehicles": 35,
+      "vehicle_met_percent": 82.5,
+      "all_met_scenarios": 7
+    },
+    {
+      "method": "PPO",
+      "mean_daily_cost_reduction_vs_UC_percent": 6.552821624192044,
+      "mean_daily_unfairness_reduction_vs_UC_percent": 73.11853930077977,
+      "failed_vehicles": 0,
+      "vehicle_met_percent": 100.0,
+      "all_met_scenarios": 20
+    },
+    {
+      "method": "RDDPG",
+      "mean_daily_cost_reduction_vs_UC_percent": 18.39029943226954,
+      "mean_daily_unfairness_reduction_vs_UC_percent": -15.935913546725546,
+      "failed_vehicles": 0,
+      "vehicle_met_percent": 100.0,
+      "all_met_scenarios": 20
+    }
+  ],
+  "small_daily": [
+    {
+      "seed": 76000,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 29.579137147232448,
+      "unfairness_reduction_vs_UC_percent": 97.63671585580414,
+      "failed": 0
+    },
+    {
+      "seed": 76000,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 29.78381585992903,
+      "unfairness_reduction_vs_UC_percent": 96.91919769281351,
+      "failed": 0
+    },
+    {
+      "seed": 76000,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76000,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 4.874512712835688,
+      "unfairness_reduction_vs_UC_percent": 38.54192658680377,
+      "failed": 2
+    },
+    {
+      "seed": 76000,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.969317796376618,
+      "unfairness_reduction_vs_UC_percent": 75.98686874985596,
+      "failed": 0
+    },
+    {
+      "seed": 76000,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 21.01443059439837,
+      "unfairness_reduction_vs_UC_percent": 17.99874705786393,
+      "failed": 0
+    },
+    {
+      "seed": 76001,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 24.856548183181793,
+      "unfairness_reduction_vs_UC_percent": 92.62815606848098,
+      "failed": 0
+    },
+    {
+      "seed": 76001,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 24.217778374780497,
+      "unfairness_reduction_vs_UC_percent": 93.20455202646968,
+      "failed": 0
+    },
+    {
+      "seed": 76001,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76001,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.730105848434386,
+      "unfairness_reduction_vs_UC_percent": 2.9940071154901715,
+      "failed": 3
+    },
+    {
+      "seed": 76001,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 3.6923317610823014,
+      "unfairness_reduction_vs_UC_percent": 78.11774967040802,
+      "failed": 0
+    },
+    {
+      "seed": 76001,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 13.385859537865375,
+      "unfairness_reduction_vs_UC_percent": -12.944069758582643,
+      "failed": 0
+    },
+    {
+      "seed": 76002,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 27.828409357061503,
+      "unfairness_reduction_vs_UC_percent": 94.38452828942366,
+      "failed": 0
+    },
+    {
+      "seed": 76002,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 27.039333244939435,
+      "unfairness_reduction_vs_UC_percent": 94.2154128597771,
+      "failed": 0
+    },
+    {
+      "seed": 76002,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76002,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.081875150803916,
+      "unfairness_reduction_vs_UC_percent": 15.698689085031337,
+      "failed": 3
+    },
+    {
+      "seed": 76002,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 5.978284677863965,
+      "unfairness_reduction_vs_UC_percent": 74.29432658226955,
+      "failed": 0
+    },
+    {
+      "seed": 76002,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 17.214828812237926,
+      "unfairness_reduction_vs_UC_percent": -35.48466191442099,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 33.68853545625481,
+      "unfairness_reduction_vs_UC_percent": 94.8948623114244,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 31.48985550329817,
+      "unfairness_reduction_vs_UC_percent": 94.41384391290181,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.6735056209308965,
+      "unfairness_reduction_vs_UC_percent": 26.497085152356416,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 6.22777324725734,
+      "unfairness_reduction_vs_UC_percent": 72.37366920044133,
+      "failed": 0
+    },
+    {
+      "seed": 76003,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 22.14595807936344,
+      "unfairness_reduction_vs_UC_percent": 17.567440356859578,
+      "failed": 0
+    },
+    {
+      "seed": 76004,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 24.727009678107382,
+      "unfairness_reduction_vs_UC_percent": 93.26866560287856,
+      "failed": 0
+    },
+    {
+      "seed": 76004,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 24.17367881062956,
+      "unfairness_reduction_vs_UC_percent": 93.78684917896095,
+      "failed": 0
+    },
+    {
+      "seed": 76004,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76004,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.775559676831232,
+      "unfairness_reduction_vs_UC_percent": 23.59976712413697,
+      "failed": 1
+    },
+    {
+      "seed": 76004,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 5.358343929399457,
+      "unfairness_reduction_vs_UC_percent": 74.21280384380779,
+      "failed": 0
+    },
+    {
+      "seed": 76004,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 16.030058360242094,
+      "unfairness_reduction_vs_UC_percent": 8.936156341482814,
+      "failed": 0
+    },
+    {
+      "seed": 76005,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 39.268386884521924,
+      "unfairness_reduction_vs_UC_percent": 95.99237542177829,
+      "failed": 0
+    },
+    {
+      "seed": 76005,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 35.8254028942929,
+      "unfairness_reduction_vs_UC_percent": 96.59322107049226,
+      "failed": 0
+    },
+    {
+      "seed": 76005,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76005,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.268324893434151,
+      "unfairness_reduction_vs_UC_percent": 47.46987889050918,
+      "failed": 1
+    },
+    {
+      "seed": 76005,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 12.814837402201873,
+      "unfairness_reduction_vs_UC_percent": 73.83608165919806,
+      "failed": 0
+    },
+    {
+      "seed": 76005,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 23.816194893325914,
+      "unfairness_reduction_vs_UC_percent": 30.66417816726731,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 25.93668115992669,
+      "unfairness_reduction_vs_UC_percent": 92.30208248859614,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 24.698038191210582,
+      "unfairness_reduction_vs_UC_percent": 93.38496654259919,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 8.558808358707793,
+      "unfairness_reduction_vs_UC_percent": 46.029803187831874,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 5.869712413101025,
+      "unfairness_reduction_vs_UC_percent": 73.91333459128622,
+      "failed": 0
+    },
+    {
+      "seed": 76006,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 16.59352517105337,
+      "unfairness_reduction_vs_UC_percent": 16.782555607236617,
+      "failed": 0
+    },
+    {
+      "seed": 76007,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 23.715281800595413,
+      "unfairness_reduction_vs_UC_percent": 94.04181083591993,
+      "failed": 0
+    },
+    {
+      "seed": 76007,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 22.919876138928462,
+      "unfairness_reduction_vs_UC_percent": 90.04906219536866,
+      "failed": 0
+    },
+    {
+      "seed": 76007,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76007,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": -0.4052228138172964,
+      "unfairness_reduction_vs_UC_percent": -11.19670107423001,
+      "failed": 4
+    },
+    {
+      "seed": 76007,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 2.4279454732494044,
+      "unfairness_reduction_vs_UC_percent": 67.03658962598553,
+      "failed": 0
+    },
+    {
+      "seed": 76007,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 13.023093760329763,
+      "unfairness_reduction_vs_UC_percent": -94.59654917639398,
+      "failed": 0
+    },
+    {
+      "seed": 76008,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 28.941458494056548,
+      "unfairness_reduction_vs_UC_percent": 90.11579109720263,
+      "failed": 0
+    },
+    {
+      "seed": 76008,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 27.316823651402178,
+      "unfairness_reduction_vs_UC_percent": 82.29840579319972,
+      "failed": 0
+    },
+    {
+      "seed": 76008,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76008,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 0.1341348516055052,
+      "unfairness_reduction_vs_UC_percent": 20.37027336416474,
+      "failed": 4
+    },
+    {
+      "seed": 76008,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 2.9578651711381854,
+      "unfairness_reduction_vs_UC_percent": 70.00472093944381,
+      "failed": 0
+    },
+    {
+      "seed": 76008,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 12.740480703164081,
+      "unfairness_reduction_vs_UC_percent": -7.150386652211838,
+      "failed": 0
+    },
+    {
+      "seed": 76009,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 32.58543037312604,
+      "unfairness_reduction_vs_UC_percent": 91.27704695373117,
+      "failed": 0
+    },
+    {
+      "seed": 76009,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 30.00098279114305,
+      "unfairness_reduction_vs_UC_percent": 94.08215425204176,
+      "failed": 0
+    },
+    {
+      "seed": 76009,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76009,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 2.5075845878661074,
+      "unfairness_reduction_vs_UC_percent": -14.756323731042897,
+      "failed": 2
+    },
+    {
+      "seed": 76009,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.941331602293511,
+      "unfairness_reduction_vs_UC_percent": 73.38332395323248,
+      "failed": 0
+    },
+    {
+      "seed": 76009,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 19.09995382833194,
+      "unfairness_reduction_vs_UC_percent": -42.69247823660687,
+      "failed": 0
+    },
+    {
+      "seed": 76010,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 25.153466300468708,
+      "unfairness_reduction_vs_UC_percent": 94.74001879882697,
+      "failed": 0
+    },
+    {
+      "seed": 76010,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 23.72140523157934,
+      "unfairness_reduction_vs_UC_percent": 94.57598755236747,
+      "failed": 0
+    },
+    {
+      "seed": 76010,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76010,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 7.3292607255793785,
+      "unfairness_reduction_vs_UC_percent": 4.988166743826616,
+      "failed": 3
+    },
+    {
+      "seed": 76010,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 5.391734702867446,
+      "unfairness_reduction_vs_UC_percent": 68.15763762405062,
+      "failed": 0
+    },
+    {
+      "seed": 76010,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 19.107520153628666,
+      "unfairness_reduction_vs_UC_percent": 3.5979516359658015,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 30.010581269835722,
+      "unfairness_reduction_vs_UC_percent": 96.7661368014949,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 29.4959388224325,
+      "unfairness_reduction_vs_UC_percent": 97.59437368958848,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 2.884447938613055,
+      "unfairness_reduction_vs_UC_percent": 15.7529880628276,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 8.930261639868464,
+      "unfairness_reduction_vs_UC_percent": 76.20716017787699,
+      "failed": 0
+    },
+    {
+      "seed": 76011,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 22.041157760738173,
+      "unfairness_reduction_vs_UC_percent": -98.0600769280395,
+      "failed": 0
+    },
+    {
+      "seed": 76012,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 26.090657964865127,
+      "unfairness_reduction_vs_UC_percent": 93.4021253179435,
+      "failed": 0
+    },
+    {
+      "seed": 76012,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 24.781218863223586,
+      "unfairness_reduction_vs_UC_percent": 95.36541877210153,
+      "failed": 0
+    },
+    {
+      "seed": 76012,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76012,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 15.028548340501235,
+      "unfairness_reduction_vs_UC_percent": 26.92338334390316,
+      "failed": 5
+    },
+    {
+      "seed": 76012,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.514996630367465,
+      "unfairness_reduction_vs_UC_percent": 77.97597559412871,
+      "failed": 0
+    },
+    {
+      "seed": 76012,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 20.168203587495682,
+      "unfairness_reduction_vs_UC_percent": 10.94845156890959,
+      "failed": 0
+    },
+    {
+      "seed": 76013,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 27.460862150511012,
+      "unfairness_reduction_vs_UC_percent": 95.29074138076076,
+      "failed": 0
+    },
+    {
+      "seed": 76013,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 25.834091100419965,
+      "unfairness_reduction_vs_UC_percent": 95.70827038042297,
+      "failed": 0
+    },
+    {
+      "seed": 76013,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76013,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 5.763421781488565,
+      "unfairness_reduction_vs_UC_percent": 14.175271881147333,
+      "failed": 2
+    },
+    {
+      "seed": 76013,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.652693021689439,
+      "unfairness_reduction_vs_UC_percent": 76.46431251322005,
+      "failed": 0
+    },
+    {
+      "seed": 76013,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 16.316513730494332,
+      "unfairness_reduction_vs_UC_percent": -64.15274879171156,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 27.34487796969948,
+      "unfairness_reduction_vs_UC_percent": 90.04837960312261,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 26.9018355804159,
+      "unfairness_reduction_vs_UC_percent": 86.97143356691615,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 7.340564137480032,
+      "unfairness_reduction_vs_UC_percent": 24.054264394210524,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.425986009468222,
+      "unfairness_reduction_vs_UC_percent": 73.56033094970277,
+      "failed": 0
+    },
+    {
+      "seed": 76014,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 20.19590190936954,
+      "unfairness_reduction_vs_UC_percent": -6.360057572341882,
+      "failed": 0
+    },
+    {
+      "seed": 76015,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 27.594367001208298,
+      "unfairness_reduction_vs_UC_percent": 97.0333281909247,
+      "failed": 0
+    },
+    {
+      "seed": 76015,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 27.034575538066484,
+      "unfairness_reduction_vs_UC_percent": 97.02415783236069,
+      "failed": 0
+    },
+    {
+      "seed": 76015,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76015,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 9.652701719169576,
+      "unfairness_reduction_vs_UC_percent": -24.79854612652892,
+      "failed": 4
+    },
+    {
+      "seed": 76015,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 7.405091274515274,
+      "unfairness_reduction_vs_UC_percent": 81.37970681908,
+      "failed": 0
+    },
+    {
+      "seed": 76015,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 17.938530226410144,
+      "unfairness_reduction_vs_UC_percent": -66.5081976834188,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 26.582575048519008,
+      "unfairness_reduction_vs_UC_percent": 94.95506963723349,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 24.601574868322164,
+      "unfairness_reduction_vs_UC_percent": 95.71102001958965,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": -0.6303833408408677,
+      "unfairness_reduction_vs_UC_percent": 20.956350579511795,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 2.9583135195046184,
+      "unfairness_reduction_vs_UC_percent": 62.86379159289108,
+      "failed": 0
+    },
+    {
+      "seed": 76016,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 17.1503374570677,
+      "unfairness_reduction_vs_UC_percent": 14.842641164001902,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 33.50012018349888,
+      "unfairness_reduction_vs_UC_percent": 89.75581981446219,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 30.36342589196297,
+      "unfairness_reduction_vs_UC_percent": 88.91129542163102,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 8.098040571588182,
+      "unfairness_reduction_vs_UC_percent": 32.86914365814384,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 9.025510707614725,
+      "unfairness_reduction_vs_UC_percent": 69.63946724339316,
+      "failed": 0
+    },
+    {
+      "seed": 76017,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 20.640203972313554,
+      "unfairness_reduction_vs_UC_percent": -16.896832119424833,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 32.04528917342869,
+      "unfairness_reduction_vs_UC_percent": 93.37635495908678,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 30.59868831297381,
+      "unfairness_reduction_vs_UC_percent": 95.93688282149633,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": -0.0984979170485678,
+      "unfairness_reduction_vs_UC_percent": 48.12261960399308,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 5.44317530762971,
+      "unfairness_reduction_vs_UC_percent": 66.64905544104005,
+      "failed": 0
+    },
+    {
+      "seed": 76018,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 20.61540334181904,
+      "unfairness_reduction_vs_UC_percent": 8.322287172467169,
+      "failed": 0
+    },
+    {
+      "seed": 76019,
+      "method": "IDEAL",
+      "cost_reduction_vs_UC_percent": 26.122816949126104,
+      "unfairness_reduction_vs_UC_percent": 88.8312301269268,
+      "failed": 0
+    },
+    {
+      "seed": 76019,
+      "method": "IL",
+      "cost_reduction_vs_UC_percent": 25.033624616707094,
+      "unfairness_reduction_vs_UC_percent": 90.05024944429493,
+      "failed": 0
+    },
+    {
+      "seed": 76019,
+      "method": "UC",
+      "cost_reduction_vs_UC_percent": 0.0,
+      "unfairness_reduction_vs_UC_percent": 0.0,
+      "failed": 0
+    },
+    {
+      "seed": 76019,
+      "method": "DDQN",
+      "cost_reduction_vs_UC_percent": 12.34415758193349,
+      "unfairness_reduction_vs_UC_percent": 47.53692837503431,
+      "failed": 1
+    },
+    {
+      "seed": 76019,
+      "method": "PPO",
+      "cost_reduction_vs_UC_percent": 8.070926196351834,
+      "unfairness_reduction_vs_UC_percent": 76.3138792442833,
+      "failed": 0
+    },
+    {
+      "seed": 76019,
+      "method": "RDDPG",
+      "cost_reduction_vs_UC_percent": 18.567832765741677,
+      "unfairness_reduction_vs_UC_percent": -3.532621173412731,
+      "failed": 0
+    }
+  ],
+  "scale_runs": [
+    {
+      "vehicles": 1000,
+      "method": "IL",
+      "training_seed": 11002,
+      "cost_per_ev": 7.840157260218759,
+      "unfairness_per_ev": 0.2874810579430476,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "IL",
+      "training_seed": 11003,
+      "cost_per_ev": 7.828448080039303,
+      "unfairness_per_ev": 0.3155728776645203,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "IL",
+      "training_seed": 11004,
+      "cost_per_ev": 7.82479327283882,
+      "unfairness_per_ev": 0.30375063379592954,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "UC",
+      "training_seed": null,
+      "cost_per_ev": 11.018117362523903,
+      "unfairness_per_ev": 3.6015637786338566,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "RDDPG",
+      "training_seed": 33001,
+      "cost_per_ev": 8.837831697558952,
+      "unfairness_per_ev": 3.7232953067377172,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "RDDPG",
+      "training_seed": 33002,
+      "cost_per_ev": 9.559823690790536,
+      "unfairness_per_ev": 1.7801920076417324,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 1000,
+      "method": "RDDPG",
+      "training_seed": 33003,
+      "cost_per_ev": 8.552512694723909,
+      "unfairness_per_ev": 2.8770094845656202,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "IL",
+      "training_seed": 11002,
+      "cost_per_ev": 7.752849787287145,
+      "unfairness_per_ev": 0.3010265766966298,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "IL",
+      "training_seed": 11003,
+      "cost_per_ev": 7.740739700844008,
+      "unfairness_per_ev": 0.3317764297477717,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "IL",
+      "training_seed": 11004,
+      "cost_per_ev": 7.737014452355345,
+      "unfairness_per_ev": 0.3211962417127332,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "UC",
+      "training_seed": null,
+      "cost_per_ev": 10.741436514975916,
+      "unfairness_per_ev": 3.5361892777213004,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "RDDPG",
+      "training_seed": 33001,
+      "cost_per_ev": 8.760933658325506,
+      "unfairness_per_ev": 3.5368552670892983,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "RDDPG",
+      "training_seed": 33002,
+      "cost_per_ev": 9.484031895285801,
+      "unfairness_per_ev": 1.7447875300026885,
+      "failed_vehicles": 0
+    },
+    {
+      "vehicles": 3000,
+      "method": "RDDPG",
+      "training_seed": 33003,
+      "cost_per_ev": 8.50348382531034,
+      "unfairness_per_ev": 2.846305554037095,
+      "failed_vehicles": 0
+    }
+  ],
+  "sources_sha256": {
+    "artifacts/runs/pressure21_v1/evaluation/small/scenarios.csv": "137212d67a45e516075aeda01b7586f85c2f03e864fd6cabe04e1fb4ad0dcfe2",
+    "artifacts/runs/pressure21_v1/evaluation/rl/small/scenarios.csv": "eb04f02bcc5716029e7bf9ec7e692e31b20e6fc643dc425ca8350f1b119746b8",
+    "artifacts/runs/ppo_half_formal_20261107/evaluation/small/scenarios.csv": "37a269c97aa2154dbba89b9e70cda11ab3ad89af50eacbd88e07e69b9cd8d3ca",
+    "artifacts/runs/ppo_half_formal_20261107/selection.json": "4529292679e78e71eb9c6b070f4b9389c464d599be467299373afca89ec67548",
+    "artifacts/runs/pressure21_v1/evaluation/scale/scenarios.csv": "d2683a9ce2e287efd1f2a84b8d09a4560b9933f01a5604357cfdca342270ee0a",
+    "artifacts/runs/ideal10h_v1/small_evaluation/scenarios.csv": "015ab9b5622b94a2346ca0fc34790b650629adb4968b54129c03c0ef5c98b61f",
+    "artifacts/runs/ideal10h_v1/scalability/scenarios.csv": "b158bda69de5a9f771c49bcd7ee184c0bec041a3cd9898c4a7b53a59cd3a1a31",
+    "artifacts/runs/li2023_r105/paper_33001/scenarios.csv": "94b21031810f71da68566782a1e06772c7d33a6671eb3b08c47619e0c26dce10",
+    "results/li2023_r105/scenarios.csv": "9fb798c225eec865e56ccca434d8ff3c7761490c203a92035ac35da34b90e2c7"
+  }
+}

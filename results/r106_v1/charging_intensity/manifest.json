@@ -1,0 +1,27 @@
+{
+  "trajectory_count": 600,
+  "days_per_capacity": 50,
+  "methods": [
+    "IL",
+    "UC",
+    "DDQN",
+    "PPO",
+    "UPA",
+    "RDDPG"
+  ],
+  "definition": "Battery-side intensity = efficiency * executed grid power (kW) / battery capacity (kWh), in h^-1. Daily mean is weighted by delivered battery-side energy efficiency * power * slot hours. Reported peak is the largest slot/vehicle intensity across 50 daily peaks.",
+  "interpretation": "Energy-normalized power exposure; not measured current C-rate, temperature, aging or lifetime.",
+  "max_slot_vehicle_energy_residual_kwh": 2.4424906541753444e-15,
+  "max_disconnected_power_kw": 0.0,
+  "script_sha256": "1575cedd071e7ff0e4e446f89788b40ce4c9c0c9645bed2517696cda6191ac06",
+  "source_table_sha256": {
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "abcd8378f6fd0d0564689a5a64ac6b6ed24a505231887d60d803bff81d610a47",
+    "artifacts/runs/pressure21_v1/evaluation/rl/formal/scenarios.csv": "aee37b3c52cb0efb4a692a111914eba698c2a00d0518fac0550a9672a8373094",
+    "results/pressure21_v1/formal_references.csv": "e5ed47ae8da917e87af058cb7588013ea1c4e2bb37cbcdf82acb03b88f011638"
+  },
+  "output_sha256": {
+    "daily.csv": "0871abeca236127835ccde94535eae0e4f42a2a3668fc5faa1350f1e358084b0",
+    "summary.csv": "f695417c150675daa53de890aad3f524a1837cc0ec8b2ae3df7905d33f7027eb",
+    "paired_differences.csv": "f444eefcf1b5238e93b03a2e7fe4e911bc59d60567ba012c587e9355febc5689"
+  }
+}

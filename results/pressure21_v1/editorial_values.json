@@ -1,0 +1,1303 @@
+{
+  "formal_table": [
+    {
+      "method": "IL",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 98.0,
+      "vehicle_met_percent": 99.75,
+      "failed_vehicles": 25,
+      "mean_failed_gap_pp": 0.09857374985556255,
+      "mean_failed_gap_kwh": 0.02705676836904889,
+      "mean_total_positive_gap_kwh_per_day": 0.013528384184538333,
+      "positive_gap_share_of_battery_demand_percent": 0.0005654708589630855,
+      "mean_cost": 1651.9083121304993,
+      "mean_unfairness": 48.912624497521136,
+      "mean_weighted_objective": 1171.0096058406057,
+      "cost_per_purchased_kwh": 0.6559584038234827
+    },
+    {
+      "method": "UC",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 98.0,
+      "vehicle_met_percent": 99.99,
+      "failed_vehicles": 1,
+      "mean_failed_gap_pp": 0.47679089103950245,
+      "mean_failed_gap_kwh": 0.17316610741523839,
+      "mean_total_positive_gap_kwh_per_day": 0.003463322148304768,
+      "positive_gap_share_of_battery_demand_percent": 0.00014476287214744025,
+      "mean_cost": 2107.126294955493,
+      "mean_unfairness": 637.9729920928726,
+      "mean_weighted_objective": 1666.3803040967068,
+      "cost_per_purchased_kwh": 0.8367179800254781
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 0.0,
+      "vehicle_met_percent": 59.67,
+      "failed_vehicles": 4033,
+      "mean_failed_gap_pp": 7.801289923705721,
+      "mean_failed_gap_kwh": 2.339518908702418,
+      "mean_total_positive_gap_kwh_per_day": 188.70559517593736,
+      "positive_gap_share_of_battery_demand_percent": 7.887676276759956,
+      "mean_cost": 1893.9067223131092,
+      "mean_unfairness": 548.9197846921197,
+      "mean_weighted_objective": 1490.4106410268123,
+      "cost_per_purchased_kwh": 0.8164484206157681
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 1.2737693215715698e-13,
+      "positive_gap_share_of_battery_demand_percent": 5.324208882337284e-15,
+      "mean_cost": 2003.041690158436,
+      "mean_unfairness": 143.12654414446018,
+      "mean_weighted_objective": 1445.067146354243,
+      "cost_per_purchased_kwh": 0.7953859124202893
+    },
+    {
+      "method": "UPA",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 0.0,
+      "positive_gap_share_of_battery_demand_percent": 0.0,
+      "mean_cost": 2116.4444356239587,
+      "mean_unfairness": 510.577279719975,
+      "mean_weighted_objective": 1634.6842888527635,
+      "cost_per_purchased_kwh": 0.8404169003504137
+    },
+    {
+      "method": "RDDPG",
+      "capacity_kw": 600,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 0.0,
+      "positive_gap_share_of_battery_demand_percent": 0.0,
+      "mean_cost": 1828.651038007709,
+      "mean_unfairness": 726.6631442569562,
+      "mean_weighted_objective": 1498.054669882483,
+      "cost_per_purchased_kwh": 0.7261372948503256
+    },
+    {
+      "method": "IL",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 2.081199377515679e-15,
+      "positive_gap_share_of_battery_demand_percent": 8.699173409210741e-17,
+      "mean_cost": 1567.7538378912354,
+      "mean_unfairness": 59.1806915123004,
+      "mean_weighted_objective": 1115.1818939775549,
+      "cost_per_purchased_kwh": 0.6225378747373443
+    },
+    {
+      "method": "UC",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 0.0,
+      "positive_gap_share_of_battery_demand_percent": 0.0,
+      "mean_cost": 2155.061453120186,
+      "mean_unfairness": 703.0879680766831,
+      "mean_weighted_objective": 1719.469407607135,
+      "cost_per_purchased_kwh": 0.8557512949599226
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 80.0,
+      "vehicle_met_percent": 99.61,
+      "failed_vehicles": 39,
+      "mean_failed_gap_pp": 4.3556628150064975,
+      "mean_failed_gap_kwh": 1.3025661529163983,
+      "mean_total_positive_gap_kwh_per_day": 1.0160015992753653,
+      "positive_gap_share_of_battery_demand_percent": 0.042467695270417494,
+      "mean_cost": 2062.644152328342,
+      "mean_unfairness": 351.30105207800165,
+      "mean_weighted_objective": 1549.2412222532396,
+      "cost_per_purchased_kwh": 0.8194013781005403
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 1.30742842501068e-13,
+      "positive_gap_share_of_battery_demand_percent": 5.4649000533892866e-15,
+      "mean_cost": 2003.8969961573557,
+      "mean_unfairness": 140.71494346831022,
+      "mean_weighted_objective": 1444.942380350642,
+      "cost_per_purchased_kwh": 0.7957255450628309
+    },
+    {
+      "method": "UPA",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 0.0,
+      "positive_gap_share_of_battery_demand_percent": 0.0,
+      "mean_cost": 2155.41865236569,
+      "mean_unfairness": 701.6775396286987,
+      "mean_weighted_objective": 1719.2963185445924,
+      "cost_per_purchased_kwh": 0.855893134867298
+    },
+    {
+      "method": "RDDPG",
+      "capacity_kw": 800,
+      "scenarios": 50,
+      "all_met_percent": 100.0,
+      "vehicle_met_percent": 100.0,
+      "failed_vehicles": 0,
+      "mean_failed_gap_pp": 0.0,
+      "mean_failed_gap_kwh": 0.0,
+      "mean_total_positive_gap_kwh_per_day": 4.529114261147226e-16,
+      "positive_gap_share_of_battery_demand_percent": 1.8931175347015627e-17,
+      "mean_cost": 1770.8630595722,
+      "mean_unfairness": 702.1304562811863,
+      "mean_weighted_objective": 1450.2432785848957,
+      "cost_per_purchased_kwh": 0.7031903216641531
+    }
+  ],
+  "relative_comparisons": [
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "mean_cost_reduction_percent": 21.603735092424003,
+      "mean_unfairness_reduction_percent": 92.33311988066092,
+      "mean_weighted_objective_reduction_percent": 29.727349575499595,
+      "cost_per_purchased_kwh_reduction_percent": 21.60340527121113
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "mean_cost_reduction_percent": 12.777736481501412,
+      "mean_unfairness_reduction_percent": 91.089294672635,
+      "mean_weighted_objective_reduction_percent": 21.430404909492363,
+      "cost_per_purchased_kwh_reduction_percent": 19.65709195337083
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "mean_cost_reduction_percent": 17.530008474270087,
+      "mean_unfairness_reduction_percent": 65.82560922581017,
+      "mean_weighted_objective_reduction_percent": 18.965038490083774,
+      "cost_per_purchased_kwh_reduction_percent": 17.52954212786356
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "mean_cost_reduction_percent": 21.94889294868293,
+      "mean_unfairness_reduction_percent": 90.4201329670707,
+      "mean_weighted_objective_reduction_percent": 28.3647849419027,
+      "cost_per_purchased_kwh_reduction_percent": 21.948451589921703
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "mean_cost_reduction_percent": 9.665197033424622,
+      "mean_unfairness_reduction_percent": 93.26887225751123,
+      "mean_weighted_objective_reduction_percent": 21.83131701512154,
+      "cost_per_purchased_kwh_reduction_percent": 9.66468621354981
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "mean_cost_reduction_percent": 27.25247646087412,
+      "mean_unfairness_reduction_percent": 91.5827472237662,
+      "mean_weighted_objective_reduction_percent": 35.14383628787701,
+      "cost_per_purchased_kwh_reduction_percent": 27.25247646087411
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "mean_cost_reduction_percent": 23.993004992085876,
+      "mean_unfairness_reduction_percent": 83.15385303794646,
+      "mean_weighted_objective_reduction_percent": 28.01754317151349,
+      "cost_per_purchased_kwh_reduction_percent": 24.02528341111001
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "mean_cost_reduction_percent": 21.764749341032108,
+      "mean_unfairness_reduction_percent": 57.94285236974266,
+      "mean_weighted_objective_reduction_percent": 22.821704924528873,
+      "cost_per_purchased_kwh_reduction_percent": 21.764749341032097
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "mean_cost_reduction_percent": 27.26453229072042,
+      "mean_unfairness_reduction_percent": 91.5658278667981,
+      "mean_weighted_objective_reduction_percent": 35.137306934876044,
+      "cost_per_purchased_kwh_reduction_percent": 27.26453229072041
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "mean_cost_reduction_percent": 11.46950469055643,
+      "mean_unfairness_reduction_percent": 91.57126841844332,
+      "mean_weighted_objective_reduction_percent": 23.103805379072938,
+      "cost_per_purchased_kwh_reduction_percent": 11.469504690556409
+    }
+  ],
+  "spp": [
+    {
+      "method": "IL",
+      "capacity_kw": 600,
+      "raw_kwh_mean_per_day": 2505.644867487866,
+      "clip_kwh_mean_per_day": 2491.581775138166,
+      "scale_kwh_mean_per_day": 2480.833365066826,
+      "final_kwh_mean_per_day": 2518.3125980272143,
+      "added_kwh_mean_per_day": 37.47923296038834,
+      "scaling_slots_mean_per_day": 6.16,
+      "active_need_slots_mean_per_day": 51.28,
+      "last_slot_battery_gap_kwh_mean_per_day": 148.86956219885582,
+      "added_share_of_final_percent": 1.4882676991628707,
+      "scaling_share_all_slots_percent": 11.0,
+      "scaling_share_active_need_slots_percent": 12.012480499219969
+    },
+    {
+      "method": "UC",
+      "capacity_kw": 600,
+      "raw_kwh_mean_per_day": 9575.793926733977,
+      "clip_kwh_mean_per_day": 2848.182061335022,
+      "scale_kwh_mean_per_day": 2518.323192829358,
+      "final_kwh_mean_per_day": 2518.323192829358,
+      "added_kwh_mean_per_day": 0.0,
+      "scaling_slots_mean_per_day": 9.36,
+      "active_need_slots_mean_per_day": 33.5,
+      "last_slot_battery_gap_kwh_mean_per_day": 0.09223846585556324,
+      "added_share_of_final_percent": 0.0,
+      "scaling_share_all_slots_percent": 16.714285714285715,
+      "scaling_share_active_need_slots_percent": 27.940298507462686
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 600,
+      "raw_kwh_mean_per_day": 863.663022359478,
+      "clip_kwh_mean_per_day": 859.3563031414088,
+      "scale_kwh_mean_per_day": 859.3563031414088,
+      "final_kwh_mean_per_day": 2319.6893698253693,
+      "added_kwh_mean_per_day": 1460.3330666839606,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 51.28,
+      "last_slot_battery_gap_kwh_mean_per_day": 459.7257760259462,
+      "added_share_of_final_percent": 62.953819838123295,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 600,
+      "raw_kwh_mean_per_day": 2792.7154962911,
+      "clip_kwh_mean_per_day": 2209.9595273427353,
+      "scale_kwh_mean_per_day": 2209.9595273427353,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 308.36731108888375,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 48.58,
+      "last_slot_battery_gap_kwh_mean_per_day": 98.54899065357822,
+      "added_share_of_final_percent": 12.244928115880736,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    },
+    {
+      "method": "UPA",
+      "capacity_kw": 600,
+      "raw_kwh_mean_per_day": 2518.3268384316193,
+      "clip_kwh_mean_per_day": 2518.3268384316193,
+      "scale_kwh_mean_per_day": 2518.3268384316193,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 0.0,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 32.6,
+      "last_slot_battery_gap_kwh_mean_per_day": 0.016330045404156838,
+      "added_share_of_final_percent": 0.0,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    },
+    {
+      "method": "IL",
+      "capacity_kw": 800,
+      "raw_kwh_mean_per_day": 2517.6588123660795,
+      "clip_kwh_mean_per_day": 2501.075180830023,
+      "scale_kwh_mean_per_day": 2497.868836215183,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 20.45800221643618,
+      "scaling_slots_mean_per_day": 1.86,
+      "active_need_slots_mean_per_day": 51.28,
+      "last_slot_battery_gap_kwh_mean_per_day": 93.58623706354378,
+      "added_share_of_final_percent": 0.8123648568657257,
+      "scaling_share_all_slots_percent": 3.3214285714285716,
+      "scaling_share_active_need_slots_percent": 3.627145085803432
+    },
+    {
+      "method": "UC",
+      "capacity_kw": 800,
+      "raw_kwh_mean_per_day": 9575.793926733977,
+      "clip_kwh_mean_per_day": 2521.0022742442097,
+      "scale_kwh_mean_per_day": 2518.3268384316193,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 0.0,
+      "scaling_slots_mean_per_day": 0.56,
+      "active_need_slots_mean_per_day": 32.6,
+      "last_slot_battery_gap_kwh_mean_per_day": 0.016330045404156838,
+      "added_share_of_final_percent": 0.0,
+      "scaling_share_all_slots_percent": 1.0,
+      "scaling_share_active_need_slots_percent": 1.7177914110429449
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 800,
+      "raw_kwh_mean_per_day": 315.6985637382458,
+      "clip_kwh_mean_per_day": 315.5772603881934,
+      "scale_kwh_mean_per_day": 315.5772603881934,
+      "final_kwh_mean_per_day": 2517.2573630639613,
+      "added_kwh_mean_per_day": 2201.680102675768,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 51.28,
+      "last_slot_battery_gap_kwh_mean_per_day": 284.9221165331272,
+      "added_share_of_final_percent": 87.46344871133566,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 800,
+      "raw_kwh_mean_per_day": 2761.4581500565555,
+      "clip_kwh_mean_per_day": 2198.577481558033,
+      "scale_kwh_mean_per_day": 2198.577481558033,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 319.7493568735862,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 48.68,
+      "last_slot_battery_gap_kwh_mean_per_day": 101.41209787991764,
+      "added_share_of_final_percent": 12.696896685289742,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    },
+    {
+      "method": "UPA",
+      "capacity_kw": 800,
+      "raw_kwh_mean_per_day": 2518.3268384316193,
+      "clip_kwh_mean_per_day": 2518.3268384316193,
+      "scale_kwh_mean_per_day": 2518.3268384316193,
+      "final_kwh_mean_per_day": 2518.3268384316193,
+      "added_kwh_mean_per_day": 0.0,
+      "scaling_slots_mean_per_day": 0,
+      "active_need_slots_mean_per_day": 32.6,
+      "last_slot_battery_gap_kwh_mean_per_day": 0.016330045404156838,
+      "added_share_of_final_percent": 0.0,
+      "scaling_share_all_slots_percent": 0.0,
+      "scaling_share_active_need_slots_percent": 0.0
+    }
+  ],
+  "small_20": [
+    {
+      "method": "IDEAL",
+      "cost": 74.42784546719952,
+      "unfairness": 1.5740794565537284,
+      "weighted_objective": 52.57171566400577,
+      "cost_ratio_to_IDEAL": 1.0,
+      "unfairness_ratio_to_IDEAL": 1.0,
+      "weighted_objective_ratio_to_IDEAL": 1.0
+    },
+    {
+      "method": "IL",
+      "cost": 75.75545722542185,
+      "unfairness": 1.5863623485935772,
+      "weighted_objective": 53.50472876237337,
+      "cost_ratio_to_IDEAL": 1.0178375680484721,
+      "unfairness_ratio_to_IDEAL": 1.0078032223778213,
+      "weighted_objective_ratio_to_IDEAL": 1.0177474348436835
+    },
+    {
+      "method": "UC",
+      "cost": 103.84432489586933,
+      "unfairness": 23.32347551074785,
+      "weighted_objective": 79.68807008033288,
+      "cost_ratio_to_IDEAL": 1.3952348646399244,
+      "unfairness_ratio_to_IDEAL": 14.81721612822011,
+      "weighted_objective_ratio_to_IDEAL": 1.5157974031061123
+    },
+    {
+      "method": "DDQN",
+      "cost": 97.75397818599104,
+      "unfairness": 17.721048208063685,
+      "weighted_objective": 73.74409919261282,
+      "cost_ratio_to_IDEAL": 1.3134059917006653,
+      "unfairness_ratio_to_IDEAL": 11.25803918873444,
+      "weighted_objective_ratio_to_IDEAL": 1.4027333569237712
+    },
+    {
+      "method": "PPO",
+      "cost": 97.06175063552095,
+      "unfairness": 6.175771572345138,
+      "weighted_objective": 69.7959569165682,
+      "cost_ratio_to_IDEAL": 1.3041053388855148,
+      "unfairness_ratio_to_IDEAL": 3.923417935881268,
+      "weighted_objective_ratio_to_IDEAL": 1.3276332346207855
+    },
+    {
+      "method": "RDDPG",
+      "cost": 84.83601946839208,
+      "unfairness": 25.702666531859343,
+      "weighted_objective": 67.09601358743225,
+      "cost_ratio_to_IDEAL": 1.1398424734164778,
+      "unfairness_ratio_to_IDEAL": 16.32869702024602,
+      "weighted_objective_ratio_to_IDEAL": 1.2762758974094282
+    }
+  ],
+  "bootstrap": [
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "metric": "cost",
+      "ours_minus_comparator": -455.2179828249937,
+      "ci95_low": -469.52569794863535,
+      "ci95_high": -440.27064915009214
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "metric": "unfairness",
+      "ours_minus_comparator": -589.0603675953515,
+      "ci95_low": -609.0729419552227,
+      "ci95_high": -569.4777917263877
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -495.3706982561011,
+      "ci95_low": -505.13096044433024,
+      "ci95_high": -485.6921290132136
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 0.010065062036233568,
+      "ci95_low": -0.01038996644489918,
+      "ci95_high": 0.04058515255358828
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UC",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": -0.24,
+      "ci95_low": -0.75,
+      "ci95_high": 0.03
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "metric": "cost",
+      "ours_minus_comparator": -241.99841018260983,
+      "ci95_low": -257.12985681949175,
+      "ci95_high": -226.935962700995
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "metric": "unfairness",
+      "ours_minus_comparator": -500.00716019459855,
+      "ci95_low": -509.1158917122636,
+      "ci95_high": -490.4722270343654
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -319.40103518620646,
+      "ci95_low": -330.11613346651006,
+      "ci95_high": -308.85128034199937
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": -188.69206679175284,
+      "ci95_low": -202.91106530025112,
+      "ci95_high": -174.40120438084733
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "DDQN",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 40.08,
+      "ci95_low": 36.75,
+      "ci95_high": 43.32
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "metric": "cost",
+      "ours_minus_comparator": -351.13337802793666,
+      "ci95_low": -359.1994946261274,
+      "ci95_high": -343.20554663968807
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "metric": "unfairness",
+      "ours_minus_comparator": -94.21391964693903,
+      "ci95_low": -98.1462347313893,
+      "ci95_high": -90.28156575628645
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -274.05754051363743,
+      "ci95_low": -279.65393180024984,
+      "ci95_high": -268.6131433713717
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 0.01352838418441096,
+      "ci95_low": -1.2190408929638992e-13,
+      "ci95_high": 0.04058515255346735
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "PPO",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": -0.25,
+      "ci95_low": -0.75,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "metric": "cost",
+      "ours_minus_comparator": -464.53612349345946,
+      "ci95_low": -479.20414058933534,
+      "ci95_high": -449.2459118057266
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "metric": "unfairness",
+      "ours_minus_comparator": -461.66465522245386,
+      "ci95_low": -485.3411724949978,
+      "ci95_high": -438.3931708227143
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -463.67468301215786,
+      "ci95_low": -474.19210560589624,
+      "ci95_high": -453.1228416988778
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 0.013528384184538335,
+      "ci95_low": 1.0531875787409337e-14,
+      "ci95_high": 0.040585152553589535
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "UPA",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": -0.25,
+      "ci95_low": -0.75,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "metric": "cost",
+      "ours_minus_comparator": -176.74272587720966,
+      "ci95_low": -185.06911389033937,
+      "ci95_high": -168.2897718187783
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "metric": "unfairness",
+      "ours_minus_comparator": -677.7505197594351,
+      "ci95_low": -688.2927898219742,
+      "ci95_high": -667.0306771349159
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -327.04506404187725,
+      "ci95_low": -333.29469517739386,
+      "ci95_high": -320.7632144160353
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 0.013528384184538335,
+      "ci95_low": 1.0531875787409337e-14,
+      "ci95_high": 0.040585152553589535
+    },
+    {
+      "capacity_kw": 600,
+      "comparator": "RDDPG",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": -0.25,
+      "ci95_low": -0.75,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "metric": "cost",
+      "ours_minus_comparator": -587.3076152289505,
+      "ci95_low": -605.453593211292,
+      "ci95_high": -568.3849701281671
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "metric": "unfairness",
+      "ours_minus_comparator": -643.9072765643826,
+      "ci95_low": -660.6667406215224,
+      "ci95_high": -627.4329504014447
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -604.2875136295802,
+      "ci95_low": -616.3617308787138,
+      "ci95_high": -591.7337643917119
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 2.081199377515679e-15,
+      "ci95_low": 1.1323153051026893e-15,
+      "ci95_high": 3.1642453426865906e-15
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UC",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "metric": "cost",
+      "ours_minus_comparator": -494.89031443710627,
+      "ci95_low": -511.30695636865715,
+      "ci95_high": -478.21550558609977
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "metric": "unfairness",
+      "ours_minus_comparator": -292.1203605657012,
+      "ci95_low": -295.83968655979794,
+      "ci95_high": -288.28241552836784
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -434.05932827568483,
+      "ci95_low": -445.28723352443603,
+      "ci95_high": -422.516940792321
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": -1.0160015992753633,
+      "ci95_low": -2.152778466075941,
+      "ci95_high": -0.23219995802467175
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "DDQN",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 0.39,
+      "ci95_low": 0.12,
+      "ci95_high": 0.76
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "metric": "cost",
+      "ours_minus_comparator": -436.1431582661202,
+      "ci95_low": -446.90229429943054,
+      "ci95_high": -425.3892601662452
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "metric": "unfairness",
+      "ours_minus_comparator": -81.53425195600983,
+      "ci95_low": -85.05197116529918,
+      "ci95_high": -77.96691077561267
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -329.76048637308713,
+      "ci95_low": -337.38424714235344,
+      "ci95_high": -322.2347521496915
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": -1.286616431235523e-13,
+      "ci95_low": -1.3821377231103561e-13,
+      "ci95_high": -1.192598679418869e-13
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "PPO",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "metric": "cost",
+      "ours_minus_comparator": -587.6648144744544,
+      "ci95_low": -605.899642811399,
+      "ci95_high": -568.6900176641101
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "metric": "unfairness",
+      "ours_minus_comparator": -642.4968481163983,
+      "ci95_low": -659.4528943116445,
+      "ci95_high": -625.8701619785572
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -604.1144245670375,
+      "ci95_low": -616.1914567224862,
+      "ci95_high": -591.5619856259566
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 2.081199377515679e-15,
+      "ci95_low": 1.1323153051026893e-15,
+      "ci95_high": 3.1642453426865906e-15
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "UPA",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "metric": "cost",
+      "ours_minus_comparator": -203.10922168096437,
+      "ci95_low": -212.34993533036615,
+      "ci95_high": -194.27858561296839
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "metric": "unfairness",
+      "ours_minus_comparator": -642.9497647688859,
+      "ci95_low": -657.2603886205673,
+      "ci95_high": -628.3049222825217
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "metric": "weighted_objective",
+      "ours_minus_comparator": -335.06138460734076,
+      "ci95_low": -341.0941342080711,
+      "ci95_high": -329.19029033864024
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "metric": "gap_kwh",
+      "ours_minus_comparator": 1.6282879514009567e-15,
+      "ci95_low": 5.585125225377108e-16,
+      "ci95_high": 2.8050358556059374e-15
+    },
+    {
+      "capacity_kw": 800,
+      "comparator": "RDDPG",
+      "metric": "vehicle_met_percent",
+      "ours_minus_comparator": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    }
+  ],
+  "training_repeats": [
+    {
+      "method": "IL",
+      "capacity_kw": 600,
+      "run_means": [
+        {
+          "training_seed": 11002,
+          "cost": 1651.9083121304993,
+          "unfairness": 48.912624497521136,
+          "weighted_objective": 1171.0096058406057,
+          "all_met": 0.98,
+          "vehicle_met_percent": 99.75,
+          "gap_kwh": 0.013528384184538333,
+          "cost_per_purchased_kwh": 0.6559584038234827
+        },
+        {
+          "training_seed": 11003,
+          "cost": 1648.2481335008624,
+          "unfairness": 57.20916472713188,
+          "weighted_objective": 1170.9364428687431,
+          "all_met": 0.98,
+          "vehicle_met_percent": 99.83,
+          "gap_kwh": 0.009272394592128119,
+          "cost_per_purchased_kwh": 0.6545038144280181
+        },
+        {
+          "training_seed": 11004,
+          "cost": 1648.9293674296064,
+          "unfairness": 53.55326634340369,
+          "weighted_objective": 1170.3165371037455,
+          "all_met": 0.96,
+          "vehicle_met_percent": 99.55,
+          "gap_kwh": 0.01407169834289225,
+          "cost_per_purchased_kwh": 0.6547756395269749
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 1649.6952710203227,
+          "sample_sd": 1.9465824238692795
+        },
+        "unfairness": {
+          "mean": 53.225018522685566,
+          "sample_sd": 4.157998908037617
+        },
+        "weighted_objective": {
+          "mean": 1170.7541952710314,
+          "sample_sd": 0.38078433352357133
+        },
+        "all_met": {
+          "mean": 0.9733333333333333,
+          "sample_sd": 0.011547005383792526
+        },
+        "vehicle_met_percent": {
+          "mean": 99.71,
+          "sample_sd": 0.14422205101856045
+        },
+        "gap_kwh": {
+          "mean": 0.012290825706519567,
+          "sample_sd": 0.0026281157438194686
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.6550792859261586,
+          "sample_sd": 0.0007733747016501244
+        }
+      }
+    },
+    {
+      "method": "IL",
+      "capacity_kw": 800,
+      "run_means": [
+        {
+          "training_seed": 11002,
+          "cost": 1567.7538378912354,
+          "unfairness": 59.1806915123004,
+          "weighted_objective": 1115.1818939775549,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 2.081199377515679e-15,
+          "cost_per_purchased_kwh": 0.6225378747373443
+        },
+        {
+          "training_seed": 11003,
+          "cost": 1565.3973320388304,
+          "unfairness": 64.7281592323757,
+          "weighted_objective": 1115.196580196894,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 2.778009895532401e-15,
+          "cost_per_purchased_kwh": 0.6216021320781934
+        },
+        {
+          "training_seed": 11004,
+          "cost": 1565.4196763401478,
+          "unfairness": 62.506150023782986,
+          "weighted_objective": 1114.5456184452382,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 3.608167541177482e-15,
+          "cost_per_purchased_kwh": 0.6216110047554712
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 1566.1902820900712,
+          "sample_sd": 1.3541251324992192
+        },
+        "unfairness": {
+          "mean": 62.138333589486365,
+          "sample_sd": 2.791964581316064
+        },
+        "weighted_objective": {
+          "mean": 1114.9746975398957,
+          "sample_sd": 0.3716659432389289
+        },
+        "all_met": {
+          "mean": 1.0,
+          "sample_sd": 0.0
+        },
+        "vehicle_met_percent": {
+          "mean": 100.0,
+          "sample_sd": 0.0
+        },
+        "gap_kwh": {
+          "mean": 2.8224589380751876e-15,
+          "sample_sd": 7.644538777757639e-16
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.621917003857003,
+          "sample_sd": 0.0005377082560668345
+        }
+      }
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 600,
+      "run_means": [
+        {
+          "training_seed": 21002,
+          "cost": 1893.9067223131092,
+          "unfairness": 548.9197846921197,
+          "weighted_objective": 1490.4106410268123,
+          "all_met": 0.0,
+          "vehicle_met_percent": 59.67,
+          "gap_kwh": 188.70559517593736,
+          "cost_per_purchased_kwh": 0.8164484206157681
+        },
+        {
+          "training_seed": 21003,
+          "cost": 1885.9562233975773,
+          "unfairness": 545.4361260722116,
+          "weighted_objective": 1483.8001941999676,
+          "all_met": 0.0,
+          "vehicle_met_percent": 52.84,
+          "gap_kwh": 199.89169658523454,
+          "cost_per_purchased_kwh": 0.8171690077590881
+        },
+        {
+          "training_seed": 21004,
+          "cost": 1895.0122526699183,
+          "unfairness": 671.4717486683166,
+          "weighted_objective": 1527.9501014694379,
+          "all_met": 0.0,
+          "vehicle_met_percent": 77.05,
+          "gap_kwh": 186.85570955955004,
+          "cost_per_purchased_kwh": 0.8162398189734182
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 1891.6250661268682,
+          "sample_sd": 4.940382855562185
+        },
+        "unfairness": {
+          "mean": 588.6092198108827,
+          "sample_sd": 71.78219128608312
+        },
+        "weighted_objective": {
+          "mean": 1500.7203122320725,
+          "sample_sd": 23.81219368823747
+        },
+        "all_met": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "vehicle_met_percent": {
+          "mean": 63.18666666666667,
+          "sample_sd": 12.482236711957247
+        },
+        "gap_kwh": {
+          "mean": 191.81766710690732,
+          "sample_sd": 7.053225022009575
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.8166190824494248,
+          "sample_sd": 0.00048753671241656606
+        }
+      }
+    },
+    {
+      "method": "DDQN",
+      "capacity_kw": 800,
+      "run_means": [
+        {
+          "training_seed": 21002,
+          "cost": 2062.644152328342,
+          "unfairness": 351.30105207800165,
+          "weighted_objective": 1549.2412222532396,
+          "all_met": 0.8,
+          "vehicle_met_percent": 99.61,
+          "gap_kwh": 1.0160015992753653,
+          "cost_per_purchased_kwh": 0.8194013781005403
+        },
+        {
+          "training_seed": 21003,
+          "cost": 2063.3552101424325,
+          "unfairness": 350.0536805386474,
+          "weighted_objective": 1549.364751261297,
+          "all_met": 0.74,
+          "vehicle_met_percent": 99.45,
+          "gap_kwh": 1.5642235771169772,
+          "cost_per_purchased_kwh": 0.8198718051540349
+        },
+        {
+          "training_seed": 21004,
+          "cost": 2063.3582027220027,
+          "unfairness": 351.2393699674238,
+          "weighted_objective": 1549.722552895629,
+          "all_met": 0.74,
+          "vehicle_met_percent": 99.49,
+          "gap_kwh": 1.4613458232375216,
+          "cost_per_purchased_kwh": 0.8198377167589855
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 2063.1191883975926,
+          "sample_sd": 0.4113960247739188
+        },
+        "unfairness": {
+          "mean": 350.8647008613576,
+          "sample_sd": 0.703040997081993
+        },
+        "weighted_objective": {
+          "mean": 1549.4428421367218,
+          "sample_sd": 0.24998687054364477
+        },
+        "all_met": {
+          "mean": 0.76,
+          "sample_sd": 0.034641016151377574
+        },
+        "vehicle_met_percent": {
+          "mean": 99.51666666666667,
+          "sample_sd": 0.08326663997864467
+        },
+        "gap_kwh": {
+          "mean": 1.3471903332099546,
+          "sample_sd": 0.29139396214526764
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.8197036333378536,
+          "sample_sd": 0.0002623150320354404
+        }
+      }
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 600,
+      "run_means": [
+        {
+          "training_seed": 24003,
+          "cost": 2003.041690158436,
+          "unfairness": 143.12654414446018,
+          "weighted_objective": 1445.067146354243,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 1.2737693215715698e-13,
+          "cost_per_purchased_kwh": 0.7953859124202893
+        },
+        {
+          "training_seed": 24004,
+          "cost": 2004.4627242569738,
+          "unfairness": 172.89257129116726,
+          "weighted_objective": 1454.9916783672318,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 9.868394167752275e-14,
+          "cost_per_purchased_kwh": 0.7959501894938017
+        },
+        {
+          "training_seed": 24005,
+          "cost": 2002.5666420623575,
+          "unfairness": 168.97280973585626,
+          "weighted_objective": 1452.488492364407,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 9.661797608254529e-14,
+          "cost_per_purchased_kwh": 0.7951972760253508
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 2003.3570188259225,
+          "sample_sd": 0.9865880845567643
+        },
+        "unfairness": {
+          "mean": 161.66397505716122,
+          "sample_sd": 16.173076123452734
+        },
+        "weighted_objective": {
+          "mean": 1450.849105695294,
+          "sample_sd": 5.161373403209522
+        },
+        "all_met": {
+          "mean": 1.0,
+          "sample_sd": 0.0
+        },
+        "vehicle_met_percent": {
+          "mean": 100.0,
+          "sample_sd": 0.0
+        },
+        "gap_kwh": {
+          "mean": 1.07559616639075e-13,
+          "sample_sd": 1.7193357706315455e-14
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.795511125979814,
+          "sample_sd": 0.00039176332059075457
+        }
+      }
+    },
+    {
+      "method": "PPO",
+      "capacity_kw": 800,
+      "run_means": [
+        {
+          "training_seed": 24003,
+          "cost": 2003.8969961573557,
+          "unfairness": 140.71494346831022,
+          "weighted_objective": 1444.942380350642,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 1.30742842501068e-13,
+          "cost_per_purchased_kwh": 0.7957255450628309
+        },
+        {
+          "training_seed": 24004,
+          "cost": 2005.046529935039,
+          "unfairness": 169.30483675172516,
+          "weighted_objective": 1454.3240219800448,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 1.0096000173245259e-13,
+          "cost_per_purchased_kwh": 0.7961820123331392
+        },
+        {
+          "training_seed": 24005,
+          "cost": 2003.0228343360995,
+          "unfairness": 166.0816361352677,
+          "weighted_objective": 1451.94047487585,
+          "all_met": 1.0,
+          "vehicle_met_percent": 100.0,
+          "gap_kwh": 1.0128899814048902e-13,
+          "cost_per_purchased_kwh": 0.7953784249797997
+        }
+      ],
+      "across_runs": {
+        "cost": {
+          "mean": 2003.9887868094982,
+          "sample_sd": 1.0149655719073558
+        },
+        "unfairness": {
+          "mean": 158.70047211843436,
+          "sample_sd": 15.659076798196313
+        },
+        "weighted_objective": {
+          "mean": 1450.402292402179,
+          "sample_sd": 4.876300227361672
+        },
+        "all_met": {
+          "mean": 1.0,
+          "sample_sd": 0.0
+        },
+        "vehicle_met_percent": {
+          "mean": 100.0,
+          "sample_sd": 0.0
+        },
+        "gap_kwh": {
+          "mean": 1.1099728079133653e-13,
+          "sample_sd": 1.710094924510728e-14
+        },
+        "cost_per_purchased_kwh": {
+          "mean": 0.7957619941252566,
+          "sample_sd": 0.0004030317099504566
+        }
+      }
+    }
+  ],
+  "battery_demand_kwh_total": {
+    "600": 119620.52482550193,
+    "800": 119620.52482550193
+  },
+  "bootstrap_protocol": "10000 paired day resamples per capacity, seed 20261101; intervals are descriptive, no multiple-comparison adjustment",
+  "sources_sha256": {
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "8ed9d7c12bca0ac9b0fcc5404a94a73bf7efbbd4332148262dbe3f70f3b0156a",
+    "artifacts/runs/pressure21_v1/evaluation/rl/formal/scenarios.csv": "541b5c9f700e0f3f9a4495365dfbb3edff420d17b89a2c58e51f6862c98ac8db",
+    "artifacts/runs/pressure21_v1/evaluation/small/scenarios.csv": "d60cdbdb5015480bddc0980a2f373985aee9fefe38329b2476c355dace14c10f",
+    "artifacts/runs/pressure21_v1/evaluation/rl/small/scenarios.csv": "3435857fb80c709a621015b80446df72fe00b8b3eb4e3b5c788db861eaedc7d7",
+    "artifacts/runs/ppo_half_formal_20261107/evaluation/formal/scenarios.csv": "c985b3413d03bc5a1d0adca5d0c09802bb61e4869289472e121bd7b5edc7f897",
+    "artifacts/runs/ppo_half_formal_20261107/evaluation/small/scenarios.csv": "f5d14b0de87638afb33488fe5f23927997b26c181fc36bb3eafa81f769bb2a3f",
+    "artifacts/runs/ppo_half_formal_20261107/selection.json": "4529292679e78e71eb9c6b070f4b9389c464d599be467299373afca89ec67548",
+    "results/pressure21_v1/formal_references.csv": "f2f26a044b9f1d7fc679051a606ff570469c7e16b752503573c612e5880b9c90",
+    "artifacts/runs/ideal10h_v1/small_evaluation/scenarios.csv": "dc2b87b7c2cd9b1a81d1660f400bd49c212e8e8f9c973229bf747f7504eb9958",
+    "artifacts/runs/li2023_r105/paper_33001/scenarios.csv": "94b21031810f71da68566782a1e06772c7d33a6671eb3b08c47619e0c26dce10"
+  }
+}

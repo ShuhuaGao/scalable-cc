@@ -1,0 +1,28 @@
+{
+  "baseline_checkpoint_counts": {
+    "ddqn": 10,
+    "ppo": 10
+  },
+  "validation_max_absolute_difference": {
+    "ddqn": 0,
+    "ppo": 0
+  },
+  "formal_input_hashes_matched": 200,
+  "formal_baseline_records_matched": 100,
+  "formal_max_absolute_difference": {
+    "cost": 0.0,
+    "unfairness": 0.0,
+    "weighted_objective": 0.0,
+    "gap_kwh": 0.0,
+    "purchased_kwh": 0.0,
+    "failed_vehicles": 0.0
+  },
+  "sources_sha256": {
+    "artifacts/runs/r106_rl_lr_20261107/selection.json": "0ba4e082283603bf65820d54e9ab863ea6181092aa948ac9d457229504cfc298",
+    "artifacts/runs/pressure21_v1/rl_selection.json": "497b75797c4363faa9088b7adc4d9f2ab2da943d8b5bf35ee286d30936528ae9",
+    "artifacts/runs/pressure21_v1/ddqn_21002/ddqn_model/validation.json": "6dd438be3743d6ceb1ba42c406ae334b74f981df467ebcf721e9e7f10870da63",
+    "artifacts/runs/r106_rl_lr_20261107/formal/scenarios.csv": "b8d27ba871301b2fef5e1a8b3434b304dc391cb7335ac270682ca3e2fb5b17d8",
+    "artifacts/runs/pressure21_v1/evaluation/rl/formal/scenarios.csv": "aee37b3c52cb0efb4a692a111914eba698c2a00d0518fac0550a9672a8373094",
+    "scripts/audit_r106_rl_lr_search.py": "134eb3c84251922cd410b4abb005813513c601f0e48042441ec1ee8357d517b3"
+  }
+}

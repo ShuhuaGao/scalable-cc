@@ -1,0 +1,139 @@
+{
+  "state_schema": "pressure21_v1",
+  "selection": "frozen expert autoregressive validation MSE including epoch 0",
+  "formal_test_used_for_selection": false,
+  "models": [
+    {
+      "variant": "local",
+      "seed": 11002,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/local_11002/best.pt",
+      "sha256": "7e664d706b20486fc165d641e580274e94b2cb0c82983e729f1bb4cca0a0bcaa",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/local_11002/continuation_best.pt",
+      "source_sha256": "7e664d706b20486fc165d641e580274e94b2cb0c82983e729f1bb4cca0a0bcaa",
+      "selected_epoch": 0,
+      "validation_mse": 0.012563712894916534
+    },
+    {
+      "variant": "local",
+      "seed": 11003,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/local_11003/best.pt",
+      "sha256": "22ec14e3062c1e5e7ad2bedb5080527d41effc3693743cc04e51e9e2ef64548a",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/local_11003/continuation_best.pt",
+      "source_sha256": "22ec14e3062c1e5e7ad2bedb5080527d41effc3693743cc04e51e9e2ef64548a",
+      "selected_epoch": 0,
+      "validation_mse": 0.012808708474040031
+    },
+    {
+      "variant": "local",
+      "seed": 11004,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/local_11004/best.pt",
+      "sha256": "ba1c7a3861c9204bfaba2e508f82137959ebb745d2d6f18c5d9e83f6d54d255c",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/local_11004/continuation_best.pt",
+      "source_sha256": "ba1c7a3861c9204bfaba2e508f82137959ebb745d2d6f18c5d9e83f6d54d255c",
+      "selected_epoch": 0,
+      "validation_mse": 0.01275687012821436
+    },
+    {
+      "variant": "without_a",
+      "seed": 11002,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_a_11002/best.pt",
+      "sha256": "7d4d36e675fa09fae01ba4d6b5cb6d968deaf8d6ab5d9353dcaa60637d5d414e",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_a_11002/continuation_best.pt",
+      "source_sha256": "7d4d36e675fa09fae01ba4d6b5cb6d968deaf8d6ab5d9353dcaa60637d5d414e",
+      "selected_epoch": 0,
+      "validation_mse": 0.01075779553502798
+    },
+    {
+      "variant": "without_a",
+      "seed": 11003,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_a_11003/best.pt",
+      "sha256": "0173f8cf5cf4d52b02541185e587e8c7d3b2fe9c974f586738f7487cd169bffa",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_a_11003/continuation_best.pt",
+      "source_sha256": "0173f8cf5cf4d52b02541185e587e8c7d3b2fe9c974f586738f7487cd169bffa",
+      "selected_epoch": 3,
+      "validation_mse": 0.010631262324750423
+    },
+    {
+      "variant": "without_a",
+      "seed": 11004,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_a_11004/best.pt",
+      "sha256": "e6d28b0f7a4fec5ceeee8ce32ecd2b1942c8f2e5d9662fd4e8c0157b27d5628c",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_a_11004/continuation_best.pt",
+      "source_sha256": "e6d28b0f7a4fec5ceeee8ce32ecd2b1942c8f2e5d9662fd4e8c0157b27d5628c",
+      "selected_epoch": 20,
+      "validation_mse": 0.010704165324568748
+    },
+    {
+      "variant": "without_b",
+      "seed": 11002,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_b_11002/best.pt",
+      "sha256": "b286e989a9147e61a459b4aa8102ee0d2ec20b233beda09286ebd7baa41c25b9",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_b_11002/continuation_best.pt",
+      "source_sha256": "b286e989a9147e61a459b4aa8102ee0d2ec20b233beda09286ebd7baa41c25b9",
+      "selected_epoch": 18,
+      "validation_mse": 0.03778602182865143
+    },
+    {
+      "variant": "without_b",
+      "seed": 11003,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_b_11003/best.pt",
+      "sha256": "1ca61bec8aa483b9f5c28ca8f850c8dcea228fd0adbe5d21e59d8e9286ddcf0b",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_b_11003/continuation_best.pt",
+      "source_sha256": "1ca61bec8aa483b9f5c28ca8f850c8dcea228fd0adbe5d21e59d8e9286ddcf0b",
+      "selected_epoch": 18,
+      "validation_mse": 0.03742527589201927
+    },
+    {
+      "variant": "without_b",
+      "seed": 11004,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_b_11004/best.pt",
+      "sha256": "97f62b77f0cf6d38feaaa1107a636adf90f3eb7cd14646a5ddafb88676b4638c",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_b_11004/continuation_best.pt",
+      "source_sha256": "97f62b77f0cf6d38feaaa1107a636adf90f3eb7cd14646a5ddafb88676b4638c",
+      "selected_epoch": 19,
+      "validation_mse": 0.03752383217215538
+    },
+    {
+      "variant": "without_c",
+      "seed": 11002,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_c_11002/best.pt",
+      "sha256": "6b27666286adef6c60fd6cc62840a83cddd6d69fc7ff082b97d57abcd04ea007",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_c_11002/continuation_best.pt",
+      "source_sha256": "6b27666286adef6c60fd6cc62840a83cddd6d69fc7ff082b97d57abcd04ea007",
+      "selected_epoch": 15,
+      "validation_mse": 0.010917878709733486
+    },
+    {
+      "variant": "without_c",
+      "seed": 11003,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_c_11003/best.pt",
+      "sha256": "d774c82b350ab476345bbc7a8d0304bf09612addc8b5ecb825ed550db22c0201",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_c_11003/continuation_best.pt",
+      "source_sha256": "d774c82b350ab476345bbc7a8d0304bf09612addc8b5ecb825ed550db22c0201",
+      "selected_epoch": 20,
+      "validation_mse": 0.01072788704186678
+    },
+    {
+      "variant": "without_c",
+      "seed": 11004,
+      "path": "artifacts/runs/pressure21_v1/ablation_models/without_c_11004/best.pt",
+      "sha256": "6b009fa38a77aae07471ef1150e4541f05b2fc1693f7b89fa9e08c193d461620",
+      "state_schema": "pressure21_v1",
+      "source_path": "Historical reference (not distributed): artifacts/state_group_ablation/training/models/without_c_11004/continuation_best.pt",
+      "source_sha256": "6b009fa38a77aae07471ef1150e4541f05b2fc1693f7b89fa9e08c193d461620",
+      "selected_epoch": 19,
+      "validation_mse": 0.010858853347599506
+    }
+  ]
+}

@@ -1,0 +1,1745 @@
+{
+  "seed": 62027,
+  "n": 10,
+  "limit": 40.0,
+  "horizon_slots": 40,
+  "starts": 4,
+  "seconds_per_window": 30.0,
+  "complete": true,
+  "windows": [
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 9.625035768401347e-09,
+      "abs_opt_error": 0.0011116055661988134,
+      "solve_time_wall": 0.5577792000258341,
+      "iterations": 76,
+      "slot": 0,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 37.12942933751134,
+          "abs_feas_error": 9.625035768401347e-09,
+          "abs_opt_error": 0.0011116055661988134,
+          "iters": 6
+        },
+        {
+          "obj": 37.2202874375851,
+          "abs_feas_error": 7.995826223350377e-13,
+          "abs_opt_error": 0.022672621468825385,
+          "iters": 31
+        },
+        {
+          "obj": 39.46738286210519,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.047824115331947845,
+          "iters": 28
+        },
+        {
+          "obj": 48.860344099843466,
+          "abs_feas_error": 6.539213615042172e-14,
+          "abs_opt_error": 0.020297603962680197,
+          "iters": 11
+        }
+      ],
+      "checked_residual": 9.625035768401347e-09
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 8.916950511306254e-09,
+      "abs_opt_error": 0.007973459126778507,
+      "solve_time_wall": 2.566473599988967,
+      "iterations": 430,
+      "slot": 1,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 37.37485632685109,
+          "abs_feas_error": 8.916950511306254e-09,
+          "abs_opt_error": 0.007973459126778507,
+          "iters": 385
+        },
+        {
+          "obj": 37.43214860256774,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03870589793004575,
+          "iters": 11
+        },
+        {
+          "obj": 39.093367269699016,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.040785754629685735,
+          "iters": 19
+        },
+        {
+          "obj": 46.641766765869114,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03651289139576622,
+          "iters": 15
+        }
+      ],
+      "checked_residual": 8.916950511306254e-09
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.0021726158091943696,
+      "solve_time_wall": 0.49106150001171045,
+      "iterations": 64,
+      "slot": 2,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 37.760688394178665,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0021726158091943696,
+          "iters": 5
+        },
+        {
+          "obj": 37.8370134470785,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.035822716072167714,
+          "iters": 24
+        },
+        {
+          "obj": 41.54920986843927,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03972593712410958,
+          "iters": 26
+        },
+        {
+          "obj": 48.82245865973661,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.010472703722954809,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.005891000175529076,
+      "solve_time_wall": 0.36707619999651797,
+      "iterations": 44,
+      "slot": 3,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 38.03366594196173,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.005891000175529076,
+          "iters": 4
+        },
+        {
+          "obj": 44.49561405857845,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03971332341108727,
+          "iters": 16
+        },
+        {
+          "obj": 51.94123692539255,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.001576180906302517,
+          "iters": 9
+        },
+        {
+          "obj": 54.00963189625639,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.009009552775890165,
+          "iters": 15
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.031440146007948706,
+      "solve_time_wall": 0.4819442000007257,
+      "iterations": 64,
+      "slot": 4,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 38.6359606884905,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.031440146007948706,
+          "iters": 20
+        },
+        {
+          "obj": 39.40546304402334,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04663856406125689,
+          "iters": 2
+        },
+        {
+          "obj": 41.67362989313815,
+          "abs_feas_error": 4.440892098500626e-16,
+          "abs_opt_error": 0.028861978822876787,
+          "iters": 16
+        },
+        {
+          "obj": 47.03237487248197,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.039178045074603714,
+          "iters": 26
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.00722982530804417,
+      "solve_time_wall": 0.3317627999931574,
+      "iterations": 39,
+      "slot": 5,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 38.68457090166812,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.00722982530804417,
+          "iters": 3
+        },
+        {
+          "obj": 43.46500385572039,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.046436150896145514,
+          "iters": 21
+        },
+        {
+          "obj": 47.57279926899531,
+          "abs_feas_error": 6.661338147750939e-16,
+          "abs_opt_error": 0.027383826362827497,
+          "iters": 7
+        },
+        {
+          "obj": 52.706658667241754,
+          "abs_feas_error": 4.440892098500626e-16,
+          "abs_opt_error": 0.0037797221111811885,
+          "iters": 8
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.014572294609651704,
+      "solve_time_wall": 0.28943710000021383,
+      "iterations": 32,
+      "slot": 6,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 39.61967595448844,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.014572294609651704,
+          "iters": 2
+        },
+        {
+          "obj": 42.50109190562938,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.040918514088136536,
+          "iters": 14
+        },
+        {
+          "obj": 50.51757059395876,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.0018831265034691515,
+          "iters": 7
+        },
+        {
+          "obj": 51.95688928868466,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.002175667384745586,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.01592356544329893,
+      "solve_time_wall": 0.33178229999612086,
+      "iterations": 43,
+      "slot": 7,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 39.33611591313984,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.01592356544329893,
+          "iters": 2
+        },
+        {
+          "obj": 39.65168399203985,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.031785749028394435,
+          "iters": 18
+        },
+        {
+          "obj": 43.66594681907948,
+          "abs_feas_error": 2.0954349366775205e-12,
+          "abs_opt_error": 0.04184283088760528,
+          "iters": 15
+        },
+        {
+          "obj": 48.54849744802119,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03857883988381191,
+          "iters": 8
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.019254778843227863,
+      "solve_time_wall": 0.3119549000111874,
+      "iterations": 40,
+      "slot": 8,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 39.60278648454251,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.019254778843227863,
+          "iters": 2
+        },
+        {
+          "obj": 41.340918339568894,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.040221454852497694,
+          "iters": 12
+        },
+        {
+          "obj": 42.83776510893855,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.04468481726550769,
+          "iters": 14
+        },
+        {
+          "obj": 47.772422219080276,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04124731512304176,
+          "iters": 12
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.03633713882049018,
+      "solve_time_wall": 0.36173170001711696,
+      "iterations": 51,
+      "slot": 9,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 38.18650355437712,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03633713882049018,
+          "iters": 23
+        },
+        {
+          "obj": 38.81459388834805,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.046644989132514046,
+          "iters": 17
+        },
+        {
+          "obj": 39.42743109724321,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.015346728077081456,
+          "iters": 2
+        },
+        {
+          "obj": 48.11161300961922,
+          "abs_feas_error": 8.881784197001252e-16,
+          "abs_opt_error": 0.04979228666475363,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.04439700510053662,
+      "solve_time_wall": 0.3819906999997329,
+      "iterations": 57,
+      "slot": 10,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 37.62269758357851,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04439700510053662,
+          "iters": 30
+        },
+        {
+          "obj": 37.73400837082147,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.037474860418954016,
+          "iters": 16
+        },
+        {
+          "obj": 39.27359045609419,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04938129389229108,
+          "iters": 2
+        },
+        {
+          "obj": 46.0048999157834,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04555372762542667,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.042763601914264454,
+      "solve_time_wall": 0.24568240001099184,
+      "iterations": 35,
+      "slot": 11,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 38.217573476433714,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.042763601914264454,
+          "iters": 20
+        },
+        {
+          "obj": 39.06655606926624,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.03402783066099262,
+          "iters": 2
+        },
+        {
+          "obj": 46.27360211469855,
+          "abs_feas_error": 7.771561172376096e-16,
+          "abs_opt_error": 0.045524336326475345,
+          "iters": 6
+        },
+        {
+          "obj": 47.06705117963905,
+          "abs_feas_error": 9.992007221626409e-16,
+          "abs_opt_error": 0.006288596465208301,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.025309496752421605,
+      "solve_time_wall": 0.23937339999247342,
+      "iterations": 37,
+      "slot": 12,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 37.40343945511288,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.025309496752421605,
+          "iters": 15
+        },
+        {
+          "obj": 39.19458205126667,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04558917409308286,
+          "iters": 2
+        },
+        {
+          "obj": 39.42553478189958,
+          "abs_feas_error": 3.752553823233029e-14,
+          "abs_opt_error": 0.021352056679333917,
+          "iters": 8
+        },
+        {
+          "obj": 40.756389229948866,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.03684812670349608,
+          "iters": 12
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.019736869166603367,
+      "solve_time_wall": 0.2258373000076972,
+      "iterations": 38,
+      "slot": 13,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 35.57056175515411,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.019736869166603367,
+          "iters": 17
+        },
+        {
+          "obj": 36.05157389629898,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.016311644002260157,
+          "iters": 3
+        },
+        {
+          "obj": 37.566925099734796,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.032422293806923644,
+          "iters": 11
+        },
+        {
+          "obj": 39.952076480121825,
+          "abs_feas_error": 3.3306690738754696e-15,
+          "abs_opt_error": 0.011198288357289303,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.220446049250313e-16,
+      "abs_opt_error": 0.04871717847514788,
+      "solve_time_wall": 0.19626680001965724,
+      "iterations": 34,
+      "slot": 14,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 35.64663055302855,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.04871717847514788,
+          "iters": 17
+        },
+        {
+          "obj": 35.8072800470387,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.037424768226124935,
+          "iters": 8
+        },
+        {
+          "obj": 36.42838900915479,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.013586300558153873,
+          "iters": 2
+        },
+        {
+          "obj": 37.4351411179994,
+          "abs_feas_error": 4.440892098500626e-16,
+          "abs_opt_error": 0.0078401314164771,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 2.220446049250313e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.0495845968145524,
+      "solve_time_wall": 0.19457379999221303,
+      "iterations": 35,
+      "slot": 15,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 35.1456829878361,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0495845968145524,
+          "iters": 11
+        },
+        {
+          "obj": 35.662056784584124,
+          "abs_feas_error": 1.3322676295501878e-15,
+          "abs_opt_error": 0.01068088259288613,
+          "iters": 7
+        },
+        {
+          "obj": 35.67515769418951,
+          "abs_feas_error": 7.049916206369744e-13,
+          "abs_opt_error": 0.04333791008189789,
+          "iters": 15
+        },
+        {
+          "obj": 35.996785917137274,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.015689538345161805,
+          "iters": 2
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 3.3306690738754696e-16,
+      "abs_opt_error": 0.02651435189273202,
+      "solve_time_wall": 0.15236779997940175,
+      "iterations": 28,
+      "slot": 16,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 34.91557772027721,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.02651435189273202,
+          "iters": 11
+        },
+        {
+          "obj": 35.29865781384561,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.005599979885188509,
+          "iters": 10
+        },
+        {
+          "obj": 35.66076243084721,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.017092568340785135,
+          "iters": 2
+        },
+        {
+          "obj": 41.61711890460736,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0034482604359197884,
+          "iters": 5
+        }
+      ],
+      "checked_residual": 3.3306690738754696e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.8340065022215413e-09,
+      "abs_opt_error": 0.028397181383543545,
+      "solve_time_wall": 0.1283185000065714,
+      "iterations": 25,
+      "slot": 17,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 32.23719578889116,
+          "abs_feas_error": 1.8340065022215413e-09,
+          "abs_opt_error": 0.028397181383543545,
+          "iters": 8
+        },
+        {
+          "obj": 32.471592045902064,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.016728848534839125,
+          "iters": 7
+        },
+        {
+          "obj": 32.854632161659,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.01779837001529781,
+          "iters": 2
+        },
+        {
+          "obj": 37.288495204333806,
+          "abs_feas_error": 8.881784197001252e-16,
+          "abs_opt_error": 0.00744542873598889,
+          "iters": 8
+        }
+      ],
+      "checked_residual": 1.8340065022215413e-09
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.04482298132132375,
+      "solve_time_wall": 0.12469329999294132,
+      "iterations": 27,
+      "slot": 18,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 31.135867272939254,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04482298132132375,
+          "iters": 9
+        },
+        {
+          "obj": 31.532947269674814,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0828248447059205,
+          "iters": 2
+        },
+        {
+          "obj": 31.70806220580771,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.02008510579166938,
+          "iters": 8
+        },
+        {
+          "obj": 36.74942494536817,
+          "abs_feas_error": 3.885780586188048e-15,
+          "abs_opt_error": 0.00474542708440254,
+          "iters": 8
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.04608308680751355,
+      "solve_time_wall": 0.0985913000185974,
+      "iterations": 24,
+      "slot": 19,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 30.51611569777775,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04608308680751355,
+          "iters": 8
+        },
+        {
+          "obj": 30.892158312902687,
+          "abs_feas_error": 4.440892098500626e-16,
+          "abs_opt_error": 0.005524284235494415,
+          "iters": 8
+        },
+        {
+          "obj": 30.997218163198305,
+          "abs_feas_error": 2.220446049250313e-16,
+          "abs_opt_error": 0.051967054814446106,
+          "iters": 2
+        },
+        {
+          "obj": 34.092593252958956,
+          "abs_feas_error": 1.3322676295501878e-15,
+          "abs_opt_error": 0.013742442407370175,
+          "iters": 6
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.0456706930004146,
+      "solve_time_wall": 0.0986768999719061,
+      "iterations": 28,
+      "slot": 20,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 27.734991168061743,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0456706930004146,
+          "iters": 11
+        },
+        {
+          "obj": 28.3892196470892,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.013605906129615439,
+          "iters": 2
+        },
+        {
+          "obj": 29.009151110582003,
+          "abs_feas_error": 5.10702591327572e-15,
+          "abs_opt_error": 0.005450540028859833,
+          "iters": 9
+        },
+        {
+          "obj": 34.4565608164694,
+          "abs_feas_error": 3.4927616354707425e-13,
+          "abs_opt_error": 0.0023435458245225213,
+          "iters": 6
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.00014764487261673337,
+      "solve_time_wall": 0.1175783000071533,
+      "iterations": 41,
+      "slot": 21,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 24.642966542805254,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.00014764487261673337,
+          "iters": 13
+        },
+        {
+          "obj": 24.687653520762588,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.004730935845791653,
+          "iters": 14
+        },
+        {
+          "obj": 24.73566734255926,
+          "abs_feas_error": 5.699597238617571e-09,
+          "abs_opt_error": 0.0002857409866811328,
+          "iters": 12
+        },
+        {
+          "obj": 25.567449745521593,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04680484660906558,
+          "iters": 2
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.04532332799698979,
+      "solve_time_wall": 0.08537349998368882,
+      "iterations": 31,
+      "slot": 22,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 21.0719385732681,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04532332799698979,
+          "iters": 10
+        },
+        {
+          "obj": 21.08788509920519,
+          "abs_feas_error": 5.933588509421384e-09,
+          "abs_opt_error": 0.0020856803932140116,
+          "iters": 11
+        },
+        {
+          "obj": 22.344753806417263,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.014385695079556032,
+          "iters": 3
+        },
+        {
+          "obj": 28.816904974926032,
+          "abs_feas_error": 2.9976021664879227e-15,
+          "abs_opt_error": 0.00045470113255556945,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.07201931198109598,
+      "solve_time_wall": 0.08046280001872219,
+      "iterations": 30,
+      "slot": 23,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 18.20239600350575,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.07201931198109598,
+          "iters": 9
+        },
+        {
+          "obj": 18.334031499084237,
+          "abs_feas_error": 2.8680169350536744e-11,
+          "abs_opt_error": 0.04893823095883826,
+          "iters": 11
+        },
+        {
+          "obj": 18.425242413542286,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.06209189641887383,
+          "iters": 7
+        },
+        {
+          "obj": 19.822754270118132,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.06155812228973312,
+          "iters": 3
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 3.3306690738754696e-16,
+      "abs_opt_error": 0.028808699511377128,
+      "solve_time_wall": 0.06021959998179227,
+      "iterations": 26,
+      "slot": 24,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 16.424070982125283,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.028808699511377128,
+          "iters": 8
+        },
+        {
+          "obj": 16.500436842912713,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.02855340414159899,
+          "iters": 3
+        },
+        {
+          "obj": 16.85255015115495,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.038091521033523625,
+          "iters": 8
+        },
+        {
+          "obj": 17.27325425943723,
+          "abs_feas_error": 1.7763568394002505e-15,
+          "abs_opt_error": 0.03777693894392643,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 3.3306690738754696e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 2.1095769575651957e-10,
+      "abs_opt_error": 0.008446046948883585,
+      "solve_time_wall": 0.055230600002687424,
+      "iterations": 26,
+      "slot": 25,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 12.168831347916063,
+          "abs_feas_error": 2.1095769575651957e-10,
+          "abs_opt_error": 0.008446046948883585,
+          "iters": 12
+        },
+        {
+          "obj": 13.08275928292299,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.0356049100070668,
+          "iters": 2
+        },
+        {
+          "obj": 13.201723083624163,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.022521913862399837,
+          "iters": 8
+        },
+        {
+          "obj": 17.26529144163578,
+          "abs_feas_error": 2.9976021664879227e-15,
+          "abs_opt_error": 0.012172619470161584,
+          "iters": 4
+        }
+      ],
+      "checked_residual": 2.1095769575651957e-10
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.018552701151634876,
+      "solve_time_wall": 0.05501969999750145,
+      "iterations": 31,
+      "slot": 26,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 8.796809183711149,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.018552701151634876,
+          "iters": 9
+        },
+        {
+          "obj": 8.939126951698027,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.04317882561045597,
+          "iters": 10
+        },
+        {
+          "obj": 9.044244059353892,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.07810788395763321,
+          "iters": 2
+        },
+        {
+          "obj": 9.130359667573817,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.042176975637530076,
+          "iters": 10
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.00419605125513881,
+      "solve_time_wall": 0.0513185000163503,
+      "iterations": 36,
+      "slot": 27,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 5.198750424244797,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.00419605125513881,
+          "iters": 16
+        },
+        {
+          "obj": 5.233889852644243,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0051372806514006835,
+          "iters": 11
+        },
+        {
+          "obj": 6.125537996042088,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.028843460308751238,
+          "iters": 2
+        },
+        {
+          "obj": 7.738188006621343,
+          "abs_feas_error": 5.218048215738236e-15,
+          "abs_opt_error": 0.0031599524926261354,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 5.224901400424642e-09,
+      "abs_opt_error": 1.2715793020711328e-07,
+      "solve_time_wall": 0.06238869999651797,
+      "iterations": 58,
+      "slot": 28,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2288852557461132,
+          "abs_feas_error": 5.224901400424642e-09,
+          "abs_opt_error": 1.2715793020711328e-07,
+          "iters": 23
+        },
+        {
+          "obj": 1.2474018404272886,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.058065735996201656,
+          "iters": 26
+        },
+        {
+          "obj": 1.3163712837355594,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.004563224330986193,
+          "iters": 2
+        },
+        {
+          "obj": 1.6061076257967286,
+          "abs_feas_error": 2.6645352591003757e-15,
+          "abs_opt_error": 0.00011049475582878135,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 5.224901400424642e-09
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.0049596806406757565,
+      "solve_time_wall": 0.03653599999961443,
+      "iterations": 32,
+      "slot": 29,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2377881706859553,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0049596806406757565,
+          "iters": 3
+        },
+        {
+          "obj": 1.277212376256198,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04309589127636899,
+          "iters": 12
+        },
+        {
+          "obj": 1.3103679027539283,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.031774254920396046,
+          "iters": 10
+        },
+        {
+          "obj": 1.6027058004196075,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.046411694506614545,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.7841284005726266e-13,
+      "abs_opt_error": 0.012398767482162287,
+      "solve_time_wall": 0.037374300009105355,
+      "iterations": 45,
+      "slot": 30,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2168495048144763,
+          "abs_feas_error": 1.7841284005726266e-13,
+          "abs_opt_error": 0.012398767482162287,
+          "iters": 18
+        },
+        {
+          "obj": 1.2787533194097216,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.005443372709282548,
+          "iters": 2
+        },
+        {
+          "obj": 1.3538058391867138,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.05809024427135454,
+          "iters": 13
+        },
+        {
+          "obj": 1.481088243256945,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.07239690574421886,
+          "iters": 12
+        }
+      ],
+      "checked_residual": 1.7841284005726266e-13
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.024749905203900767,
+      "solve_time_wall": 0.03386850000242703,
+      "iterations": 52,
+      "slot": 31,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2217088708842376,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.024749905203900767,
+          "iters": 27
+        },
+        {
+          "obj": 1.2579177192910367,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04078402731859388,
+          "iters": 12
+        },
+        {
+          "obj": 1.2681844631795338,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.00407373084616369,
+          "iters": 2
+        },
+        {
+          "obj": 1.3242050847497893,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0325402730081468,
+          "iters": 11
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 3.3306690738754696e-16,
+      "abs_opt_error": 0.062053108330089035,
+      "solve_time_wall": 0.02394400001503527,
+      "iterations": 45,
+      "slot": 32,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2183657988554781,
+          "abs_feas_error": 3.3306690738754696e-16,
+          "abs_opt_error": 0.062053108330089035,
+          "iters": 22
+        },
+        {
+          "obj": 1.231831198650418,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.025332420095778116,
+          "iters": 14
+        },
+        {
+          "obj": 1.2581013642651941,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.003112262438350213,
+          "iters": 2
+        },
+        {
+          "obj": 1.3531376260730714,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.03848701243813565,
+          "iters": 7
+        }
+      ],
+      "checked_residual": 3.3306690738754696e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 3.1086244689504383e-15,
+      "abs_opt_error": 0.05305137276724059,
+      "solve_time_wall": 0.01885039999615401,
+      "iterations": 45,
+      "slot": 33,
+      "active": 10,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2180776171730177,
+          "abs_feas_error": 3.1086244689504383e-15,
+          "abs_opt_error": 0.05305137276724059,
+          "iters": 25
+        },
+        {
+          "obj": 1.2451053741844078,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.002985560135972988,
+          "iters": 2
+        },
+        {
+          "obj": 1.5958142577778427,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.028380832426145527,
+          "iters": 9
+        },
+        {
+          "obj": 1.6928776492783988,
+          "abs_feas_error": 1.9931575279130698e-09,
+          "abs_opt_error": 0.0009460193707526551,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 3.1086244689504383e-15
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.0029443590358073568,
+      "solve_time_wall": 0.01403669998398982,
+      "iterations": 45,
+      "slot": 34,
+      "active": 9,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.2364304849294736,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0029443590358073568,
+          "iters": 2
+        },
+        {
+          "obj": 1.2606200584093952,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0411449821399962,
+          "iters": 17
+        },
+        {
+          "obj": 1.271551337139443,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.05416446082260902,
+          "iters": 14
+        },
+        {
+          "obj": 1.2762499262991058,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.028607726313653152,
+          "iters": 12
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 6.3419276497000965e-09,
+      "abs_opt_error": 0.011204453901601645,
+      "solve_time_wall": 0.009121000010054559,
+      "iterations": 34,
+      "slot": 35,
+      "active": 9,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.1767573390271648,
+          "abs_feas_error": 6.3419276497000965e-09,
+          "abs_opt_error": 0.011204453901601645,
+          "iters": 9
+        },
+        {
+          "obj": 1.177796435290636,
+          "abs_feas_error": 4.440892098500626e-16,
+          "abs_opt_error": 0.0037674242047400774,
+          "iters": 14
+        },
+        {
+          "obj": 1.1980994595611543,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.002863573394677278,
+          "iters": 2
+        },
+        {
+          "obj": 1.2401886990059459,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.038152289093601625,
+          "iters": 9
+        }
+      ],
+      "checked_residual": 6.3419276497000965e-09
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.012480360372633337,
+      "solve_time_wall": 0.0064104000048246235,
+      "iterations": 30,
+      "slot": 36,
+      "active": 8,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.1770590441695534,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.012480360372633337,
+          "iters": 5
+        },
+        {
+          "obj": 1.1886849920205036,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0022903612595958083,
+          "iters": 2
+        },
+        {
+          "obj": 1.2046255079653956,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.03095147993959558,
+          "iters": 11
+        },
+        {
+          "obj": 1.2543250893104196,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.05214890852590764,
+          "iters": 12
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.00371523126103395,
+      "solve_time_wall": 0.0049408999911975116,
+      "iterations": 29,
+      "slot": 37,
+      "active": 8,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.1553096133788212,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.00371523126103395,
+          "iters": 19
+        },
+        {
+          "obj": 1.1587541798237082,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0017392374471662387,
+          "iters": 2
+        },
+        {
+          "obj": 1.2065797936258995,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.045597864026793285,
+          "iters": 5
+        },
+        {
+          "obj": 1.2774465002254125,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.03521207914904175,
+          "iters": 3
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.019813333721693534,
+      "solve_time_wall": 0.0031384000030811876,
+      "iterations": 19,
+      "slot": 38,
+      "active": 7,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 1.1671317331524735,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.019813333721693534,
+          "iters": 2
+        },
+        {
+          "obj": 1.1678728622447123,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.012244679536140385,
+          "iters": 1
+        },
+        {
+          "obj": 1.1699076178871544,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04456077005781627,
+          "iters": 8
+        },
+        {
+          "obj": 1.2245655806474862,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04893087016791244,
+          "iters": 8
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.004332313134475796,
+      "solve_time_wall": 0.0024759999942034483,
+      "iterations": 17,
+      "slot": 39,
+      "active": 5,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.8148736392444381,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.004332313134475796,
+          "iters": 5
+        },
+        {
+          "obj": 0.8483548252124639,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.013245487211668463,
+          "iters": 1
+        },
+        {
+          "obj": 0.8848151275112232,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.05603387561364354,
+          "iters": 7
+        },
+        {
+          "obj": 0.892170410314927,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04875055025810873,
+          "iters": 4
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 1.1102230246251565e-16,
+      "abs_opt_error": 0.012645078059833836,
+      "solve_time_wall": 0.0019258999964222312,
+      "iterations": 14,
+      "slot": 40,
+      "active": 4,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.8073711640788169,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.012645078059833836,
+          "iters": 0
+        },
+        {
+          "obj": 0.8089203737437605,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0022882725712033403,
+          "iters": 6
+        },
+        {
+          "obj": 0.8584459643173202,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04526854594918602,
+          "iters": 3
+        },
+        {
+          "obj": 0.8752882232414145,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04076837284541281,
+          "iters": 5
+        }
+      ],
+      "checked_residual": 1.1102230246251565e-16
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.008667089352960455,
+      "solve_time_wall": 0.0015210000274237245,
+      "iterations": 10,
+      "slot": 41,
+      "active": 4,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.7478520601577441,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.008667089352960455,
+          "iters": 0
+        },
+        {
+          "obj": 0.7792286687334437,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.02624204922432266,
+          "iters": 2
+        },
+        {
+          "obj": 0.7832474620808744,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.02165729717662184,
+          "iters": 2
+        },
+        {
+          "obj": 0.8248191354833153,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.046798637736599584,
+          "iters": 6
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.00032566334797137227,
+      "solve_time_wall": 0.0012411000207066536,
+      "iterations": 12,
+      "slot": 42,
+      "active": 3,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.693408514432349,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.00032566334797137227,
+          "iters": 4
+        },
+        {
+          "obj": 0.6935270216195315,
+          "abs_feas_error": 1.1102230246251565e-16,
+          "abs_opt_error": 0.007245544352190714,
+          "iters": 0
+        },
+        {
+          "obj": 0.7227639418762706,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.04804835711133271,
+          "iters": 7
+        },
+        {
+          "obj": 0.72775411019673,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.017720637632296758,
+          "iters": 1
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.004428471201646023,
+      "solve_time_wall": 0.001071899983799085,
+      "iterations": 3,
+      "slot": 43,
+      "active": 2,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.6736567831105291,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.004428471201646023,
+          "iters": 0
+        },
+        {
+          "obj": 0.6941922561649144,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.011356523138863858,
+          "iters": 1
+        },
+        {
+          "obj": 0.7004642428446585,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.013823198613215945,
+          "iters": 1
+        },
+        {
+          "obj": 0.7050235078855476,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.01682021776279159,
+          "iters": 1
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.0008845701226282143,
+      "solve_time_wall": 0.0009176000021398067,
+      "iterations": 3,
+      "slot": 44,
+      "active": 1,
+      "multistart_completed": 4,
+      "multistart_records": [
+        {
+          "obj": 0.6722839002078804,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.0008845701226282143,
+          "iters": 0
+        },
+        {
+          "obj": 0.6781212736254946,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.005270522611710571,
+          "iters": 1
+        },
+        {
+          "obj": 0.6815784656896775,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.009478983640603058,
+          "iters": 1
+        },
+        {
+          "obj": 0.6850108440657046,
+          "abs_feas_error": 0.0,
+          "abs_opt_error": 0.015302736876003803,
+          "iters": 1
+        }
+      ],
+      "checked_residual": 0.0
+    },
+    {
+      "status": 0,
+      "status_name": "KN_RC_OPTIMAL",
+      "abs_feas_error": 0.0,
+      "abs_opt_error": 0.0,
+      "solve_time_wall": 5.2499992307275534e-05,
+      "iterations": 0,
+      "slot": 45,
+      "active": 1,
+      "multistart_completed": 0,
+      "multistart_records": [],
+      "checked_residual": 0.0
+    }
+  ],
+  "schema": "ideal10h-perfect-information-v1",
+  "source_sha256": {
+    "scripts/expert_ideal10h.py": "0a443d67bf65abb9080de8e81aa8b6299f235426bc1dad20a5089db2d00cc92f",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "PYSOLVER/nlp2a.py": "c2060e6606cfcdcc8f5e5b00ae09cf18abaebfe4fc8b730f54238c1505bba3f6",
+    "PYSOLVER/ev.py": "cd0cfa98b9dcaca66048f12d5c94fface0cfb027e3c22483a8c6fff85e15bd81"
+  },
+  "input_sha256": "bc8046b2ddddf54452e64ea02039947ba50d67f3dab0a5b946aa747ba35a63ad",
+  "extended_price_sha256": "d8c08ce9ee7b408de1038196b4dd5718c87e52aacc679f4026f7135022f1e6a2",
+  "price_extension": "independent seeded stream; nominal final daily tariff with 10 percent noise, no arrivals after operating day",
+  "elapsed_seconds": 9.30235470001935
+}

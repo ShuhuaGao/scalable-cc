@@ -1,0 +1,20 @@
+{
+  "status": "baseline_only",
+  "baseline_trajectories": 318,
+  "enhanced_trajectories": 0,
+  "cohort": "same training seed and day with matching input SHA-256; each 200-EV capacity has 50 days; each large fleet has 3 days",
+  "daily_max_dk": "maximum across vehicles of sum across times of squared signed action deviations; no energy normalization",
+  "summary": "first mean over days within each training seed, then mean and sample SD over the three seeds",
+  "bootstrap": "200-EV only; percentile 95%, 20000 day resamples, same sampled days shared across three fixed paired training seeds; conditional on these models",
+  "units": {
+    "all_met": "daily indicator and day fraction in [0,1]; multiply aggregate deltas by 100 for percentage points",
+    "vehicle_met_percent": "percent; differences are percentage points",
+    "gap_kwh": "kWh per day"
+  },
+  "baseline_archive_summary_verified": true,
+  "source_hashes": {
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "abcd8378f6fd0d0564689a5a64ac6b6ed24a505231887d60d803bff81d610a47",
+    "artifacts/runs/pressure21_v1/evaluation/scale/scenarios.csv": "d2683a9ce2e287efd1f2a84b8d09a4560b9933f01a5604357cfdca342270ee0a",
+    "results/pressure21_v1/ablation_summary.json": "93f358f30dd7426697d0ed285c8609a7f2f7d8984f770fa952a5cc4ca7e8aa13"
+  }
+}

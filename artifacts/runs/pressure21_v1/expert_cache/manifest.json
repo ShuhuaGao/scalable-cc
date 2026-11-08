@@ -1,0 +1,22 @@
+{
+  "train": {
+    "expert_trajectories": 360,
+    "samples": 150174,
+    "groups": 16014,
+    "sha256": "5fdf17503a8bda6bc0dd54e3b63a63393955b6dd25b44d124c2ecbeb656283b6"
+  },
+  "validation": {
+    "expert_trajectories": 90,
+    "samples": 49308,
+    "groups": 3984,
+    "sha256": "aa9b557111bc01355a69c01a8ef58d439e9174bf4527119b4ab1d1e7aab19b3a"
+  },
+  "sources_sha256": {
+    "scripts/build_pressure21_cache.py": "bbb49f9e739c587c7ebd1e6921a2c3c832c8cae4483815f60aee176493e95091",
+    "src/evcharging/state_schema.py": "e0a39dffb3d7c70fc362a3bd1e8d1f700126eb752b60865fe477af33469ce9ac",
+    "configs/pressure21_il.json": "e6945db313c2dd33af72fb458a6d68245c0772ca6c7c87ce2ad486bde93df9c2",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "artifacts/runs/ideal10h_v1/experts/manifest.json": "374e612a55912903f328f67a6b1d0e4c8ea1a836bda2489a281a3249cc5a002a",
+    "artifacts/runs/ideal10h_v1/experts/audit_complete.json": "c0d25c8b7548a0eeb5b5330482b7e245dbb35a93851a5959da96f62356016ec7"
+  }
+}

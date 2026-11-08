@@ -1,0 +1,207 @@
+{
+  "public_schema_sha256": "e0a39dffb3d7c70fc362a3bd1e8d1f700126eb752b60865fe477af33469ce9ac",
+  "public_simulation_sha256": "be7ad74c492d93389c248481f0e90d38e31079fb536e13e9b57379fbca366530",
+  "schema_trajectory_identity": [
+    {
+      "dataset": "small",
+      "input": "artifacts/runs/ideal10h_v1/small_experts/seed_76000.npz",
+      "trajectory": "artifacts/runs/pressure21_v1/evaluation/small/11002_10_76000_40.npz",
+      "sha256": "650b27d9235dfa261b55600b5ee3aa27db547da00543d38d54aaac1c1a682ca7",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "dataset": "formal",
+      "input": "artifacts/runs/ideal10h_v1/formal/inputs/65000.npz",
+      "trajectory": "artifacts/runs/pressure21_v1/evaluation/formal/11002_200_65000_600.npz",
+      "sha256": "89698c96ac241ae9149364cc23871e6a65a20cdb8b203ff419af00a7c12d2a8b",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "dataset": "formal",
+      "input": "artifacts/runs/ideal10h_v1/formal/inputs/65000.npz",
+      "trajectory": "artifacts/runs/pressure21_v1/evaluation/formal/11002_200_65000_800.npz",
+      "sha256": "e1ae4408b70e2ca1ce32bc5d74767f6bcd0e3510f231bf8ddc50fffc1504132a",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "dataset": "scale",
+      "input": "artifacts/runs/ideal10h_v1/scalability/input_1000_91000.npz",
+      "trajectory": "artifacts/runs/pressure21_v1/evaluation/scale/11002_1000_91000_4000.npz",
+      "sha256": "44f06d8bc8bf00c582839ff903d1424fd75588b4b840e0e2a459c56143612a92",
+      "arrays": "all seven arrays exactly equal"
+    }
+  ],
+  "uc_upa_sample_identity": [
+    {
+      "seed": 65000,
+      "capacity_kw": 600,
+      "method": "UC",
+      "trajectory_sha256": "f99a0b0e5ed913f1f46c5b35acd743f41b8888218fdcfc8abf6883cd2effbb84",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65000,
+      "capacity_kw": 600,
+      "method": "UPA",
+      "trajectory_sha256": "7863e17206f5eac7bcfb8fcf000f2d2364dde9e388b2614ab831ef22c206e4da",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65000,
+      "capacity_kw": 800,
+      "method": "UC",
+      "trajectory_sha256": "792aff965904a0196c7d8cd78405680585bf99421959a67f583e050d695c378e",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65000,
+      "capacity_kw": 800,
+      "method": "UPA",
+      "trajectory_sha256": "809b7282017c7e56c9113e89c68f372adecc12f5e110a6d6366035719e76056e",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65001,
+      "capacity_kw": 600,
+      "method": "UC",
+      "trajectory_sha256": "3b6cdfb850bb2b027e694378b471acfdca926fcb2b66db96da8e400f06557ecb",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65001,
+      "capacity_kw": 600,
+      "method": "UPA",
+      "trajectory_sha256": "2f5a7d31986305c52ea4de09745666e05c58a65cf51baa5819610b2592141d63",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65001,
+      "capacity_kw": 800,
+      "method": "UC",
+      "trajectory_sha256": "87f5d4f9650fd5950faf22b7fcb479063ff8b2f3b42a85eb22e416ee701c440f",
+      "arrays": "all seven arrays exactly equal"
+    },
+    {
+      "seed": 65001,
+      "capacity_kw": 800,
+      "method": "UPA",
+      "trajectory_sha256": "fd35eca32a6080de8ad572d9450e20d67e91b11264bec5db6a66953423d0520b",
+      "arrays": "all seven arrays exactly equal"
+    }
+  ],
+  "beta": [
+    {
+      "beta": 0,
+      "npz_sha256": "72fc54a41509b8765fb6a3672e631e8f2c7dd8740ea30dae882f29ef49ca0a1b",
+      "report_sha256": "068c030cb9eae5742355e192c7e70349eb39d427705bce45db5b4376d6227d45",
+      "cost": 141.79191363235236,
+      "unfairness": 43.88784953960118,
+      "max_checked_window_residual": 2.842170943040401e-14
+    },
+    {
+      "beta": 0.05,
+      "npz_sha256": "f29e4b67d858dd698471ddce279eb3f8ee60341236a34e279069240ebdb0cb98",
+      "report_sha256": "11bb5311712ea2492bbfee2f944154abc099302b83e722a0a7e1f48532e81587",
+      "cost": 143.43317948700474,
+      "unfairness": 10.861512704148351,
+      "max_checked_window_residual": 4.206891945912616e-09
+    },
+    {
+      "beta": 0.1,
+      "npz_sha256": "8ac03641430848a7120673d10759a9ac31424e788fb6824c84469f8d6f2c4d9b",
+      "report_sha256": "5578ad500b457255d1b7fd03fa56b07dca46cf83006e1da16556b846f99f124a",
+      "cost": 143.60270865347366,
+      "unfairness": 8.010547927010784,
+      "max_checked_window_residual": 9.27030063824219e-09
+    },
+    {
+      "beta": 0.2,
+      "npz_sha256": "f0f3dfa39affb99a14af3c183ef41d520d8f7b32d359b2d6a38cda4ef0f1dabf",
+      "report_sha256": "ed9609e63fa678f60f24c2f42851f8ce04bea8f98aa4636a578a733cbffb6de0",
+      "cost": 144.84547152894956,
+      "unfairness": 4.206293114115396,
+      "max_checked_window_residual": 8.996445699516187e-09
+    },
+    {
+      "beta": 0.3,
+      "npz_sha256": "cd84684a90feb3839f508404e27b5562cb94217ff41f4dc531f65ce22d4436f3",
+      "report_sha256": "7c52ddc2b6bb4f778ffbb118460b89c322ba3bae0dbafc3a5ac300ff58ffd8b7",
+      "cost": 144.10259326873089,
+      "unfairness": 3.594215617193114,
+      "max_checked_window_residual": 8.249937288873355e-09
+    },
+    {
+      "beta": 0.4,
+      "npz_sha256": "c57961f1a770bd7391d1b158fbb9b2f4ff53f14f39f10d13e67e656cecccb3ea",
+      "report_sha256": "be330e936bf704f74986b522e234cc46472242181e212f7fb48a3f8eafa580de",
+      "cost": 145.22876980508707,
+      "unfairness": 2.7440833693226523,
+      "max_checked_window_residual": 9.911583553900982e-09
+    },
+    {
+      "beta": 0.5,
+      "npz_sha256": "846f39f874d2392728d088e91a9e38b19870bc013e80415ef759587f685f999f",
+      "report_sha256": "ce47b91049f1f780e36e2dcd9c096abe8cab2fc270ebbfdb20cab096c10296c1",
+      "cost": 145.15093275464733,
+      "unfairness": 2.446714035046329,
+      "max_checked_window_residual": 7.221633291365492e-09
+    },
+    {
+      "beta": 0.6,
+      "npz_sha256": "9ce2034352e4b6fbbaea61fdac1b734945579cc23009d4126f3b08c8b888dc4c",
+      "report_sha256": "c3d255f1a4eb9617583de8ecfa1d44729d10af7879390c7587244978d8621620",
+      "cost": 146.18951180259063,
+      "unfairness": 1.5829373686424306,
+      "max_checked_window_residual": 4.775528750222691e-09
+    },
+    {
+      "beta": 0.7,
+      "npz_sha256": "bafc1a92598c02e7bfc76140432545f640cbbcacb4538bfcbf942114c5ed49bc",
+      "report_sha256": "b0615e7df3d66cfb679b0706f81133095b658861fb82bb721c81f771db293e45",
+      "cost": 146.77599665930137,
+      "unfairness": 1.1646549671894884,
+      "max_checked_window_residual": 7.1191078587773404e-09
+    },
+    {
+      "beta": 0.8,
+      "npz_sha256": "f632af0392748f1ae0c44ce7d6161e26d80e91e3eadfe397d664d4368823f34a",
+      "report_sha256": "64bbe0623acaedb8003b55f310c1d0141a882b9d1bdedb9c0bb4046e3acda89f",
+      "cost": 149.00040203132124,
+      "unfairness": 0.6209620404600845,
+      "max_checked_window_residual": 2.417101074847494e-09
+    },
+    {
+      "beta": 0.9,
+      "npz_sha256": "63266edaf20ed3d72aeeb03a7c91b3732e968a3ee551bedb787821e35be34c09",
+      "report_sha256": "ae973b04bb073ceb6db58df790e45e8964d8d641299e43b4a311e87132ab0502",
+      "cost": 153.3502199510626,
+      "unfairness": 0.15802773505596113,
+      "max_checked_window_residual": 8.892229286239228e-09
+    },
+    {
+      "beta": 0.95,
+      "npz_sha256": "39f65abdfbee6d4df84f288a45f7eda210b8c7d37f24fbb28820a42abe8c50e3",
+      "report_sha256": "3c9e41e6531daca26c83be1e68e0f1304a784a0b13fb4d9d609e8d19682d15b0",
+      "cost": 154.45878341341813,
+      "unfairness": 0.05708794084618295,
+      "max_checked_window_residual": 4.440892098500626e-16
+    },
+    {
+      "beta": 1,
+      "npz_sha256": "ebdc89b9d5de644ec37119a8467fb4a29fd0457ff1c9462c17e5e35ca19ddbb0",
+      "report_sha256": "f6ad6bd22cf692442d3e84b5f27fca88b27643e4fed20af5e556aae560b65ecc",
+      "cost": 182.097649669721,
+      "unfairness": 8.240136943051324e-05,
+      "max_checked_window_residual": 8.22243573228576e-09
+    }
+  ],
+  "beta_figures_sha256": {
+    "beta.pdf": "a25e38d2426c6542ea14b3c01170bf764888b0c54f6f179095bcea006b04577b",
+    "BETA_COST_CMP.pdf": "a3bb3a820762233c197498a5f4b1a25a1400f76cf6b7c8b5f7bd8303ce62e9bc",
+    "BETA_FAIR_CMP.pdf": "71cebe64a61db4d6e68919c8d13e082e223aeb77644d7676d3dc61c8d5312657"
+  },
+  "rddpg_verified_sources": 132,
+  "rddpg_verified_outputs": 26,
+  "rddpg_manifest_sha256": "28c940291326e957b6f7d9a7db7b2e024e9ce72f5497f87339a8b4c9e904d8c0",
+  "note": "UC/UPA and IDEAL beta trajectories are state-independent. RDDPG uses its own state and bounds; reuse is conditional on identical input provenance."
+}

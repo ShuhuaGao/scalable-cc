@@ -1,0 +1,36 @@
+{
+  "state_schema": "pressure21_v1",
+  "source_freeze_sha256": "b1db6591a9401fa519f8d643c31aaf04daf3674b8ee88f6f66f3e09ec70e79b7",
+  "models": [
+    {
+      "seed": 11002,
+      "path": "artifacts/runs/pressure21_v1/il_11002/il_model/best.pt",
+      "sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "state_schema": "pressure21_v1",
+      "source": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/pressure_11002/continuation_best.pt",
+      "source_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "selection": "minimum expert autoregressive validation MSE including epoch 0",
+      "epoch": 10
+    },
+    {
+      "seed": 11003,
+      "path": "artifacts/runs/pressure21_v1/il_11003/il_model/best.pt",
+      "sha256": "64184bfc9e95ffba0a365f875c34271c3a60325c0378aeee9f0d615e87112cd0",
+      "state_schema": "pressure21_v1",
+      "source": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/pressure_11003/continuation_best.pt",
+      "source_sha256": "64184bfc9e95ffba0a365f875c34271c3a60325c0378aeee9f0d615e87112cd0",
+      "selection": "minimum expert autoregressive validation MSE including epoch 0",
+      "epoch": 12
+    },
+    {
+      "seed": 11004,
+      "path": "artifacts/runs/pressure21_v1/il_11004/il_model/best.pt",
+      "sha256": "dd6b219176f5d2bfbcb31125ae7cc375d0daf36b7af8653c6d4743c9ade6e3e9",
+      "state_schema": "pressure21_v1",
+      "source": "Historical reference (not distributed): artifacts/state_refinement/feature_training/models/pressure_11004/continuation_best.pt",
+      "source_sha256": "dd6b219176f5d2bfbcb31125ae7cc375d0daf36b7af8653c6d4743c9ade6e3e9",
+      "selection": "minimum expert autoregressive validation MSE including epoch 0",
+      "epoch": 10
+    }
+  ]
+}

@@ -1,0 +1,2421 @@
+{
+  "records": [
+    {
+      "vehicles": 100,
+      "seed": 82000,
+      "capacity_kw": 400.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82000.npz",
+      "input_sha256": "c800ef107d476e44ec211aea75444ae1f199607482f4178bb536042a3a109f01",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82000_linear.npz",
+      "trajectory_sha256": "14e760cea723ed779686f746b51508aeb846c896d28315414f0b8f43a80c3d6d",
+      "seconds_mean": 0.003739121429264612,
+      "seconds_max": 0.0077164999675005674,
+      "memory_load": {
+        "working_set_bytes": 245186560,
+        "peak_working_set_bytes": 245186560
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247296000,
+        "peak_working_set_bytes": 247296000
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247517184,
+        "peak_working_set_bytes": 247517184
+      },
+      "memory_postloop": {
+        "working_set_bytes": 249548800,
+        "peak_working_set_bytes": 249548800
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 785.0744034731708,
+      "unfairness": 27.971488772745744,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 100,
+      "seed": 82000,
+      "capacity_kw": 400.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82000.npz",
+      "input_sha256": "c800ef107d476e44ec211aea75444ae1f199607482f4178bb536042a3a109f01",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82000_reference.npz",
+      "trajectory_sha256": "1b41ab92302cb22b2f20c34c4ccab0ce102bb7f25819cfe18059112efed8a749",
+      "seconds_mean": 0.007102350005879998,
+      "seconds_max": 0.013873500050976872,
+      "memory_load": {
+        "working_set_bytes": 245645312,
+        "peak_working_set_bytes": 245645312
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247549952,
+        "peak_working_set_bytes": 247549952
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247816192,
+        "peak_working_set_bytes": 247816192
+      },
+      "memory_postloop": {
+        "working_set_bytes": 249511936,
+        "peak_working_set_bytes": 249511936
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 785.0744034731708,
+      "unfairness": 27.971488772745744,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 100,
+      "seed": 82001,
+      "capacity_kw": 400.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82001.npz",
+      "input_sha256": "9116fdc20b88cb54f122e55df6879c2e61b8233ec1923ff9b3080a34456fe9d2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82001_reference.npz",
+      "trajectory_sha256": "e4635bf167b41f755dee50ce998bfc2ea458a7f7e61fccb54994a4e5487ace30",
+      "seconds_mean": 0.007278312503850819,
+      "seconds_max": 0.013401400006841868,
+      "memory_load": {
+        "working_set_bytes": 245346304,
+        "peak_working_set_bytes": 245346304
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247197696,
+        "peak_working_set_bytes": 247197696
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247377920,
+        "peak_working_set_bytes": 247377920
+      },
+      "memory_postloop": {
+        "working_set_bytes": 248991744,
+        "peak_working_set_bytes": 248991744
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 782.9074589962951,
+      "unfairness": 39.35791684728136,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 100,
+      "seed": 82001,
+      "capacity_kw": 400.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82001.npz",
+      "input_sha256": "9116fdc20b88cb54f122e55df6879c2e61b8233ec1923ff9b3080a34456fe9d2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82001_linear.npz",
+      "trajectory_sha256": "8860d29b12d595f854b3d602d7365fcee5fbcbbce2a684a9ef9d95d56c813fc4",
+      "seconds_mean": 0.003994464285954434,
+      "seconds_max": 0.007979199988767505,
+      "memory_load": {
+        "working_set_bytes": 245088256,
+        "peak_working_set_bytes": 245088256
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246931456,
+        "peak_working_set_bytes": 246931456
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247156736,
+        "peak_working_set_bytes": 247156736
+      },
+      "memory_postloop": {
+        "working_set_bytes": 248856576,
+        "peak_working_set_bytes": 248856576
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 782.9074589962951,
+      "unfairness": 39.35791684728136,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 100,
+      "seed": 82002,
+      "capacity_kw": 400.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82002.npz",
+      "input_sha256": "4d5cdeb6f3fed05a070a7571a1e9a1949f10ac7b81704303a102d7e1f46db458",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82002_linear.npz",
+      "trajectory_sha256": "4e426edc0bdd144e07902f3b4211717b0e0cd1c5703b0b365cbc0463507c7bb7",
+      "seconds_mean": 0.003818819641310256,
+      "seconds_max": 0.007866800006013364,
+      "memory_load": {
+        "working_set_bytes": 245510144,
+        "peak_working_set_bytes": 245510144
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247365632,
+        "peak_working_set_bytes": 247365632
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247545856,
+        "peak_working_set_bytes": 247545856
+      },
+      "memory_postloop": {
+        "working_set_bytes": 249901056,
+        "peak_working_set_bytes": 249901056
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 806.6034897526076,
+      "unfairness": 20.29941941889593,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 1.1368683772161603e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 100,
+      "seed": 82002,
+      "capacity_kw": 400.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_100_82002.npz",
+      "input_sha256": "4d5cdeb6f3fed05a070a7571a1e9a1949f10ac7b81704303a102d7e1f46db458",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "100_82002_reference.npz",
+      "trajectory_sha256": "c1e02c097ea7286d07c15ae56128f878f42f400d5fa97b6182578216b407c18b",
+      "seconds_mean": 0.007322703569246057,
+      "seconds_max": 0.01569900003960356,
+      "memory_load": {
+        "working_set_bytes": 245100544,
+        "peak_working_set_bytes": 245100544
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246939648,
+        "peak_working_set_bytes": 246939648
+      },
+      "memory_preloop": {
+        "working_set_bytes": 247115776,
+        "peak_working_set_bytes": 247115776
+      },
+      "memory_postloop": {
+        "working_set_bytes": 249040896,
+        "peak_working_set_bytes": 249040896
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 806.6034897526076,
+      "unfairness": 20.29941941889593,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 1.1368683772161603e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86000,
+      "capacity_kw": 2000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86000.npz",
+      "input_sha256": "8f9eea865b2717cd0b18728b2501679e9c55a25b829cea0ef3043059915e6b73",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86000_reference.npz",
+      "trajectory_sha256": "f2e324915049ed09a333f2e6643a9ba61d41111ac420278810ad01864c3db0b5",
+      "seconds_mean": 0.0373490017840855,
+      "seconds_max": 0.0677799999830313,
+      "memory_load": {
+        "working_set_bytes": 246087680,
+        "peak_working_set_bytes": 246087680
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247939072,
+        "peak_working_set_bytes": 247939072
+      },
+      "memory_preloop": {
+        "working_set_bytes": 249286656,
+        "peak_working_set_bytes": 249286656
+      },
+      "memory_postloop": {
+        "working_set_bytes": 256192512,
+        "peak_working_set_bytes": 256192512
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 3805.3086353562444,
+      "unfairness": 114.34048146446473,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86000,
+      "capacity_kw": 2000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86000.npz",
+      "input_sha256": "8f9eea865b2717cd0b18728b2501679e9c55a25b829cea0ef3043059915e6b73",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86000_linear.npz",
+      "trajectory_sha256": "ab1c402013856ea07311d786f0f36f6f00449f7a4dd90a5b922d57203aa0a29d",
+      "seconds_mean": 0.018023014287921666,
+      "seconds_max": 0.03269169997656718,
+      "memory_load": {
+        "working_set_bytes": 245129216,
+        "peak_working_set_bytes": 245129216
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247046144,
+        "peak_working_set_bytes": 247046144
+      },
+      "memory_preloop": {
+        "working_set_bytes": 248393728,
+        "peak_working_set_bytes": 248393728
+      },
+      "memory_postloop": {
+        "working_set_bytes": 255741952,
+        "peak_working_set_bytes": 255741952
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 3805.3086353562444,
+      "unfairness": 114.34048146446473,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86001,
+      "capacity_kw": 2000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86001.npz",
+      "input_sha256": "e0fbfac7967e49224458e8a8ca8fb8fbba46c1f590d1534bf685cb8db15167bb",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86001_linear.npz",
+      "trajectory_sha256": "7201263005177e587a378fac065635a4fef3ab7db782c65b1cc70e390e59f75f",
+      "seconds_mean": 0.01770824643088937,
+      "seconds_max": 0.032901400001719594,
+      "memory_load": {
+        "working_set_bytes": 245866496,
+        "peak_working_set_bytes": 245866496
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247701504,
+        "peak_working_set_bytes": 247701504
+      },
+      "memory_preloop": {
+        "working_set_bytes": 249053184,
+        "peak_working_set_bytes": 249053184
+      },
+      "memory_postloop": {
+        "working_set_bytes": 256294912,
+        "peak_working_set_bytes": 256294912
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 4314.079982213334,
+      "unfairness": 154.16185237151217,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 4.547473508864641e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86001,
+      "capacity_kw": 2000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86001.npz",
+      "input_sha256": "e0fbfac7967e49224458e8a8ca8fb8fbba46c1f590d1534bf685cb8db15167bb",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86001_reference.npz",
+      "trajectory_sha256": "9e938a0b390eef0b3b7679cd249e0a86e506ece5060e07c0fa1fad8e394b54b3",
+      "seconds_mean": 0.0349444767863523,
+      "seconds_max": 0.0746936000068672,
+      "memory_load": {
+        "working_set_bytes": 245694464,
+        "peak_working_set_bytes": 245694464
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247529472,
+        "peak_working_set_bytes": 247529472
+      },
+      "memory_preloop": {
+        "working_set_bytes": 248877056,
+        "peak_working_set_bytes": 248877056
+      },
+      "memory_postloop": {
+        "working_set_bytes": 256356352,
+        "peak_working_set_bytes": 256356352
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 4314.079982213334,
+      "unfairness": 154.16185237151217,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 4.547473508864641e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86002,
+      "capacity_kw": 2000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86002.npz",
+      "input_sha256": "cd9eca5102e02c6938ebfd4c601b52e9909d5010e1ff63e637a054a0b0a84ce9",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86002_reference.npz",
+      "trajectory_sha256": "454ace0c7b9f0d5d02e7f037b3702e2fc7e64e62ee64c0442b05b0da81309335",
+      "seconds_mean": 0.03456981785711832,
+      "seconds_max": 0.06286429997999221,
+      "memory_load": {
+        "working_set_bytes": 245198848,
+        "peak_working_set_bytes": 245198848
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247029760,
+        "peak_working_set_bytes": 247029760
+      },
+      "memory_preloop": {
+        "working_set_bytes": 248377344,
+        "peak_working_set_bytes": 248377344
+      },
+      "memory_postloop": {
+        "working_set_bytes": 255401984,
+        "peak_working_set_bytes": 255401984
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 3876.6270656366723,
+      "unfairness": 109.66951491884394,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 500,
+      "seed": 86002,
+      "capacity_kw": 2000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_500_86002.npz",
+      "input_sha256": "cd9eca5102e02c6938ebfd4c601b52e9909d5010e1ff63e637a054a0b0a84ce9",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "500_86002_linear.npz",
+      "trajectory_sha256": "09a81d35397dd93841386f905edec3b59bd399b918b95bc681349cb5129bba4d",
+      "seconds_mean": 0.018380114283770257,
+      "seconds_max": 0.0514234000002034,
+      "memory_load": {
+        "working_set_bytes": 245014528,
+        "peak_working_set_bytes": 245014528
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247455744,
+        "peak_working_set_bytes": 247455744
+      },
+      "memory_preloop": {
+        "working_set_bytes": 248803328,
+        "peak_working_set_bytes": 248803328
+      },
+      "memory_postloop": {
+        "working_set_bytes": 256049152,
+        "peak_working_set_bytes": 256049152
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 3876.6270656366723,
+      "unfairness": 109.66951491884394,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91000,
+      "capacity_kw": 4000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91000.npz",
+      "input_sha256": "c96eb40212ca56c696daf1996c59593ae0436e0b6f4ff96c0a11eeb9b25afa36",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91000_linear.npz",
+      "trajectory_sha256": "5e7c145900a45aaa57d818f8a5beb8b468d010569a3dd5d83c5adcf5ee02ee47",
+      "seconds_mean": 0.03564454285723124,
+      "seconds_max": 0.06531879998510703,
+      "memory_load": {
+        "working_set_bytes": 245526528,
+        "peak_working_set_bytes": 245526528
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247373824,
+        "peak_working_set_bytes": 247373824
+      },
+      "memory_preloop": {
+        "working_set_bytes": 250068992,
+        "peak_working_set_bytes": 250068992
+      },
+      "memory_postloop": {
+        "working_set_bytes": 264568832,
+        "peak_working_set_bytes": 264568832
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 8085.173770226859,
+      "unfairness": 256.69203502478376,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 9.094947017729282e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91000,
+      "capacity_kw": 4000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91000.npz",
+      "input_sha256": "c96eb40212ca56c696daf1996c59593ae0436e0b6f4ff96c0a11eeb9b25afa36",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91000_reference.npz",
+      "trajectory_sha256": "671a435e7ee9decfdcba23b9f0664292761f8a04ed32824781ca56752df666b8",
+      "seconds_mean": 0.07692468749987061,
+      "seconds_max": 0.14021719997981563,
+      "memory_load": {
+        "working_set_bytes": 245624832,
+        "peak_working_set_bytes": 245624832
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247463936,
+        "peak_working_set_bytes": 247463936
+      },
+      "memory_preloop": {
+        "working_set_bytes": 250167296,
+        "peak_working_set_bytes": 250167296
+      },
+      "memory_postloop": {
+        "working_set_bytes": 264830976,
+        "peak_working_set_bytes": 264830976
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 8085.173770226859,
+      "unfairness": 256.69203502478376,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 9.094947017729282e-13,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91001,
+      "capacity_kw": 4000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91001.npz",
+      "input_sha256": "487e1ff797cb25af13048c936e6c101a82c0f0f30af8e143053f4ec5cd702f94",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91001_reference.npz",
+      "trajectory_sha256": "d01552f75eaec4cbce353838aaf2b9f55acd7e7cb4f3abfa8348e9a1c78048c4",
+      "seconds_mean": 0.07525993214221671,
+      "seconds_max": 0.13683109998237342,
+      "memory_load": {
+        "working_set_bytes": 245858304,
+        "peak_working_set_bytes": 245858304
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247701504,
+        "peak_working_set_bytes": 247701504
+      },
+      "memory_preloop": {
+        "working_set_bytes": 250396672,
+        "peak_working_set_bytes": 250396672
+      },
+      "memory_postloop": {
+        "working_set_bytes": 265388032,
+        "peak_working_set_bytes": 265392128
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 7803.887630444963,
+      "unfairness": 316.31803864532554,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91001,
+      "capacity_kw": 4000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91001.npz",
+      "input_sha256": "487e1ff797cb25af13048c936e6c101a82c0f0f30af8e143053f4ec5cd702f94",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91001_linear.npz",
+      "trajectory_sha256": "0e244743bdcb0afb00179afcd29a3d1f79e18aef6fab21b9696fb380e98da68d",
+      "seconds_mean": 0.03509130536050569,
+      "seconds_max": 0.06507080001756549,
+      "memory_load": {
+        "working_set_bytes": 245846016,
+        "peak_working_set_bytes": 245846016
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247676928,
+        "peak_working_set_bytes": 247676928
+      },
+      "memory_preloop": {
+        "working_set_bytes": 250376192,
+        "peak_working_set_bytes": 250376192
+      },
+      "memory_postloop": {
+        "working_set_bytes": 264912896,
+        "peak_working_set_bytes": 264912896
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 7803.887630444963,
+      "unfairness": 316.31803864532554,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91002,
+      "capacity_kw": 4000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91002.npz",
+      "input_sha256": "e517cb1e646a42fcf6a37ed1791fab6bc1fa9493a338f60c6045a4a60b78c107",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91002_linear.npz",
+      "trajectory_sha256": "85bd230fc4fcaa65db6fb51bd52f0b53f66ecae750cbdf27cf4601bb93edf4e0",
+      "seconds_mean": 0.0353826696446049,
+      "seconds_max": 0.06767989997752011,
+      "memory_load": {
+        "working_set_bytes": 245501952,
+        "peak_working_set_bytes": 245501952
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247336960,
+        "peak_working_set_bytes": 247336960
+      },
+      "memory_preloop": {
+        "working_set_bytes": 250036224,
+        "peak_working_set_bytes": 250036224
+      },
+      "memory_postloop": {
+        "working_set_bytes": 264613888,
+        "peak_working_set_bytes": 264613888
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 7631.410379984453,
+      "unfairness": 289.43310015903353,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1000,
+      "seed": 91002,
+      "capacity_kw": 4000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1000_91002.npz",
+      "input_sha256": "e517cb1e646a42fcf6a37ed1791fab6bc1fa9493a338f60c6045a4a60b78c107",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1000_91002_reference.npz",
+      "trajectory_sha256": "692cb79bfe73a83b305cfb701f04fb71a35ef933eb0c3de5c4f4699fe9f5883f",
+      "seconds_mean": 0.0754885874973427,
+      "seconds_max": 0.13831309997476637,
+      "memory_load": {
+        "working_set_bytes": 245211136,
+        "peak_working_set_bytes": 245211136
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247046144,
+        "peak_working_set_bytes": 247046144
+      },
+      "memory_preloop": {
+        "working_set_bytes": 249745408,
+        "peak_working_set_bytes": 249745408
+      },
+      "memory_postloop": {
+        "working_set_bytes": 264003584,
+        "peak_working_set_bytes": 264003584
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 7631.410379984453,
+      "unfairness": 289.43310015903353,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96000,
+      "capacity_kw": 6000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96000.npz",
+      "input_sha256": "f8a88ca052dd69a31b73dce9ebc9140d036644aef377f1f540396ff1320b4448",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96000_reference.npz",
+      "trajectory_sha256": "3a3fa0c7a31f2aa8a4e9537c32dd0e0f8af706de49bbd5b9f0f46a868d41bd1d",
+      "seconds_mean": 0.11903061964715432,
+      "seconds_max": 0.2204564999556169,
+      "memory_load": {
+        "working_set_bytes": 245706752,
+        "peak_working_set_bytes": 245706752
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247537664,
+        "peak_working_set_bytes": 247537664
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251584512,
+        "peak_working_set_bytes": 251584512
+      },
+      "memory_postloop": {
+        "working_set_bytes": 273141760,
+        "peak_working_set_bytes": 273141760
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 11349.839318224504,
+      "unfairness": 700.4947423733457,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96000,
+      "capacity_kw": 6000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96000.npz",
+      "input_sha256": "f8a88ca052dd69a31b73dce9ebc9140d036644aef377f1f540396ff1320b4448",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96000_linear.npz",
+      "trajectory_sha256": "2934c3ab7fc01e594d55b9f2b35b447d1366e316c7e60057dd61900ec15e1158",
+      "seconds_mean": 0.053822157139490755,
+      "seconds_max": 0.10376189998351038,
+      "memory_load": {
+        "working_set_bytes": 245383168,
+        "peak_working_set_bytes": 245383168
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247492608,
+        "peak_working_set_bytes": 247492608
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251535360,
+        "peak_working_set_bytes": 251535360
+      },
+      "memory_postloop": {
+        "working_set_bytes": 272576512,
+        "peak_working_set_bytes": 272576512
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 11349.839318224504,
+      "unfairness": 700.4947423733457,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96001,
+      "capacity_kw": 6000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96001.npz",
+      "input_sha256": "bfede0cffce222c982d39318337b25fbcf68e6b5a488eb795289ba1b23ed6dc7",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96001_linear.npz",
+      "trajectory_sha256": "568eb9fa575b8344b8b6e1c24bf33ec707ab1d8ccf0d998f421b7ccf9ce31e18",
+      "seconds_mean": 0.052166066071159936,
+      "seconds_max": 0.0981370999943465,
+      "memory_load": {
+        "working_set_bytes": 245211136,
+        "peak_working_set_bytes": 245211136
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247050240,
+        "peak_working_set_bytes": 247050240
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251097088,
+        "peak_working_set_bytes": 251097088
+      },
+      "memory_postloop": {
+        "working_set_bytes": 272224256,
+        "peak_working_set_bytes": 272224256
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 11788.844858974153,
+      "unfairness": 515.8903379302558,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96001,
+      "capacity_kw": 6000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96001.npz",
+      "input_sha256": "bfede0cffce222c982d39318337b25fbcf68e6b5a488eb795289ba1b23ed6dc7",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96001_reference.npz",
+      "trajectory_sha256": "73dd606d7bd58679d56a3ba5ec63ba722d056bfcb24c006c32a1daedbc0e5b8e",
+      "seconds_mean": 0.11940111071349488,
+      "seconds_max": 0.22013289999449626,
+      "memory_load": {
+        "working_set_bytes": 245678080,
+        "peak_working_set_bytes": 245678080
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247521280,
+        "peak_working_set_bytes": 247521280
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251568128,
+        "peak_working_set_bytes": 251568128
+      },
+      "memory_postloop": {
+        "working_set_bytes": 273317888,
+        "peak_working_set_bytes": 273317888
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 11788.844858974153,
+      "unfairness": 515.8903379302558,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96002,
+      "capacity_kw": 6000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96002.npz",
+      "input_sha256": "3de0175fc2c9218a5144c4a54257d7740b431444ef2507e2c2767abaa27002fa",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96002_reference.npz",
+      "trajectory_sha256": "edeb352841caf66868deb100c08d9f95e6f3078611718240380ddb25e37e88be",
+      "seconds_mean": 0.11790518035871043,
+      "seconds_max": 0.2201377999735996,
+      "memory_load": {
+        "working_set_bytes": 245645312,
+        "peak_working_set_bytes": 245645312
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247504896,
+        "peak_working_set_bytes": 247504896
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251547648,
+        "peak_working_set_bytes": 251547648
+      },
+      "memory_postloop": {
+        "working_set_bytes": 272678912,
+        "peak_working_set_bytes": 272678912
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 12312.460110899028,
+      "unfairness": 481.8369672928119,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 1500,
+      "seed": 96002,
+      "capacity_kw": 6000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_1500_96002.npz",
+      "input_sha256": "3de0175fc2c9218a5144c4a54257d7740b431444ef2507e2c2767abaa27002fa",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "1500_96002_linear.npz",
+      "trajectory_sha256": "ae1b5e77ef9bdf9ab6f5e7c3a3b7135bd06e7d90a78b2713e0f1ca2b22dbaef7",
+      "seconds_mean": 0.05492068035632006,
+      "seconds_max": 0.10857049998594448,
+      "memory_load": {
+        "working_set_bytes": 245501952,
+        "peak_working_set_bytes": 245501952
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247349248,
+        "peak_working_set_bytes": 247349248
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251396096,
+        "peak_working_set_bytes": 251396096
+      },
+      "memory_postloop": {
+        "working_set_bytes": 272596992,
+        "peak_working_set_bytes": 272596992
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 12312.460110899028,
+      "unfairness": 481.8369672928119,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101000,
+      "capacity_kw": 8000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101000.npz",
+      "input_sha256": "ef98c70952f90477666cd7c5504ec5af1b8a1493c115186d4237672f858b7862",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101000_linear.npz",
+      "trajectory_sha256": "5e5d234b8e81c572b0965480070ba5eda9504764deba27ec5ad7e67902ab4857",
+      "seconds_mean": 0.07101553749816958,
+      "seconds_max": 0.13429780001752079,
+      "memory_load": {
+        "working_set_bytes": 245579776,
+        "peak_working_set_bytes": 245579776
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247414784,
+        "peak_working_set_bytes": 247414784
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252813312,
+        "peak_working_set_bytes": 252813312
+      },
+      "memory_postloop": {
+        "working_set_bytes": 281686016,
+        "peak_working_set_bytes": 281686016
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15407.908874163251,
+      "unfairness": 533.1751135923581,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101000,
+      "capacity_kw": 8000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101000.npz",
+      "input_sha256": "ef98c70952f90477666cd7c5504ec5af1b8a1493c115186d4237672f858b7862",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101000_reference.npz",
+      "trajectory_sha256": "32b0857a4e117fdf73b88edf90b2bd22af5920bb55c4f530b903466fe0d48850",
+      "seconds_mean": 0.1631371374990392,
+      "seconds_max": 0.29880360001698136,
+      "memory_load": {
+        "working_set_bytes": 245088256,
+        "peak_working_set_bytes": 245088256
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246947840,
+        "peak_working_set_bytes": 246947840
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252346368,
+        "peak_working_set_bytes": 252346368
+      },
+      "memory_postloop": {
+        "working_set_bytes": 282820608,
+        "peak_working_set_bytes": 282820608
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15407.908874163251,
+      "unfairness": 533.1751135923581,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101001,
+      "capacity_kw": 8000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101001.npz",
+      "input_sha256": "e4a418c8260d65512f393e45d84495761a3f9d0f91d4b142bf87610b7adf4d0a",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101001_reference.npz",
+      "trajectory_sha256": "c090110ce5cb4425757745d1e44afff97b91a7683f846e4ee3c6f03feac4bfed",
+      "seconds_mean": 0.16221028035631338,
+      "seconds_max": 0.29476509999949485,
+      "memory_load": {
+        "working_set_bytes": 244834304,
+        "peak_working_set_bytes": 244834304
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246689792,
+        "peak_working_set_bytes": 246689792
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252080128,
+        "peak_working_set_bytes": 252080128
+      },
+      "memory_postloop": {
+        "working_set_bytes": 282009600,
+        "peak_working_set_bytes": 282009600
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15135.30536066267,
+      "unfairness": 628.0185195203678,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101001,
+      "capacity_kw": 8000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101001.npz",
+      "input_sha256": "e4a418c8260d65512f393e45d84495761a3f9d0f91d4b142bf87610b7adf4d0a",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101001_linear.npz",
+      "trajectory_sha256": "0449f8360ca2e821a75fdb2ebf014090ec3178f71edca488ada86014d82eb1d4",
+      "seconds_mean": 0.07163299285665355,
+      "seconds_max": 0.13537029997678474,
+      "memory_load": {
+        "working_set_bytes": 245374976,
+        "peak_working_set_bytes": 245374976
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247205888,
+        "peak_working_set_bytes": 247205888
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252600320,
+        "peak_working_set_bytes": 252600320
+      },
+      "memory_postloop": {
+        "working_set_bytes": 281382912,
+        "peak_working_set_bytes": 281382912
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15135.30536066267,
+      "unfairness": 628.0185195203678,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101002,
+      "capacity_kw": 8000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101002.npz",
+      "input_sha256": "c6e53d4cc913b87c8f442d06cb0e7e57a9326da441fd4b4309ccffe3a41b2408",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101002_linear.npz",
+      "trajectory_sha256": "11804d9bdd768f34d7d72176b237c93a7b6d314ebb15f6b7fb968fe14ccdb163",
+      "seconds_mean": 0.07235928213984673,
+      "seconds_max": 0.1322459999937564,
+      "memory_load": {
+        "working_set_bytes": 245219328,
+        "peak_working_set_bytes": 245219328
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247058432,
+        "peak_working_set_bytes": 247058432
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252448768,
+        "peak_working_set_bytes": 252448768
+      },
+      "memory_postloop": {
+        "working_set_bytes": 280973312,
+        "peak_working_set_bytes": 280973312
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15178.065007408533,
+      "unfairness": 563.8622545883145,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2000,
+      "seed": 101002,
+      "capacity_kw": 8000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2000_101002.npz",
+      "input_sha256": "c6e53d4cc913b87c8f442d06cb0e7e57a9326da441fd4b4309ccffe3a41b2408",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2000_101002_reference.npz",
+      "trajectory_sha256": "c332ee06044bd2541b7d53046eca4c88c19254be8c04572140f066ccdb69a4a3",
+      "seconds_mean": 0.17019973928732465,
+      "seconds_max": 0.3561436000163667,
+      "memory_load": {
+        "working_set_bytes": 245092352,
+        "peak_working_set_bytes": 245092352
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247083008,
+        "peak_working_set_bytes": 247083008
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252473344,
+        "peak_working_set_bytes": 252473344
+      },
+      "memory_postloop": {
+        "working_set_bytes": 282210304,
+        "peak_working_set_bytes": 282210304
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 15178.065007408533,
+      "unfairness": 563.8622545883145,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106000,
+      "capacity_kw": 10000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106000.npz",
+      "input_sha256": "84e30c7225df6eaa05d67448959135fe55c6ec10d4aa959926aecfa4b365e8dc",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106000_reference.npz",
+      "trajectory_sha256": "89093d83ee92ed96738e183d34b64eb19f0ed1856587d798f889f27b697ed1e1",
+      "seconds_mean": 0.21864530357353423,
+      "seconds_max": 0.39970710000488907,
+      "memory_load": {
+        "working_set_bytes": 244711424,
+        "peak_working_set_bytes": 244711424
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246550528,
+        "peak_working_set_bytes": 246550528
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251064320,
+        "peak_working_set_bytes": 251064320
+      },
+      "memory_postloop": {
+        "working_set_bytes": 290299904,
+        "peak_working_set_bytes": 290299904
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 18979.23805275699,
+      "unfairness": 749.0706401922491,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106000,
+      "capacity_kw": 10000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106000.npz",
+      "input_sha256": "84e30c7225df6eaa05d67448959135fe55c6ec10d4aa959926aecfa4b365e8dc",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106000_linear.npz",
+      "trajectory_sha256": "a129a6a1378964a585342c7c600083e2068b9eea0bbc6d1168e163346fe54492",
+      "seconds_mean": 0.09109960356935128,
+      "seconds_max": 0.16597580001689494,
+      "memory_load": {
+        "working_set_bytes": 245710848,
+        "peak_working_set_bytes": 245710848
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247554048,
+        "peak_working_set_bytes": 247554048
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252067840,
+        "peak_working_set_bytes": 252067840
+      },
+      "memory_postloop": {
+        "working_set_bytes": 289292288,
+        "peak_working_set_bytes": 289292288
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 18979.23805275699,
+      "unfairness": 749.0706401922491,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106001,
+      "capacity_kw": 10000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106001.npz",
+      "input_sha256": "eb333bef88a8d550a0c82c92090d2e0f0f6733d7d7b524885b1af402c5c61919",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106001_linear.npz",
+      "trajectory_sha256": "70c9fddd028d778f8aa9ded14b7ce7a569cb290ab7bf687c3702d8f7b296d83f",
+      "seconds_mean": 0.09383727857078027,
+      "seconds_max": 0.16539030004059896,
+      "memory_load": {
+        "working_set_bytes": 245141504,
+        "peak_working_set_bytes": 245141504
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247246848,
+        "peak_working_set_bytes": 247246848
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251764736,
+        "peak_working_set_bytes": 251764736
+      },
+      "memory_postloop": {
+        "working_set_bytes": 288321536,
+        "peak_working_set_bytes": 288321536
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 19371.797537360977,
+      "unfairness": 627.3095384448038,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106001,
+      "capacity_kw": 10000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106001.npz",
+      "input_sha256": "eb333bef88a8d550a0c82c92090d2e0f0f6733d7d7b524885b1af402c5c61919",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106001_reference.npz",
+      "trajectory_sha256": "f0ce1298d6a79de2ea7d8cf091dc561600146e6ae3b69b5e5b795c239223fe99",
+      "seconds_mean": 0.22138956606899488,
+      "seconds_max": 0.4085934000322595,
+      "memory_load": {
+        "working_set_bytes": 245342208,
+        "peak_working_set_bytes": 245342208
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247197696,
+        "peak_working_set_bytes": 247197696
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251711488,
+        "peak_working_set_bytes": 251711488
+      },
+      "memory_postloop": {
+        "working_set_bytes": 290734080,
+        "peak_working_set_bytes": 290734080
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 19371.797537360977,
+      "unfairness": 627.3095384448038,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 3.637978807091713e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106002,
+      "capacity_kw": 10000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106002.npz",
+      "input_sha256": "435f561b71b5a6415ebd3fa10da1df8e13ec47219a0d1a8c0aaeac119a73f17e",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106002_reference.npz",
+      "trajectory_sha256": "cda6d629c75ff0ee4bd7cd7d89a08b20bfac172ae9fc78d7d6b5f9059403ac26",
+      "seconds_mean": 0.21831042142522555,
+      "seconds_max": 0.43073540000477806,
+      "memory_load": {
+        "working_set_bytes": 245485568,
+        "peak_working_set_bytes": 245485568
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247328768,
+        "peak_working_set_bytes": 247328768
+      },
+      "memory_preloop": {
+        "working_set_bytes": 251842560,
+        "peak_working_set_bytes": 251842560
+      },
+      "memory_postloop": {
+        "working_set_bytes": 291082240,
+        "peak_working_set_bytes": 291082240
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 19243.493846712165,
+      "unfairness": 786.6047671011581,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 1.8189894035458565e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 2500,
+      "seed": 106002,
+      "capacity_kw": 10000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_2500_106002.npz",
+      "input_sha256": "435f561b71b5a6415ebd3fa10da1df8e13ec47219a0d1a8c0aaeac119a73f17e",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "2500_106002_linear.npz",
+      "trajectory_sha256": "a99d1be3d189875b97a0a87d6119d7f5e72fc6064db70f763a97184f153926b2",
+      "seconds_mean": 0.08732251964102034,
+      "seconds_max": 0.1599459999706596,
+      "memory_load": {
+        "working_set_bytes": 245678080,
+        "peak_working_set_bytes": 245678080
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247750656,
+        "peak_working_set_bytes": 247750656
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252264448,
+        "peak_working_set_bytes": 252264448
+      },
+      "memory_postloop": {
+        "working_set_bytes": 289292288,
+        "peak_working_set_bytes": 289292288
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 19243.493846712165,
+      "unfairness": 786.6047671011581,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 1.8189894035458565e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111000,
+      "capacity_kw": 12000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111000.npz",
+      "input_sha256": "74ea3501b96eda4e0b23f0dc8e6eb0cecc723faaddc48587c02d2919b6937294",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111000_linear.npz",
+      "trajectory_sha256": "91459e7c8bfa48909bead78b031d1ef18f1099f7a4ce0196d9ada9905d2e2f4d",
+      "seconds_mean": 0.10480536785845677,
+      "seconds_max": 0.18641250004293397,
+      "memory_load": {
+        "working_set_bytes": 245215232,
+        "peak_working_set_bytes": 245215232
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247328768,
+        "peak_working_set_bytes": 247328768
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252747776,
+        "peak_working_set_bytes": 252747776
+      },
+      "memory_postloop": {
+        "working_set_bytes": 297091072,
+        "peak_working_set_bytes": 297091072
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 23778.624283863046,
+      "unfairness": 801.8254458136985,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 5.4569682106375694e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111000,
+      "capacity_kw": 12000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111000.npz",
+      "input_sha256": "74ea3501b96eda4e0b23f0dc8e6eb0cecc723faaddc48587c02d2919b6937294",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111000_reference.npz",
+      "trajectory_sha256": "f5cc7b68c20aca889cdf1413884b01e51f5e81deb8e3393e4439c917b535224a",
+      "seconds_mean": 0.2769877285661226,
+      "seconds_max": 0.5115833999589086,
+      "memory_load": {
+        "working_set_bytes": 245792768,
+        "peak_working_set_bytes": 245792768
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247631872,
+        "peak_working_set_bytes": 247631872
+      },
+      "memory_preloop": {
+        "working_set_bytes": 253050880,
+        "peak_working_set_bytes": 253050880
+      },
+      "memory_postloop": {
+        "working_set_bytes": 298123264,
+        "peak_working_set_bytes": 298123264
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 23778.624283863046,
+      "unfairness": 801.8254458136985,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 5.4569682106375694e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111001,
+      "capacity_kw": 12000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111001.npz",
+      "input_sha256": "89ce2be4c9429e51af348d8cc5111870b75d6f988cca3317f1df891207e4b8b2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111001_reference.npz",
+      "trajectory_sha256": "bb2a7246179850923018fce3f86b49f3dfc8dfa6f3bf210404ccbc8d746253a1",
+      "seconds_mean": 0.27140645714098355,
+      "seconds_max": 0.5188601000118069,
+      "memory_load": {
+        "working_set_bytes": 245563392,
+        "peak_working_set_bytes": 245563392
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247402496,
+        "peak_working_set_bytes": 247402496
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252821504,
+        "peak_working_set_bytes": 252821504
+      },
+      "memory_postloop": {
+        "working_set_bytes": 297938944,
+        "peak_working_set_bytes": 297938944
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 23105.420019731857,
+      "unfairness": 942.9073611377513,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111001,
+      "capacity_kw": 12000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111001.npz",
+      "input_sha256": "89ce2be4c9429e51af348d8cc5111870b75d6f988cca3317f1df891207e4b8b2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111001_linear.npz",
+      "trajectory_sha256": "175c148bb64a93419505e664a5894f0402c5b1844fc21b9960d51d5cec9822bc",
+      "seconds_mean": 0.10593025357125693,
+      "seconds_max": 0.19049399998039007,
+      "memory_load": {
+        "working_set_bytes": 245022720,
+        "peak_working_set_bytes": 245022720
+      },
+      "memory_warmup": {
+        "working_set_bytes": 246861824,
+        "peak_working_set_bytes": 246861824
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252280832,
+        "peak_working_set_bytes": 252280832
+      },
+      "memory_postloop": {
+        "working_set_bytes": 296034304,
+        "peak_working_set_bytes": 296034304
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 23105.420019731857,
+      "unfairness": 942.9073611377513,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 0.0,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111002,
+      "capacity_kw": 12000.0,
+      "method": "linear",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111002.npz",
+      "input_sha256": "240bd395cf1baa1a355e54baf26863ddbf278e8fbe43cae8d6045bf8d7b28ed2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111002_linear.npz",
+      "trajectory_sha256": "6d1568130084fc8ac9247f9b38b6b15113ffd55c4630fc2d5c0212b44b0565e2",
+      "seconds_mean": 0.10666668928336419,
+      "seconds_max": 0.1897585000260733,
+      "memory_load": {
+        "working_set_bytes": 245760000,
+        "peak_working_set_bytes": 245760000
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247603200,
+        "peak_working_set_bytes": 247603200
+      },
+      "memory_preloop": {
+        "working_set_bytes": 253022208,
+        "peak_working_set_bytes": 253022208
+      },
+      "memory_postloop": {
+        "working_set_bytes": 297263104,
+        "peak_working_set_bytes": 297263104
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 22891.6037819894,
+      "unfairness": 964.5063833182187,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 7.275957614183426e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    },
+    {
+      "vehicles": 3000,
+      "seed": 111002,
+      "capacity_kw": 12000.0,
+      "method": "reference",
+      "input_path": "artifacts/runs/ideal10h_v1/scalability/input_3000_111002.npz",
+      "input_sha256": "240bd395cf1baa1a355e54baf26863ddbf278e8fbe43cae8d6045bf8d7b28ed2",
+      "model_sha256": "9c8b1c1e9a5d4e1766fb139789591a86d69f03a9fadb31fef81f23fdb5c58c7f",
+      "trajectory": "3000_111002_reference.npz",
+      "trajectory_sha256": "e8d0de77f5bd19bae47f6312732e94ee4f423b5b16e8998da47371261ea8c957",
+      "seconds_mean": 0.27552406071897295,
+      "seconds_max": 0.5044431000133045,
+      "memory_load": {
+        "working_set_bytes": 245313536,
+        "peak_working_set_bytes": 245313536
+      },
+      "memory_warmup": {
+        "working_set_bytes": 247152640,
+        "peak_working_set_bytes": 247152640
+      },
+      "memory_preloop": {
+        "working_set_bytes": 252571648,
+        "peak_working_set_bytes": 252571648
+      },
+      "memory_postloop": {
+        "working_set_bytes": 297705472,
+        "peak_working_set_bytes": 297705472
+      },
+      "timed_standard_error": {
+        "soc": 0.0,
+        "raw": 0.0,
+        "clip": 0.0,
+        "scale": 0.0,
+        "final": 0.0,
+        "states": 0.0,
+        "records": 0.0,
+        "cost": 0.0,
+        "unfair": 0.0
+      },
+      "cost": 22891.6037819894,
+      "unfairness": 964.5063833182187,
+      "failed_vehicles": 0,
+      "service_percent": 100.0,
+      "physical": {
+        "station": 7.275957614183426e-12,
+        "disconnected": 0.0,
+        "dynamics": 5.551115123125783e-17,
+        "overcharge": 0.0,
+        "action_lower": 0.0,
+        "action_upper": 0.0
+      }
+    }
+  ],
+  "pair_errors": {
+    "100_82000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 1.3322676295501878e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "100_82001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 1.3322676295501878e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "100_82002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 1.1102230246251565e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "500_86000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 2.886579864025407e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "500_86001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 2.220446049250313e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "500_86002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 1.9984014443252818e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1000_91000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 3.3306690738754696e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1000_91001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 3.552713678800501e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1000_91002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 3.3306690738754696e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1500_96000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 3.774758283725532e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1500_96001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 3.774758283725532e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "1500_96002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 4.440892098500626e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2000_101000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 5.551115123125783e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2000_101001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 6.661338147750939e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2000_101002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 4.218847493575595e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2500_106000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 8.215650382226158e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2500_106001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 5.329070518200751e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "2500_106002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 5.10702591327572e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "3000_111000": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 5.551115123125783e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "3000_111001": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 5.773159728050814e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    },
+    "3000_111002": {
+      "soc": 0.0,
+      "raw": 0.0,
+      "clip": 0.0,
+      "scale": 0.0,
+      "final": 0.0,
+      "states": 8.43769498715119e-15,
+      "records": 0.0,
+      "cost": 0.0,
+      "unfair": 0.0
+    }
+  }
+}

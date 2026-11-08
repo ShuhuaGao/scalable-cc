@@ -1,0 +1,440 @@
+{
+  "selection": "fixed actor seed 33001; IL main model 11002",
+  "small_means": {
+    "IDEAL": {
+      "cost": 74.42784546719952,
+      "unfairness": 1.5740794565537284,
+      "objective": 52.57171566400577,
+      "failed": 0
+    },
+    "IL": {
+      "cost": 77.0234592930902,
+      "unfairness": 2.100687549597115,
+      "objective": 54.54662777004227,
+      "failed": 0
+    },
+    "UC": {
+      "cost": 103.84432489586933,
+      "unfairness": 23.323475510747848,
+      "objective": 79.68807008033288,
+      "failed": 0
+    },
+    "DDQN": {
+      "cost": 97.80524567257599,
+      "unfairness": 17.6449251050486,
+      "objective": 73.75714950231777,
+      "failed": 28
+    },
+    "PPO": {
+      "cost": 97.14970396276587,
+      "unfairness": 8.347965279210769,
+      "objective": 70.50918235769933,
+      "failed": 0
+    },
+    "RDDPG": {
+      "cost": 84.83601946839208,
+      "unfairness": 25.702666531859347,
+      "objective": 67.09601358743225,
+      "failed": 0
+    }
+  },
+  "small_gap_vs_ideal_mean_percent": {
+    "IDEAL": {
+      "cost": 0.0,
+      "unfairness": 0.0,
+      "objective": 0.0
+    },
+    "IL": {
+      "cost": 3.4874230331369382,
+      "unfairness": 33.45498798366484,
+      "objective": 3.7566057738318337
+    },
+    "UC": {
+      "cost": 39.52348646399244,
+      "unfairness": 1381.721612822011,
+      "objective": 51.579740310611236
+    },
+    "DDQN": {
+      "cost": 31.40948130183203,
+      "unfairness": 1020.9678794538237,
+      "objective": 40.29815951549212
+    },
+    "PPO": {
+      "cost": 30.528706498134373,
+      "unfairness": 430.339510146947,
+      "objective": 34.119994881534346
+    },
+    "RDDPG": {
+      "cost": 13.984247341647782,
+      "unfairness": 1532.8697020246025,
+      "objective": 27.627589740942817
+    }
+  },
+  "scenario_reduction_vs_uc_percent": {
+    "cost": {
+      "mean": 18.39029943226954,
+      "minimum": 12.740480703164081,
+      "maximum": 23.816194893325914
+    },
+    "unfairness": {
+      "mean": -15.935913546725548,
+      "minimum": -98.0600769280395,
+      "maximum": 30.66417816726731
+    }
+  },
+  "example_76000": {
+    "cost": 83.49223551312217,
+    "unfairness": 20.69549923236695,
+    "unit_cost": [
+      0.5944022554415683,
+      0.6510384476582532,
+      0.618202084093967,
+      0.7201575373341187,
+      0.7129431704031187,
+      0.7929722224728729,
+      0.8295031520411225,
+      0.6683131079112244,
+      0.7128891235197937,
+      0.7250024209281603
+    ],
+    "unit_unfairness": [
+      0.13376703644176027,
+      0.15304622786286173,
+      0.20790785923435803,
+      0.077494117803719,
+      0.057401851534742525,
+      0.11706794953766754,
+      0.25007081499222156,
+      0.06982794319538879,
+      0.4073191845566863,
+      0.26326058652841605
+    ],
+    "objective": 64.6532146288956
+  },
+  "scale_3000": {
+    "cost": {
+      "IL": 23656.546834375218,
+      "RDDPG": 26282.800974976515,
+      "IL_reduction_percent": 9.992291700955757
+    },
+    "unfairness": {
+      "IL": 1138.9286629377839,
+      "RDDPG": 10610.565801267896,
+      "IL_reduction_percent": 89.26608925226505
+    }
+  },
+  "new_scenario_physical": [
+    {
+      "vehicles": 10,
+      "seed": 76000,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 313,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76001,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 326,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76002,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 335,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76003,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 316,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76004,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 330,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76005,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 305,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76006,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 325,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76007,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 300,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76008,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 298,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76009,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 298,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76010,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 325,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76011,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 314,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76012,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 312,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76013,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 340,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76014,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 327,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76015,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 341,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76016,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 322,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76017,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 321,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76018,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 292,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 10,
+      "seed": 76019,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 344,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 100,
+      "seed": 82000,
+      "strict_empty": 0,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 3230,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 100,
+      "seed": 82001,
+      "strict_empty": 14,
+      "material_empty": 14,
+      "material_empty_kw": 77.88286315546814,
+      "decisions": 3255,
+      "max_station_overload_kw": 5.684341886080802e-14,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 100,
+      "seed": 82002,
+      "strict_empty": 1,
+      "material_empty": 1,
+      "material_empty_kw": 1.0887013244417263,
+      "decisions": 3187,
+      "max_station_overload_kw": 0.0,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 500,
+      "seed": 86000,
+      "strict_empty": 19,
+      "material_empty": 18,
+      "material_empty_kw": 103.37595309009308,
+      "decisions": 16192,
+      "max_station_overload_kw": 9.094947017729282e-13,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 500,
+      "seed": 86001,
+      "strict_empty": 27,
+      "material_empty": 9,
+      "material_empty_kw": 36.19015784924087,
+      "decisions": 15952,
+      "max_station_overload_kw": 2.2737367544323206e-12,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    },
+    {
+      "vehicles": 500,
+      "seed": 86002,
+      "strict_empty": 13,
+      "material_empty": 0,
+      "material_empty_kw": 0.0,
+      "decisions": 16004,
+      "max_station_overload_kw": 4.320099833421409e-12,
+      "max_pile_overload_kw": 0.0,
+      "max_inactive_power_kw": 0.0,
+      "max_soc_over_target": 0.0
+    }
+  ]
+}

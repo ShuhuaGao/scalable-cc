@@ -1,0 +1,23 @@
+{
+  "config_sha256": "b2dc62e8abd27136fd113bdc1a663a9510afd3ded35d2fb66abd8f5939851fab",
+  "models": {
+    "IL": {
+      "sha256": "0d158d3b8d39b49d8636edc861bbffbbf60d58f01951844b23f663602582b35d"
+    },
+    "DDQN": {
+      "sha256": "46ae18052dd0f0c1080cb0b44f2db2ee445ec84dbea3043ab35ec7b5583f4c54"
+    },
+    "PPO": {
+      "sha256": "766c31d94babe5fd72f71b84e62dd4da8e56307aa441ef8c22cdea2a1af9fec7"
+    }
+  },
+  "il_epoch": 130,
+  "ddqn_episode": 100,
+  "ppo_selection": {
+    "path": "Historical reference (not distributed): artifacts/runs/mpc10h_v1/ppo_model/episode_80.pt",
+    "sha256": "766c31d94babe5fd72f71b84e62dd4da8e56307aa441ef8c22cdea2a1af9fec7",
+    "failed": 0,
+    "objective": 74.74329280665349
+  },
+  "ppo_selection_rule": "fewest target failures, then gap only if failures are nonzero, then weighted objective on common independent validation scenarios"
+}

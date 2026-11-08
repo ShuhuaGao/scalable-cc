@@ -1,0 +1,103 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261101,
+  "unit": "paired day, separately per capacity",
+  "ppo_minus_il": [
+    {
+      "capacity_kw": 600,
+      "metric": "cost",
+      "il_mean": 1651.9083121304993,
+      "ppo_mean": 2003.041690158436,
+      "ppo_minus_il_mean": 351.1333780279367,
+      "paired_bootstrap_95_ci": [
+        343.2055466396884,
+        359.19949462612743
+      ],
+      "il_reduction_relative_to_ppo_percent": 17.53000847427009
+    },
+    {
+      "capacity_kw": 600,
+      "metric": "unfairness",
+      "il_mean": 48.912624497521136,
+      "ppo_mean": 143.12654414446018,
+      "ppo_minus_il_mean": 94.21391964693905,
+      "paired_bootstrap_95_ci": [
+        90.28156575628644,
+        98.14623473138928
+      ],
+      "il_reduction_relative_to_ppo_percent": 65.82560922581017
+    },
+    {
+      "capacity_kw": 800,
+      "metric": "cost",
+      "il_mean": 1567.7538378912352,
+      "ppo_mean": 2003.896996157356,
+      "ppo_minus_il_mean": 436.14315826612074,
+      "paired_bootstrap_95_ci": [
+        425.38926016624566,
+        446.90229429943076
+      ],
+      "il_reduction_relative_to_ppo_percent": 21.76474934103213
+    },
+    {
+      "capacity_kw": 800,
+      "metric": "unfairness",
+      "il_mean": 59.18069151230039,
+      "ppo_mean": 140.71494346831022,
+      "ppo_minus_il_mean": 81.53425195600983,
+      "paired_bootstrap_95_ci": [
+        77.96691077561269,
+        85.05197116529916
+      ],
+      "il_reduction_relative_to_ppo_percent": 57.94285236974265
+    }
+  ],
+  "winner_vs_original": [
+    {
+      "capacity_kw": 600,
+      "cost": {
+        "original_mean": 2005.141163970278,
+        "winner_mean": 2003.041690158436,
+        "winner_minus_original_percent": -0.10470453899040984
+      },
+      "unfairness": {
+        "original_mean": 178.0743465996937,
+        "winner_mean": 143.12654414446018,
+        "winner_minus_original_percent": -19.625399796521638
+      },
+      "weighted_objective": {
+        "original_mean": 1457.0211187591028,
+        "winner_mean": 1445.067146354243,
+        "winner_minus_original_percent": -0.8204391996075237
+      },
+      "original_all_met_days": 50,
+      "winner_all_met_days": 50
+    },
+    {
+      "capacity_kw": 800,
+      "cost": {
+        "original_mean": 2005.534619728555,
+        "winner_mean": 2003.896996157356,
+        "winner_minus_original_percent": -0.08165521328276933
+      },
+      "unfairness": {
+        "original_mean": 175.56946590666064,
+        "winner_mean": 140.71494346831022,
+        "winner_minus_original_percent": -19.852268877368683
+      },
+      "weighted_objective": {
+        "original_mean": 1456.5450735819863,
+        "winner_mean": 1444.942380350642,
+        "winner_minus_original_percent": -0.7965900569634004
+      },
+      "original_all_met_days": 50,
+      "winner_all_met_days": 50
+    }
+  ],
+  "sources_sha256": {
+    "scripts/analyze_r106_rl_lr_search.py": "674afa7293b759cdeb7372c5bde4475f8b735b9cef17fffd22594cbf616831f0",
+    "scripts/analyze_evaluation_uncertainty.py": "3df0dea01347f2aeed5fa4a41c4a1d1f7343696f35af770c5d4f0887b7e63632",
+    "artifacts/runs/r106_rl_lr_20261107/formal/scenarios.csv": "b8d27ba871301b2fef5e1a8b3434b304dc391cb7335ac270682ca3e2fb5b17d8",
+    "artifacts/runs/pressure21_v1/evaluation/formal/scenarios.csv": "abcd8378f6fd0d0564689a5a64ac6b6ed24a505231887d60d803bff81d610a47"
+  }
+}

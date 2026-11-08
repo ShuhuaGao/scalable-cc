@@ -1,0 +1,23 @@
+{
+  "description": "Clean run-ID entrypoint rebuilt both caches byte-identically; complete-day 11002/65000/600 trajectory exactly matched all archived arrays; tests passed.",
+  "test_command": "uv run pytest tests/test_r102_distribution.py tests/test_pressure21_linear.py -q",
+  "tests_passed": 4,
+  "cache_hashes": {
+    "train": "47c92d58e432f28b111dec4b2811104a48e437790b4fdada989b7427c3812990",
+    "validation": "4d3d9f3aac996a135285622ef9a9d97543c090a0bdbc95548d3550f09822d0be"
+  },
+  "comparison": {
+    "model_seed": 11002,
+    "scenario_seed": 65000,
+    "vehicles": 200,
+    "capacity_kw": 600,
+    "all_arrays_exact": true
+  },
+  "source_sha256": {
+    "scripts/build_r102_distribution_cache.py": "59f8347165b23b0ae4c5663eb0d172ae4251c417f91369af77155fe1c59f4bac",
+    "scripts/train_r102_distribution.py": "f28ab6c8f2f2923f0d1bff9848167214fd5696764c01d366a816a67081723ede",
+    "scripts/evaluate_r102_distribution.py": "99fed5ecbceaca1fc3cb6f4e32c5673f0cb5e7308cb2056b2306c7f9f7baa2e1",
+    "src/evcharging/r102_distribution.py": "d174c58f1c0bd13af9c07e5bcd4fbd413b458d9a668e9cd39120a9a7fbe380ba",
+    "tests/test_r102_distribution.py": "963e492227b54d1c28cfc4c97775ba725ab1471c23053c488d9558c681c632e0"
+  }
+}

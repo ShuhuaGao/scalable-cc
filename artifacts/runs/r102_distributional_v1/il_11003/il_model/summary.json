@@ -1,0 +1,19 @@
+{
+  "variant": "pressure",
+  "seed": 11003,
+  "teacher_best_epoch": 173,
+  "teacher_validation_mse": 0.004172395449131727,
+  "teacher_stop_epoch": 203,
+  "continuation_best_epoch": 7,
+  "continuation_validation_mse": 0.00957454089075327,
+  "continuation_epoch0_mse": 0.010282662697136402,
+  "teacher_sha256": "1fa0ad5e5d9cbc4833c4cb446c19b7cd5c12b1c508547b6a3ac3c894025c1f36",
+  "continuation_sha256": "3c1d8702baca87c5bee378a661aa424c5270b7718ad9051712597ca7af6c56bb",
+  "source_sha256": {
+    "scripts/train_r102_distribution.py": "1a95fb10cdee6daf34c77e390140526adfd18545082d6209684b7df471aff0dc",
+    "src/evcharging/r102_distribution.py": "fc6a78ec7acd8017b481b012f7a1c385fe872837a39dc88a33b724cdbad34562",
+    "configs/pressure21_il.json": "e6945db313c2dd33af72fb458a6d68245c0772ca6c7c87ce2ad486bde93df9c2",
+    "artifacts/runs/r102_distributional_v1/expert_cache/manifest.json": "cb21694126d534b2b1be4464753c7ab27c4620414aeb6aadae258dcce8eb7bcd",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112"
+  }
+}

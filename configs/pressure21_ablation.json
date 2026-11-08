@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "full": [],
+    "local": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "without_a": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "without_b": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "without_c": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "retained": [
+    0,
+    1
+  ],
+  "seeds": [
+    11002,
+    11003,
+    11004
+  ],
+  "input_width": 21,
+  "parameters": 19457,
+  "teacher": {
+    "epochs": 300,
+    "patience": 30,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "weight_decay": 0
+  },
+  "continuation": {
+    "epochs": 20,
+    "batch_size": 512,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "selection": "minimum autoregressive validation MSE including epoch 0",
+    "labels": "unchanged expert actions at expert SoCs",
+    "without_a": "index 7 remains zero; no autoregressive rewrite",
+    "without_b_without_c": "index 7 reconstructs prior raw proposals"
+  },
+  "concurrency": 3,
+  "note": "Feature coordinates are removed exactly as specified. The retained A count and B rank may be correlated; removing B rank does not remove A count.",
+  "state_schema": "pressure21_v1"
+}

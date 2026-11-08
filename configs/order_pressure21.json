@@ -1,0 +1,23 @@
+{
+  "scenario_seeds": [
+    64000,
+    64001,
+    64002,
+    64003,
+    64004
+  ],
+  "vehicles": 200,
+  "capacity_kw": 800,
+  "beta": 0.3,
+  "orders_per_scenario": 100,
+  "order_seed": 20261103,
+  "soc_tolerance": 0.0001,
+  "physical_tolerance": 1e-08,
+  "workers": 3,
+  "model": "artifacts/runs/pressure21_v1/il_11002/il_model/best.pt",
+  "features": "src/evcharging/state_schema.py",
+  "model_freeze": "artifacts/runs/pressure21_v1/il_selection.json",
+  "input_dir": "artifacts/runs/ideal10h_v1/development/inputs",
+  "orders": "artifacts/runs/order_sensitivity/orders.npz",
+  "identity_reference_template": "artifacts/runs/pressure21_v1/evaluation/development/11002_200_{seed}_800.npz"
+}

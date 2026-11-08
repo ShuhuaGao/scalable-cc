@@ -1,0 +1,34 @@
+{
+  "state_schema": "pressure21_v1",
+  "sources_sha256": {
+    "scripts/prepare_pressure21.py": "00a05d88b37a22098c17f98eb5bf8f0f5d0dfdea0957ece74ad5d7187919a05e",
+    "configs/pressure21_v1.json": "f50a7d29cf0a7b4f190b4de1e1ed1c45a8ad0d3320db5b33b723cadd78298bfd",
+    "scripts/train_ddqn_pressure21.py": "2b4633b11ab63a80ec92ca02d14eaabadfac3898870fef09469cbe42b4418325",
+    "scripts/train_ppo_pressure21.py": "aa1ba6e678ea8e85b93e5c9b5ca7c7e19e4ce01a4674e84f1f96191871519bdd",
+    "src/evcharging/core.py": "70b9c5218bddfbb5349f2c2821587ff0b2ea821e8efc3ee4dc494e46241761c7",
+    "src/evcharging/models.py": "6f92d5f1f2489fb78f617fa74f43516b062ebcb793278e2fd8bed1d31804b112",
+    "src/evcharging/state_schema.py": "e0a39dffb3d7c70fc362a3bd1e8d1f700126eb752b60865fe477af33469ce9ac",
+    "src/evcharging/simulation_schema.py": "be7ad74c492d93389c248481f0e90d38e31079fb536e13e9b57379fbca366530"
+  },
+  "configs_sha256": {
+    "ddqn_21002.json": "f50a7d29cf0a7b4f190b4de1e1ed1c45a8ad0d3320db5b33b723cadd78298bfd",
+    "ddqn_21003.json": "659e21b0ecc58668b2bce5c3b056eaefe5e8c5376c0a833bfae031a6896cc3f0",
+    "ddqn_21004.json": "f49da788b54faf309ef36d64b1cc2a498cc0140ef93dc43377513bac3bd7112e",
+    "ppo_24003.json": "f50a7d29cf0a7b4f190b4de1e1ed1c45a8ad0d3320db5b33b723cadd78298bfd",
+    "ppo_24004.json": "24aec7c62704af0fa759ed79b9cc5349646e0b644c136799d2baf05addd3c3a6",
+    "ppo_24005.json": "be243967116b64fcff6723645b96156e09b5c9e367bfd506ee1163aa5fdeca5d"
+  },
+  "il_selection_sha256": "5040244d309274718952b372a407b6781d7c7dc73eaab5dc6d89565d7d177f65",
+  "ddqn_seeds": [
+    21002,
+    21003,
+    21004
+  ],
+  "ppo_seeds": [
+    24003,
+    24004,
+    24005
+  ],
+  "ppo_24004_generators": "train 78000, validation 79000; others 74000/75000",
+  "training_seed_selection": "common PPO validation seeds 80000-80019, no formal-test selection"
+}
